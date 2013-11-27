@@ -1,0 +1,12 @@
+
+
+{admin_local_menu}
+
+
+<h1>Configuration form</h1>
+
+{config_message}
+
+<p>
+{form_config}
+</p>

@@ -1,0 +1,17 @@
+
+Dear {Paper->authors}
+
+Due to a lot of paper submissions, we regret to inform you that your paper
+entitled "{Paper->title}", submitted to {Config->confAcronym}, has not been
+accepted for presentation.
+Thank you for your interest in {Config->confAcronym}. You are cordially
+invited to participate in {Config->confAcronym}. The {Config->confAcronym}
+site will provide all necessary information for conference registration and
+hotel accommodation. Remember that early registration with lower price will
+be possible till March 1st.
+
+
+Best regards,
+
+{Config->confAcronym} chairs.
+

@@ -1,0 +1,98 @@
+H1, H2, H3 {color: #FF6600}
+ 
+TR.header {background-color:#000099; color:white; text-align:left}
+TR.odd {background-color:#eeeeee}
+TR.even {background-color:#dddddd}
+
+TD {
+	font-size: 14px; 
+	color: #666666; 
+	font-family: "Trebuchet MS", Tahoma, Verdana;
+}
+
+A:link {
+	COLOR: #666633;
+	text-decoration: none;
+}
+
+A:visited {
+	COLOR: #999999
+}
+
+A:hover {
+	COLOR: #000099;
+	text-decoration: underline;
+}
+
+A:active {
+	COLOR: #000000
+}
+
+.content {
+	font-family: "Trebuchet MS", Tahoma, Verdana;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+}
+
+P.expl {
+  font-size:9px;
+  color: red;
+}
+
+UL {
+	font-size: 14px; 
+	list-style-type: circle;
+	padding-left: 1px; 
+	color: #333333;
+	line-height: normal; 
+	font-family: "Trebuchet MS", Tahoma, Verdana;
+}
+ 
+OL {
+	font-size: 14px; 
+	list-style-type: number;
+	color: #333333;
+	line-height: normal; 
+	font-family: "Trebuchet MS", Tahoma, Verdana;
+}
+
+LI {
+	font-size: 14px; 
+	margin: 6px 0px 0px; 
+	padding-right: 8px; 
+	color: #333333;
+	line-height: normal; 
+	font-family: "Trebuchet MS", Tahoma, Verdana;
+}
+
+
+.header1 {
+
+	font-family: "Trebuchet MS", Tahoma, Verdana;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FF6600;
+}
+
+ 
+.header2 {
+	FONT-SIZE: 16px;
+	COLOR: #FF6600;
+	FONT-FAMILY: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-weight: bold;
+
+}
+
+.header3 {
+
+	FONT-SIZE: 14px;
+	COLOR: #FF6600;
+	FONT-FAMILY: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-weight: bold;
+}

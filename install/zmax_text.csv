@@ -1,0 +1,333 @@
+"db";"en";"comp_id";"Id"
+"db";"en";"comp_lang";"Language"
+"db";"en";"comp_name";"Name"
+"db";"en";"lang";"Language"
+"db";"en";"namespace";"Namespace"
+"db";"en";"text_code";"Code"
+"db";"en";"the_text";"Text"
+"author";"en";"list_papers";"List of my current submissions"
+"db";"en";"user_email";"Email"
+"db";"en";"user_fname";"First name"
+"db";"en";"user_id";"Id"
+"db";"en";"user_lname";"Last name"
+"db";"en";"user_super_admin";"Super admin"
+"db";"en";"user_country";"Country"
+"db";"en";"user_name";"Name"
+"db";"en";"user_affiliation";"Affiliation"
+"form";"en";"cancel";"Cancel"
+"form";"en";"preview";"Preview"
+"form";"en";"save";"Save"
+"form";"en";"save_draft";"Save as draft"
+"form";"en";"search";"Search"
+"form";"en";"search_in_ad";"Search in group directory"
+"form";"en";"send";"Send"
+"form";"en";"validate";"Validate"
+"form";"en";"visualised";"Visualised"
+"form";"en";"delete";"Delete"
+"form";"en";"insert";"Insert"
+"form";"en";"modify";"Modify"
+"form";"en";"submit";"Submit"
+"zmax";"en";"add_line";"Add a new"
+"zmax";"en";"group_portal_link";"Group portal"
+"zmax";"en";"homepage";"Homepage"
+"zmax";"en";"menu";"Menu"
+"zmax";"en";"news_link";"News"
+"zmax";"en";"packaging_portal_link";"Packaging portal"
+"zmax";"en";"texts_link";"Texts"
+"zmax";"en";"texts_title";"Texts setting"
+"zmax";"en";"translation_link";"Translation"
+"zmax";"en";"user_link";"Users"
+"zmax";"en";"user_title";"Users setting"
+"def";"en";"error_account_header";"Please check and correct"
+"def";"en";"error_account_expl";"The following error have been met when tying to process your request. Please correct."
+"form";"en";"city";"Your city"
+"form";"en";"zip_code";"Zip code"
+"form";"en";"state";"Your state (optional)"
+"author";"en";"zip_code_error";"You must enter a zip code"
+"author";"en";"city_error";"You must enter a city name"
+"author";"en";"affiliation_error";"You must give your affiliation"
+"author";"en";"abstract_section_empty";"Abstract (or part of) missing"
+"author";"en";"background";"Background"
+"author";"en";"objectives";"Objectives"
+"author";"en";"materiel";"Materiel"
+"author";"en";"results";"Results"
+"admin";"en";"index_intro";"The present page proposes all the choices of the MyReview
+administration."
+"admin";"en";"index_menu_addlangs";"Add/remove a lang."
+"admin";"en";"index_menu_admin_title";"Configure the system behavior and layout."
+"admin";"en";"index_menu_config";"Configuration form"
+"form";"en";"submission_title";"Title"
+"form";"en";"abstract_submission_form";"Abstract submission form"
+"form";"en";"paper_title";"Title of the paper"
+"author";"en";"missing_title";"You must provide a title."
+"author";"en";"missing_authors";"You must provide at least one author"
+"author";"en";"missing_abstract";"You must provide an abstract"
+"author";"en";"login_message";"Please enter the paper id and password to access 
+the upload interface."
+"author";"en";"invalid_paper_id";"Please provide a correct paper id."
+"author";"en";"invalid_paper_info";"Invalid paper id or password. Please correct."
+"author";"en";"subject_password_recall";"Password recall."
+"author";"en";"password_recall";"A mail containing the password has been sent to the contact author of this paper. "
+"author";"en";"submission_closed";"The paper submission is closed."
+"author";"en";"subj_cr_paper_upload";"Upload of your camera-ready file."
+"author";"en";"subj_paper_upload";"Upload of your paper."
+"author";"en";"subj_paper_update";"Update of your submission."
+"author";"en";"missing_file";"File is missing. Please correct."
+"author";"en";"file_too_large";"File size exceeds the allowed limit. Please contact the admin."
+"author";"en";"partial_upload";"File partially uploaded. Please try again or contact the admin."
+"author";"en";"invalid_format";"This file type is not accepted."
+"admin";"en";"index_menu_prepare_conf";"Prepare your conference"
+"admin";"en";"manage_submission_menu";"Submissions and authors"
+"admin";"en";"manage_selection_menu";"Manage the selection process"
+"admin";"en";"manage_assignment_menu";"Papers assignment"
+"admin";"en";"message_sent_to_reviewers";"The message has been sent to all reviewers."
+"admin";"en";"all_reviewers";"All reviewers"
+"admin";"en";"subj_topics";"Choose your preferred topics."
+"admin";"en";"submission_now_closed";"The submission phase is now over."
+"admin";"en";"subj_prefs";"Paper rating"
+"reviewer";"en";"welcome";"Here is the list of your papers. Use the 
+<i>download</i> link to get the file,
+and the <i>submit review</i> link to enter or
+modify your review."
+"def";"en";"login_welcome";"Sign in!"
+"def";"en";"login_info";"Please provide your id and password to log in the system."
+"def";"en";"create_account";"Create an account"
+"def";"en";"login";"Your email"
+"def";"en";"password";"Your password"
+"def";"en";"submit";"Submit"
+"def";"en";"create_account_info";"You must be registered in the system as a user to acces all the password-protected functions. Please access to the following form and provide your id, profile and password. "
+"def";"en";"not_registered";" Not yet registered? Please <a href=\"{base_url}/index/createaccount\">create 
+          and account</a>."
+"def";"en";"form_account_info";"Access the form to create your account"
+"form";"en";"email";"Your email"
+"form";"en";"first_name";"Your first (given) name"
+"form";"en";"last_name";"Your last name."
+"form";"en";"password";"Your password (6 chars min)"
+"author";"en";"confirm_password";"Confirm your password"
+"author";"en";"create_account_instructions";"Please enter the following information to create your account. Not that <i>all</i> the fields are mandatory. You must provide a secure password. "
+"author";"en";"email_mandatory";"You must provide a valid email"
+"author";"en";"email_error";"Your email must be of the form xxx@yyy[.zzz] "
+"author";"en";"password_error";"You must provide a valid password (at least 6 chars) and
+confirm it "
+"author";"en";"last_name_error";"You must give your last name"
+"author";"en";"first_name_error";"You must give your first name"
+"author";"en";"existing_email_error";"This email is already used"
+"def";"en";"password_forgotten";"Password forgotten? Enter your email in the form and"
+"author";"en";"confirm_account";"<p>Your account has been created. You can now log in the system and use the menu link to maintain your account. </p>
+<p>
+As a user of the system, you can propose new submissions and 
+access the author console to manage the list of your submissions.</p>"
+"def";"en";"password_recall_action";"Send my password"
+"def";"en";"login_failed";"Your login attempt failed. Please check your email and/or your password."
+"def";"en";"user_not_connected";"You are currently not connected to the system."
+"def";"en";"user_connected";"You are currently connected."
+"author";"en";"submit_instructions";"Please use the form below for your submission, and
+use the \"Submit\" button. 
+Note that all the fields marked by a '*' are mandatory.
+Your submission can then be accessed in the Author console, checked and modified until the submission deadline. "
+"author";"en";"author";"author"
+"author";"en";"missing_contact_author";"You must define a contact author."
+"author";"en";"first_name";"First name"
+"author";"en";"last_name";"Last name"
+"author";"en";"affiliation";"Affiliation"
+"author";"en";"country";"Country"
+"author";"en";"connect_user_mandatory";"You must be part of the authors list."
+"author";"en";"user_mandatory";"You must be part of the author list."
+"author";"en";"main";"Main part"
+"author";"en";"author_in_committee";"Does one author belong to the program committee?"
+"def";"en";"connection_status";"Connection status"
+"def";"en";"author_instructions";"Guidelines"
+"def";"en";"author_console";"Author console"
+"def";"en";"new_submission";"New submission"
+"def";"en";"configuration_tasks";"Configuration tasks"
+"def";"en";"manage_submissions";"Manage submissions"
+"def";"en";"program_registrations";"Program and registrations"
+"def";"en";"authors_menu";"Authors menu"
+"def";"en";"reviewers_menu";"Reviewers menu"
+"def";"en";"admin_menu";"Admin menu"
+"author";"en";"my_profile_header";"My profile"
+"author";"en";"my_papers_header";"My submissions"
+"form";"en";"show_paper";"Show"
+"form";"en";"edit_paper";"Edit"
+"author";"en";"change_my_profile";"Change my profile"
+"def";"en";"text_author_instructions";"
+Please read carefully the following guidelines. They will
+help you to manage your account and your submission(s).
+
+<p>
+You must have an account to use this system. As an
+user, you are uniquely identified by your <i>email</i>.
+It can be changed, but the general rule in MyReview is
+that there cannot exist two users with the same email.  
+</p>
+
+<p>
+<b>Are you already registered as a user?</b> You may be already
+known as a user, even if you are not aware of it. For instance:
+<ol>
+  <li>You are a reviewer for this event, and the administrator created an account for you.</li>
+  <li>You already proposed a submission in the past, and your account still exists.</li>
+  <li>You are an author of a submission create by another user.</li>
+</ol>
+
+Before creating an account you can <a href=\"{base_url}/index/checkaccount\">check whether
+you are already registered</a>.
+
+</p>
+<p>
+When your account is created, you can <a href=\"{base_url}/index/login\">log in the system</a>, 
+<a href=\"{base_url}/author/submit\">submit one or several papers</a>, and
+<a href=\"{base_url}/author/console\">manage your profile and the list or your submissions</a>. 
+</p>
+"
+"form";"en";"confirm_password";"Confirm your password"
+"form";"en";"user_form";"User form"
+"form";"en";"country";"Your country"
+"author";"en";"confirm_update_account";"Your profile has been modified."
+"db";"en";"paper_title";"Title"
+"db";"en";"paper_authors";"List of authors"
+"db";"en";"paper_topic";"Main topic"
+"def";"en";"actions";"Actions"
+"author";"en";"edit_account_header";"Change my profile"
+"author";"en";"edit_account_instructions";"You can change the following information. Validate with the 'submit' button. Note that you must always re-renter and confirm your password."
+"author";"en";"new_submission_header";"New submission"
+"form";"en";"title_abstract_header";"Title and abstract"
+"form";"en";"paper_abstract";"Abstract"
+"form";"en";"paper_topic";"Choose the main topic"
+"form";"en";"authors_header";"List of authors"
+"author";"en";"submit_authors_instructions";"Enter the list of authors. <b>Important</b>: (i) you <i>must</i> appear in this list (use the \"Add me\" button to do so), (ii) all the fields are mandatory and (iii) there must be exactly one contact author (s/he will receive the confirmation mail)."
+"form";"en";"add_author";"Add an author"
+"form";"en";"contact_author";"Contact author"
+"form";"en";"affiliation";"Give your affiliation"
+"form";"en";"additional_questions";"Additional questions"
+"form";"en";"questions_header";"Questions list"
+"author";"en";"conclusion";"Conclusion"
+"def";"en";"ack_login_successful";"You are now connected to the system."
+"def";"en";"follow_this_link";"Follow this link"
+"author";"en";"create_account_header";"Create an account"
+"form";"en";"upload";"Upload"
+"form";"en";"download";"Download"
+"author";"en";"show_paper_header";"Details of your submission"
+"db";"en";"paper_abstract";"Abstract"
+"db";"en";"paper_answers";"Answers"
+"author";"en";"duplicate_authors";"You cannot mention an author more than once."
+"author";"en";"ack_edit_header";"Your submission has been updated"
+"author";"en";"submission_modified";"The following submission has been modified"
+"db";"en";"paper_email_contact";"Email of contact author"
+"author";"en";"upload_submission_header";"File upload"
+"author";"en";"upload_instructions";"Use the following form to choose the file."
+"author";"en";"conclusions";"Conclusions"
+"author";"en";"methods";"Methods"
+"author";"en";"edit_submission_header";"Edit a submission"
+"author";"en";"edit_instructions";"Here is the current content of your submission. You can modify each part at your convenience."
+"def";"en";"lost_password";"Password recovery"
+"def";"en";"password_recall";"Your password has been reset"
+"def";"en";"ack_password_recall";"A new password has been generated for this user, and sent by mail."
+"reviewer";"en";"subj_invitation";"Invitation to participate as a PC member "
+"def";"en";"lost_password_instructions";"We cannot recover your original password since, for security reasons, it is encrypted in our system. The lost password procedure will assign to a user a temporary password, which is sent by mail. The user can then connect with this password and change it through the profile update form."
+"def";"en";"topics_header";"Your preferred research topics "
+"def";"en";"choose_topics_instr";"As a reviewer, you are required to choose one or several topics in the list below. 
+They will be used for a better paper assignment. "
+"form";"en";"topics";"Your preferred research topics"
+"def";"en";"log_out";"Logout"
+"def";"en";"log_in";"Log in"
+"def";"en";"choose_email_instr";"Enter a valid email that will be used to log in the system. Please note that MyReview always stores and compares email addresses in <i>lowercase</i>."
+"author";"en";"edit_password_header";"Change my password"
+"author";"en";"edit_password_instructions";"Use the following form to change your password. You must enter at least 6 characters, and confirm the password."
+"author";"en";"confirm_password_update";"Your password has been changed."
+"def";"en";"access_denied";"You cannot access this page."
+"form";"en";"roles";"Roles"
+"admin";"en";"not_uploaded";"Not yet uploaded"
+"admin";"en";"conflicts_prefs_already_set";"Conflicts and preferences have already been determined."
+"reviewer";"en";"submit_review";"Submit your review"
+"reviewer";"en";"update_review";"Update your review"
+"reviewer";"en";"see_review";"See your review"
+"def";"en";"welcome_connected_user";"Connection successful! This page shows the submission guidelines. Please read carefully."
+"author";"en";"subj_new_submission";"New submission to "
+"def";"en";"subj_new_review";"New review received "
+"admin";"en";"subj_notification";"Status of your submission "
+"def";"en";"message_sent_to_some_user";"The message has been sent."
+"author";"en";"abstract_word_limit";"The size of an abstract is limited to {Config->max_abstract_size} words. "
+"author";"en";"upload_file";"File upload"
+"def";"en";"welcome_connected_reviewer";"Connection successful! This page shows the reviewer console, and lets you access the reviewing actions."
+"author";"en";"additional_files";"Additional files"
+"author";"en";"submission";"Submitted paper"
+"author";"en";"sides";"Slides"
+"author";"en";"slides";"Slides"
+"author";"en";"abstract_submission_closed";"Submission is closed. You cannot create a new submission or edit an existing one."
+"author";"en";"abstract_too_long";"Too many words in the abstract. Please correct. "
+"def";"en";"home";"Home"
+"def";"en";"home_message";"Welcome to the submission site of {Config->confAcronym}. Please send an email to <a href=\"mailto:{Config->chairMail}\">{Config->chairMail}</a>
+for any question, and visit the <a href=\"{Config->confURL}\">conference site</a> for general information. "
+"admin";"en";"subj_askreviews";"Beginning of reviewing phase "
+"reviewer";"en";"candidate_best_paper";"Candidate for the Best Paper Award?"
+"admin";"en";"subj_new_review";"New review submitted"
+"reviewer";"en";"not_yet_uploaded";"File has not been uploaded yet"
+"def";"en";"no_file_to_download";"No file to download"
+"reviewer";"en";"submission";"Submission file"
+"reviewer";"en";"slides";"Presentation file"
+"author";"en";"questions_are_mandatory";"You must provide an answer to each question "
+"reviewer";"en";"additional_questions";"Additional questions -- answers are mandatory!"
+"def";"en";"home_page";"
+<p>
+Welcome to the <b>MyReview</b> web-based
+conference management system! 
+</p>
+
+<h2>What is MyReview?</h2>
+
+<p>
+MyReview is a paper review system written with PHP and MySQL. It
+proposes the traditional functionalities of such systems, 
+namely paper submission, reviewer assignment, discussion
+on conflicting reviews, selection of papers, mails sent to all actors,
+etc.</p>
+
+<p>
+MyReview is distributed under the Gnu Public Library (GPL) Licence 
+and has been used by hundreds of conferences. Version 2 is a complete revision
+and brings several important features, including multi-languages support.</p>
+
+
+<h2>Try it!</h2>
+
+<a href=\"{base_url}/index/createaccount\">Create an account</a> and log
+in the system. You can play with all the 
+functionalities, taking alternatively the role
+of the three main types of actors
+
+<ol>
+ <li><b>Authors</b>
+   As an author, you can submit an abstract for a paper
+    that you intend to submit, using the <a href=\"{base_url}/author/submit\">
+   abstract submission interface</a>. </li>
+
+ <li><b>Reviewers</b>
+   As a reviewer, you can access the <a href=\"{base_url}/reviewer\">reviewing
+   interface</a>, download your assigned papers, submit and update  your reviews.
+   You need a login and a password: use 
+     <b>myreview@lri.fr</b> and the password
+     <b>myreview</b> for this demo.</li>
+
+ <li><b>Administrator</b>
+   This is the most important role. Using the <a href=\"{base_url}/admin\">administrator
+   interface</a>  You can configure the system,
+   create new reviewers, enter research topics, evaluation criterias,
+   papers' status codes
+   for your conference, ask reviewers to select their preferred topics,
+   etc. The user
+     <b>myreview@lri.fr</b> (with password
+     <b>myreview</b>) is an administrator  for this demo site.</li>
+</ol>
+"
+"def";"en";"anonymous_author";"anonymous author"
+"admin";"en";"slot_date";"Date (yyyy-mm-dd)"
+"db";"en";"slot_date";"Date (yyy-mm-dd)"
+"admin";"en";"program_menu";"Prepare the program of the conference"
+"admin";"en";"register_menu";"Manage registrations"
+"def";"en";"register_header";"Registration"
+"def";"en";"register_instructions";"Please read carefully (...)"
+"form";"en";"requirements";"Special requirements"
+"author";"en";"confirm_registration";"Your registration has been stored. You can now connect to the system and change your profile if needed."
+"admin";"en";"export_texts_title";"Export the texts"
+"admin";"en";"import_texts_title";"Import  translations in the database."

@@ -1,0 +1,15 @@
+
+<h1>{author.ack_submit_header}</h1>
+
+<p>
+{author.submission_created}:
+<ol>
+ <li>{db.paper_title}: {Paper->title}</li>
+ <li>{db.paper_authors}: {Paper->authors}</li>
+  <li>{db.paper_topic}: {Paper->topic_name}</li>
+</ol>
+</p>
+<p>
+{author.recall_submission_deadline}
+</p>
+</div>

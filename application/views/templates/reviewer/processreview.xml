@@ -1,0 +1,46 @@
+
+<a href="{base_url}/reviewer">{reviewer.back_to_list}</a>
+
+<h1>{reviewer.thanks_header}</h1>
+
+<p>
+{reviewer.ack_review_submission} <i>{Paper->title}</i>.
+</p>
+<!-- BEGIN review -->
+<table border='1'>
+  <tr class='odd'>
+    <td>{db.user_name}</td><td>{User->first_name} {User->last_name}</td>
+    </tr>
+<tr class='even'>  
+<td>{db.review_overall}</td><td> {Review->overall}</td>
+</tr>
+<!-- BEGIN review_mark  -->
+<tr class='odd'>
+   <td>{Criteria->label}</td><td> {ReviewMark->mark}</td>
+   </tr>
+<!-- END review_mark -->
+
+<tr class='even'>
+<td>{db.review_summary}</td> <td>{Review->summary}</td>
+</tr>
+<tr class='odd'>
+<td>{db.review_details}</td><td> {Review->details}</td>
+</tr>
+<!-- BEGIN review_answer  -->
+<tr class='even'>
+<td>{reviewer.{ReviewQuestion->question_code}}</td><td> {RQChoice->choice}</td>
+</tr>
+<!-- END review_answer -->
+
+<tr class='odd'>
+ <td>{db.review_comments}</td><td> {Review->comments}</td>
+</tr>
+<tr class='even'>
+ <td>{db.review_ext_reviewer_name}</td><td> {Review->fname_ext_reviewer} {Review->lname_ext_reviewer}</td>
+ </tr>
+</table>
+<!--  END review -->
+</p>
+<p>
+{reviewer.invite_update_review}
+</p>

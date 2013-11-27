@@ -1,0 +1,178 @@
+
+<!-- MyReview javascript functions -->
+<script language="JavaScript1.2" src="{base_url}/js/myreview.js"></script>
+
+
+<form action="{base_url}/author/process" method="post"
+   enctype='multipart/form-data'  onLoad="alert('toto');" name="form_submit">
+
+	<input type='hidden' name="form_mode" value="{form_mode}"/>
+	<input type='hidden' name="id" value="{Paper->id}"/>
+  <input  type="hidden" name="nb_authors_in_form" value="{Paper->nb_authors_in_form}"/>
+
+  <input id="ca_last_name" type="hidden" name="me_last_name" value="{me_last_name}"/>
+  <input id="ca_first_name" type="hidden" name="me_first_name" value="{me_first_name}"/>
+  <input id="ca_affiliation" type="hidden" name="me_affiliation" value="{me_affiliation}"/>
+  <input id="ca_email" type="hidden" name="me_email" value="{me_email}"/>
+  <input id="ca_country" type="hidden" name="me_country" value="{me_country}"/>
+  
+		<h2>{form.title_abstract_header}  (<a id="display-abstract" 
+		   href="javascript:toggle('abstract');">hide</a>)</h2>
+
+
+<div id="abstract" style="display: block">
+   <input id="list_abstract_ids" type="hidden" name="list_abstract_ids" value="{list_abstract_ids}"/>
+                 
+ 
+<p>
+ <input type="button" value="{author.abstract_word_limit} ({zmax.check})"  onClick="sumWords()"/>				 
+ <div id='sum_words'></div>	
+</p>
+
+  
+		<table border='1' width="99%">
+			<tr class='header'>
+				<th colspan='2'>{form.abstract_submission_form}</th>
+			</tr>
+			<tr class='odd'>
+				<td>
+					<b>{db.paper_title}*</b>
+				</td>
+				<td>
+					<textarea name="title" 
+					             rows='2' 
+					              cols='60'
+					              maxlength="255"
+					              onKeyUp="return checkFormFieldSize(this);">{Paper->title}</textarea>
+					  <!--             
+					<input type='text' name="title" value="{Paper->title}" size='55' maxlength='255'/>
+					-->
+				</td>
+			</tr>
+			<!-- BEGIN ABSTRACT -->
+			<tr class='odd'>
+				<td>
+					<b>{db.paper_abstract}</b><br/>
+					    {author.{AbstractSection->section_name}}{abstract_mandatory}<br/>
+					 
+					   <div id='count_words_{AbstractSection->id}'>0 {zmax.word}(s)</div>
+				</td>
+				<td>
+					<textarea id="abstract_{AbstractSection->id}" name="abstract[{AbstractSection->id}]" 
+					             rows='{AbstractSection->field_height}' 
+					              cols='60'
+					              onKeyUp="sumWords();">{abstract_content}</textarea>
+  				</td>
+			</tr>
+			<!-- END ABSTRACT -->
+		<!-- BEGIN FILE_UPLOAD -->
+					<tr class='even'>
+				<td>
+					<b>{author.upload_file}</b>
+				</td>
+				<td>
+					<input type='file' name="paper" size='55' maxlength='255'/>
+					<input type='hidden' name="format" value="pdf" />
+				</td>
+			</tr>
+       <!--  END FILE_UPLOAD -->			
+
+			<tr class='even'>
+				<td>
+					<B>{form.paper_topic}*</B>
+				</td>
+				<td>{topic_list}</td>
+			</tr>
+
+		<!-- 	<tr class='odd'>
+				<td>
+					<B></B>
+				</td>
+				<td>
+					<input type='hidden' name="format" value="pdf" />
+				</td>
+			</tr>-->
+		</table>
+</div>
+
+		<h2>{form.authors_header}  (<a id="display-authors" href="javascript:toggle('authors');">hide</a>)</h2>
+
+<div id="authors" style="display: block">
+
+    {author.submit_authors_instructions}
+    
+		<table border='1' width="100%">
+			<tr class='header'>
+				<th colspan='2'>{form.authors_header} -- <input type='submit' name='addAuthor' value='{form.add_author}'/>
+				       </th>
+			</tr>
+
+			<!--  BEGIN AUTHOR -->
+			<tr class='{css_class}'>
+				<td nowrap="1">
+					<b>{author.author} {iplus}</b><br/>
+					 {form.contact_author}?<br/>
+					   <input  id="author_contact_{ith}" type="radio" name="contact_author" value="{ith}" {checked}/>
+				</td>
+				<td>
+					<table border='1'>
+						<tr>
+							<th>{form.first_name}*</th>
+							<td>
+								<input id="author_first_name_{ith}" type='text' name="first_name[{ith}]" value="{User->first_name}" size='12'
+									maxlength='30' />
+							</td>
+							<th>{form.last_name}*</th>
+							<td>
+								<input  id="author_last_name_{ith}" type='text' name="last_name[{ith}]" value="{User->last_name}" size='12'
+									maxlength='30'/>
+							</td>
+						</tr>
+						<tr>
+							<th>{form.affiliation}*</th>
+							<td>
+								<input  id="author_affiliation_{ith}" type='text' name="affiliation[{ith}]" value="{User->affiliation}"
+									size='20' maxlength='100'/>
+							</td>
+							<th>{form.country}*</th>
+							<td>{country_list}
+								</td>
+						</tr>
+						<tr>
+							<th>{form.email}*</th>
+							<td>
+								<input id="author_email_{ith}"  type='text' name="email[{ith}]" value="{User->email}" size='20'
+									maxlength='60'/>
+							</td>
+							<td colspan="2"><input type="button" onClick="AddContactAuthor ({ith});" value="{form.add_me_as_author}"/>
+                 </td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!--  END AUTHOR -->
+		</table>
+</div>
+
+		<h2>{form.additional_questions}  (<a id="display-questions" href="javascript:toggle('questions');">hide</a>)</h2>
+
+{author.questions_are_mandatory}.
+
+<div id="questions" style="display: block">
+		<table border='1' width="100%">
+			<tr class='header'>
+				<th colspan='2'>{form.questions_header}</th>
+			</tr>
+
+    <!--  BEGIN QUESTION -->
+			<tr class='even'>
+				<td><b>{author.{question}}</b></td>
+				<td>
+				{CHOICES}
+				</td>
+			</tr>
+    <!--  END QUESTION -->
+		</table>
+		</div>
+			<input type='submit' name="submit" value="{form.submit}"/>
+</form>

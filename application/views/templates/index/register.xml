@@ -1,0 +1,9 @@
+
+<h1>{def.register_header}</h1>
+
+<p>
+{def.register_instructions}
+</p>
+
+{form_user}
+ 

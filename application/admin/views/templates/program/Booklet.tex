@@ -1,0 +1,72 @@
+% Use your own class of Latex document here
+%
+% IMPORTANT: since data comes from the Web, it may contains weird
+% characters. The simplest solution is to compile with xelatex. 
+%
+
+\documentclass{book}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage[english]{babel}
+\usepackage[final]{pdfpages}
+\usepackage[margin=2cm,includefoot,includehead]{geometry}
+\usepackage{makeidx}
+\usepackage{index}
+\usepackage[bookmarks=yes]{hyperref}
+
+\makeindex
+
+% Declare the index of authors. Note: the index must
+% be produced with the following command (after a first Latex compilation):
+% makeindex booklet.ax -o booklet.ad
+\newindex{authors}{ax}{ad}{Index of authors}
+
+% Some pdfpages parameters
+\includepdfset{pages=-,pagecommand={}}
+
+% OK, here begins the document
+\begin{document}
+
+% The title page
+\title{ \textbf{{Config->confName} 
+\linebreak
+\vspace*{1cm}
+ Booklet of abstracts}}
+\author{}
+\date{\empty}
+
+\maketitle
+
+% The table of contents
+\tableofcontents
+
+% Foreword
+\addcontentsline{toc}{chapter}{Foreword}
+\chapter*{Foreword}
+
+Please write down your own foreword.
+
+% The program committee
+\chapter*{Program committee}
+\addcontentsline{toc}{chapter}{Program committee}
+\begin{multicols}{2}
+\input{pc}
+\end{multicols}
+% 
+% \newpage
+% \addcontentsline{toc}{section}{Program}
+% \section*{Program}
+% \bigskip
+% \input{program}
+
+%\newpage
+% \addcontentsline{toc}{section}{List of abstracts}
+%\addcontentsline{toc}{chapter}{List of abstracts}
+%\chapter*{List of abstracts}
+
+\input{abstracts}
+
+\addcontentsline{toc}{chapter}{Index of authors}
+\printindex[authors]
+
+\end{document}

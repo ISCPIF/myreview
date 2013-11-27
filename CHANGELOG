@@ -1,0 +1,95 @@
+Beta 10, April 2010
+
+   Table PaperStatus is extended to represent the phase of an individual paper
+   Run the SQL command:
+   
+     ALTER TABLE PaperStatus ADD final_status CHAR(1)  DEFAULT 'N';
+     
+	  Remove the PaperStatus content and run the following SQL queries:
+  
+	INSERT INTO PaperStatus (id, label, mailTemplate, cameraReadyRequired, final_status)
+            VALUES (1, 'in_submission', '', 'N', 'N');
+	INSERT INTO PaperStatus (id, label, mailTemplate, cameraReadyRequired, final_status)
+	            VALUES (2, 'in_evaluation', '', 'N', 'N');
+	INSERT INTO PaperStatus (id, label, mailTemplate, cameraReadyRequired, final_status)
+            VALUES (3, 'in_author_feedback', '', 'N', 'N');
+	INSERT INTO PaperStatus (id, label, mailTemplate, cameraReadyRequired, final_status)
+            VALUES (4, 'in_revision', '', 'N', 'N');
+            
+	#
+	# Two default final status: accept and reject
+	#
+
+	INSERT INTO PaperStatus (label, mailTemplate, cameraReadyRequired, final_status)
+            VALUES ("Reject", "notif_reject", 'N', 'Y');
+	INSERT INTO PaperStatus (label, mailTemplate, cameraReadyRequired)
+            VALUES ("Accept", "notif_accept", 'Y');
+            
+#
+# And, finally, set the status of papers to '1' by default
+#
+
+UPDATE Paper SET status=1 WHERE status IS NULL
+
+Beta 11, May 5, 2010
+
+ The two_phase_submission parameter is enabled: it allows to upload a paper with
+     the submission form. The following SQL command must be run:
+     
+     alter table Config add two_phases_submission CHAR(1) DEFAULT 'Y'
+     
+ Bug fix: the default value when computing prefs. and conflicts is 2, not 3.
+ Bug fix: the "show review" button always showed the same review in the Reviewer console.
+ Bug fix: import of translations missed to keep the XML comments
+ 
+ New: a mail is sent to reviewers when they accept an invitation
+ 
+ Beta 12, May 16, 2010
+ 
+Evol: Make it possible to change the background image from the Configuration form.
+The Config table ust be extended:
+ 
+ALTER TABLE Config ADD style_name VARCHAR(60) AFTER date_format ;
+ALTER TABLE Config ADD logo_file VARCHAR(60) AFTER style_name;
+
++ the list of PC members has been extended to all the management of all users
++ for each mail, one can choose whether a copy is sent to the chair or not
++ a local menu has been added to each page of the admin module
+
+Beta 13
+
+Bug: the reviewer bids were not correctly assigned in case of a paper
+        without default bid.
+Bug: check that a session row does not exist with the same id (unlikely, but ...)
+Some improvements to the default css and layout
+
+Bug: the reviewer expertise were never stored.
+
+Improv.: the status form was slow (due to the Zend ORM layer).
+
+New: a PDF file with the ranked list of papers is produced (useful for
+   "physical" PCs). Can be anonymized.
+   
+ New: add a discussion functionality for reviewers during the decision phase
+ New: the admin can impersonate any user
+ Impr.: improved security against XSS attacks.
+ Bug: the notification procedure was in a mess due to the distinction between 'final' and 'non final'
+     status
+     
+ Beta 14
+   Bug: the '/' directory separator fails with Windows. Changed everywhere.
+   Several improvement to help the preparation of the conference (proceedings, program, etc.)
+   The latest version of the Zend Framework (ZF 1.10.8) is now shipped with MyReview
+ 
+ V2
+   Bug: the final_status field was missing in one of the SQL commands in myreview.sql
+   Bug: the "createAccount" showed the list of topics, because a new user was
+     by default seen as a reviewer. Changed.
+   Remove calls to the deprecated ereg_replace function
+   
+ V2.00.01
+   Bug in the production of the booklet of abstracts: sessions are repeated from one day to the other.
+   Bug in Phplib views: Windows bug: the filename() function was faulty with absolute paths.
+   Complement: Add a test to cope with Windows root directory special coding in View_Phplib.php.
+   Bug in the HTML version of the list of abstracts: the 'day' block was missing
+   

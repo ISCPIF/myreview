@@ -1,0 +1,8 @@
+<ul>
+<!-- BEGIN MEMBER -->
+<li>{User->first_name} {User->last_name}
+   ({User->affiliation})
+</li>
+<!-- END MEMBER -->
+
+</ul>

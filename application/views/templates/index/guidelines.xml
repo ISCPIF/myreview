@@ -1,0 +1,7 @@
+
+
+<b>{initial_message}</b>
+
+<h1>{def.author_instructions}</h1>
+
+{def.text_author_instructions}

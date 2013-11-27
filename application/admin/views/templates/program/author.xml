@@ -1,0 +1,7 @@
+<ul>
+<!-- BEGIN author -->
+  <li>{author_name}, {author_affiliation}.<br>   
+      (Submissions: {paper_positions})
+  </li>
+<!-- END author -->
+</ul>

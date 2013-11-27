@@ -1,0 +1,37 @@
+<!-- Template for the report of automatic assigment  -->
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="ShowWindow.js"></script>
+
+{admin_local_menu}
+
+<h1>Topic-based assignment of submissions to reviewers</h1>
+
+The following assignment proposal has been computed. Please
+check the result and validate
+ if they suit you.
+<hr/>
+<b>IMPORTANT</b>: validating the result will remove all
+the previous assignment,  automatic or manual. You can always
+modify manually the assignment, though.
+<hr/>
+
+<form action="{base_url}/admin/chair/computeassignment" method="POST">
+ 
+<input type='hidden' name='commitAssignment' value='1'/>
+<input type="submit" value="Validate"/>
+</form>
+
+<h1>Assignment proposal</h1>
+
+<ol>
+   <!-- BEGIN MEMBER -->
+     <li>{nb_papers} reviews assigned to {User->first_name} {User->last_name}. <b>Topics:</b> {User->topics}.
+        <ol>
+         
+<!-- BEGIN PAPER -->
+<li><b>Title</b>: <i>{Paper->title}</i>, <b>Authors</b>: {Paper->authors}. <b>Topic</b>: {Paper->topic_name}.</li>
+<!-- END PAPER -->
+        </ol>
+     </li>
+   <!--  END MEMBER -->
+</ol>

@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Long Beach
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20081210
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>{Config->confAcronym}</title>
+
+<link href="{base_url}/css/{Config->style_name}" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+		   <table width="100%">
+ <tr  style="background:url({base_url}/images/{Config->logo_file}) no-repeat;"><td>
+     {Config->confName}<br/>{Config->conf_location}</td></tr>
+ </table>
+ 
+		</div>
+			
+		<div id="search">
+		</div>
+		<!-- end #search -->
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+	 	{lang_choices}
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+		<div id="content">
+			<div class="post">
+			 {content}
+			</div>
+			</div>
+		<!-- end #content -->
+		<div id="sidebar">
+			<ul>
+			  <li>
+			  	<h3 class="heading"><a href="{Config->submissionURL}">{def.home}</a></h3>
+		  <div class="content">
+			  {def.home_message}
+			  </div>
+			  </li>
+			  
+			  <li>
+		<h3 class="heading">{def.connection_status}</h3>
+				  {user_status}
+			<ul>
+					<li class="first"><a href="{base_url}/index/{account_mngt_link}">{account_mngt}</a></li>
+				<li class="first"><a href="{base_url}/index/{login_logout_link}">{login_logout}</a></li>
+							</ul>						
+				</li>
+			
+			<li>
+					<h3 class="heading">{def.authors_menu}</h3>
+			<div class="content">
+				<ul>
+					<li class="first"><a href="{base_url}/index/guidelines">{def.author_instructions}</a></li>
+				<li class="first"><a href="{base_url}/author/console">{def.author_console}</a></li>
+						<li class="first"><a href="{base_url}/author/submit">{def.new_submission}</a></li>
+						</ul>
+			</div>
+			</li>
+			<li>
+				<h3 class="heading">{def.reviewers_menu}</h3>
+				<ul>
+					<li class="first"><a href="{base_url}/reviewer/">{def.reviewer_console}</a></li>
+					</ul>
+			</li>
+				
+				<li>
+					<h3 class="heading">{def.admin_menu}</h3>
+			<div class="content">
+				<ul>
+					<li class="first"><a href="{base_url}/admin/chair">{def.admin_console}</a></li>
+					</ul>
+			</div>
+			</li>
+					
+					<li>
+					<h3 class="heading">{def.myreview_about}</h3>
+			<div class="content">
+			 {def.myreview_info}
+			</div>
+		</li>
+					</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+<div id="footer">
+	<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+<!-- end #footer -->
+</div>
+</body>
+</html>

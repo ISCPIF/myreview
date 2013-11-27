@@ -1,0 +1,120 @@
+<!-- JavaScript function to toggle the status of papers  -->
+<script language="JavaScript1.2" src="{base_url}/js/TogglePaperStatus.js"></script>
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+
+{admin_local_menu}
+
+<p>
+{initial_message}
+</p>
+
+<h1>{admin.program_menu}</h1>
+
+<ol>
+<li><a href="{base_url}/admin/program/slots">Define the slots
+  of the conference.</a>
+   Creates time slots for paper sessions. 
+</li>
+<li><a href="{base_url}/admin/program/sessions">Define the sessions
+  of the conference</a>. Create sessions and assign them to time slots.
+ </li>
+
+<li><a href="{base_url}/admin/program/assign?simple=0">Assign accepted papers to sessions.</a> 
+    Define the content of session from the list of  accepted papers.
+ </li>
+
+<li><a href="{base_url}/index/program">Conference program</a>
+    Display the content of the program.
+ </li>
+ 
+<li><a href="{base_url}/admin/program/showabstracts">List of abstracts</a>
+    Display the list of abstracts, oredered by session.
+ </li>
+ 
+<li><a href="{base_url}/admin/program/showauthors">List of authors</a>
+    Display the list of authors, oredered by name, with reference to their papers.
+ </li>
+ 
+<li><a href="#" onClick="ConfirmAction 
+       ('this will replace the existing latex documents',
+	'{base_url}/admin/program/latex');">
+       Produce the Latex documents (proceedings, booklets, etc.)</a>
+    Instantiate the LaTeX templates of the documents associated to the program.
+ </li>
+  </ol>
+
+
+<h1>{admin.register_menu}</h1>
+
+<ol>
+
+ <!-- <li><a href="{base_url}/admin/program/payment">Payment modes</a>. Manage the payment
+   mode accepted for registration.
+ </li>
+--> 
+ 
+<li><a href="{base_url}/admin/program/regquestions">Registration
+         choices</a>. Define a list of question associated to the registration process.
+ </li>
+ 
+<li><a href="{base_url}/admin/program/attendees">List of attendees</a>. Shows the current
+  list of attendees.
+    [Export: <a href="{base_url}/admin/program/attendees?export_action=1">Excel</a> |
+       <a href="{base_url}/admin/config/program/attendees?export_action=2">XML</a> | 
+       <a href="{base_url}/admin/config/program/attendees?export_action=3">HTML</a> | 
+       ]
+ </li>
+ 
+ 
+<li><a href="{base_url}/admin/mail/freemail?mailType={all_participants}">
+   Send a free message to all
+     attendees.</a>
+     This shows a form that lets you enter a message to all the user that submitted a registration.
+</li>
+</ol>
+
+<!--  
+<table border="1">
+
+<tr class='header'><th colspan='3'>Mails</th></tr>
+<tr class='even'>
+  <td colspan='3'>
+    <form method="POST" action="{base_url}/admin/chair/sendmail?all_reviewers=1">
+      Send <select name='idMessage'>
+           <option value='{FREE_MAIL}'>Free mail</option>
+           <option value='{MAIL_SELECT_TOPICS}'>Select topics</option>
+           <option value='{MAIL_RATE_PAPERS}'>Collect preferences</option>
+           <option value='{PWD_REVIEWERS}'>Review instructions</option>
+         !-- BEGIN PARTICIPATE_FORUM --
+           <option value='{MAIL_PARTICIPATE_FORUM}'>Participate to the 
+                      general discussion</option>
+         !-- END PARTICIPATE_FORUM --
+        </select>to each reviewer. <input type='submit' 
+                value='Check template'/>
+    </form></td> 
+</tr>
+<tr class='odd'>
+  <td colspan='3'>
+    <form method="POST" action="{base_url}/admin/chair/sendmail?all_authors=1">
+      Send  <select name='idMessage'>
+           <option value='{FREE_MAIL}'>Free mail</option>
+           <option value='{STATUS_TO_AUthORS}'>Paper status</option>
+        </select>to each author.  <input type='submit' value='Check template'/>
+    </form>
+  </td> 
+</tr>
+<tr class='odd'>
+  <td colspan='3'>
+    <a href="{base_url}/admin/chair/sendmail?idMessage={FREE_MAIL}&all_authors_accepted=1">
+      Send a free mail to all the authors of accepted papers </a><br/>
+          Note: a
+      paper is considered "accepted" if a camera-ready version is required for
+        its status.
+    </a>
+  </td> 
+</tr>
+</table>
+-->

@@ -1,0 +1,14 @@
+<div>
+
+{local_menu}
+ 
+<h1>{author.my_participation_header}</h1>
+<p>
+{author.console_participation_instructions}
+</p>
+
+<ol>
+       <li><b>{db.user_cv}</b>:  {User->cv}</li>
+     <li><b>{db.user_requirements}</b>:  {User->requirements}</li>
+</ol>
+</div>

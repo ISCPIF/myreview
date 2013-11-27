@@ -1,0 +1,13 @@
+Starting from Zend V1.6, I had to make the following 
+change in Zend_Translate.php:
+
+   public function setAdapter($adapter, $data, $locale = null, array $options = array())
+    {
+   /*  <<--
+      if (Zend_Loader::isReadable('Zend/Translate/Adapter/' . ucfirst($adapter). '.php')) {
+            $adapter = 'Zend_Translate_Adapter_' . ucfirst($adapter);
+        }
+  --> */
+  
+  Reasons: this triggers an error because the Zmax adapter canot be read. Hope
+  this will be fixed by Zend latter. 

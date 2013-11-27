@@ -1,0 +1,9 @@
+<h1>{author.edit_submission_header}</h1>
+
+<p>
+	{author.edit_instructions}
+</p>
+
+<p>
+{form_submit}	
+</p>

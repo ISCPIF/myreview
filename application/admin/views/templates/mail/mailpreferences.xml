@@ -1,0 +1,35 @@
+<p>
+Dear {User->first_name},
+</p>
+<p>
+The abstract submission phase is now over. We received {Config->nb_papers}
+submissions. In order to obtain
+the best possible assignment of papers to reviewers, we would like you
+to express your preferences regarding all the papers that have been
+declared by authors to match one of your preferred research topics.
+</p>
+<p>
+You need to connect on the site to consult this list of
+papers. Each paper comes with its title, abstract, and
+a predefined list of ratings. This list is available at 
+</p>
+<center>
+                   {Config->submissionURL}/reviewer/bids
+</center>
+<p>
+         Before accessing the system you will be asked to enter your
+         login/password.  
+</p>
+<p> 
+Please browse through the list of papers, and give a level
+ of preference to as many papers as you can.
+This is necessary to ensure a good assignnment.
+</p>
+<p>
+Thanks for your cooperation.
+</p>
+<p>
+{Config->chair_names} <br/>
+{Config->confAcronym}
+</p> 
+

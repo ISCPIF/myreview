@@ -1,0 +1,8 @@
+
+<p>Dear {User->first_name},</p>
+				<p>
+{def.ack_invitation_accepted}
+</p>
+
+  <p>{Config->chair_names}.</p>
+    <p>{Config->confAcronym}.</p>

@@ -1,0 +1,31 @@
+
+{admin_local_menu}
+
+<h1>{admin.export_texts_title}</h1>
+
+<div>
+
+<p>Please choose a language in the list below, and press the 'Export' button. This will create
+an XML file with the MyReview texts, in English (the reference language) and in the chosen
+language.
+ </p>
+<p>
+You can process this XML output to enter/change the translations, and then import
+the modified file. This will insert your translations in the MyReview database
+</p>
+<p>
+<b>Important</b>: if the desired language does not appear in the list, 
+you can add it in the <a href="{base_url}/admin/config">Configuration menu</a> of MyReview (choice: add a new lang).
+</p>
+<form method="post" action="{base_url}/admin/config/doexport">
+<input type='hidden' name='form_export_texts' value='1'/>
+
+<table>
+<tr><th>Choose a lang: </th><td>{list_langs}</td></tr>
+<tr><th>Choose a namespace</th><td>{list_namespaces}</td></tr>
+</table>
+<br/>
+<input type='submit' value='Export'/>
+</form>
+
+</div>

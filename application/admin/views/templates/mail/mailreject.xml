@@ -1,0 +1,20 @@
+<p>Dear {Paper->authors}</p>
+
+<p>
+We regret to inform you that your paper entitled "{Paper->title}", submitted to
+ {Config->confAcronym}, has not been accepted for inclusion in the
+proceedings.  Below, you will find attached the reports of the reviewers. We
+believe that they will be useful to you.
+</p>
+<p>
+Thank you for your interest in {Config->confAcronym}. You are cordially invited to
+participate in {Config->confAcronym}. 
+</p>
+<p>
+Best regards,
+</p>
+<p>
+{Config->confAcronym} chairs.
+</p>
+
+{reviews}

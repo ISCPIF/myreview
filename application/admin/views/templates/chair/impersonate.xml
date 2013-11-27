@@ -1,0 +1,29 @@
+{initial_message}
+
+<p>
+<h2>Choose a user and take his/her identity</h2>
+<form method="post" action="{base_url}/admin/chair/impersonate">
+
+<input type='hidden' name='form_impersonate' value='1'/>
+
+<table border="1"cellpadding="3" cellspacing="3">
+<tr class='header'>
+<th>
+List of users
+</th>
+<th>Options
+</th>
+</tr>
+
+<tr class='even'>
+<td>
+{list_users}
+</td>
+<td>Restrict the list to the following roles: {filter_roles_list}
+</td>
+</tr>
+</table>
+<input type='submit' value='Impersonate'/>
+<input type='submit' name='refresh' value='Refresh the user list'/>
+</form>
+</p>

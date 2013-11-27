@@ -1,0 +1,29 @@
+
+Dear {Paper->authors}
+
+We are happy to inform you that your paper entitled "{Paper->title}",
+submitted to {Config->confAcronym}, has been accepted as poster.Please,
+answer with your acceptance by return mail, BEFORE March 1st +++.
+To give the opportunity to a lot of people to present original works, we
+consider that the first author will be the presenter during the congress,
+and registration will be checked with this rule. Exceptionnally, in case
+not, please send us a mail, in order to define the final programme, and for
+true publication in Pediatric Radiology. The final programme will be
+available online April, 1st on the congress website.
+
+This year, you will have the opportunity to upload a short preview of your
+work from April 1st to {Config->cameraReadyDeadline}. At this time, you will
+be allowed to upload a PDF file (only), including maximum 12 slices, 5 Mo,
+from the author console. This file will be available on ESPR website after
+the congress, where you will be asked to give your authorization.
+
+ Please follow the instructions found two months before the congress at the
+{Config->confAcronym} site in order to prepare your final presentation.
+
+The {Config->confAcronym}  site will also provide all necessary information
+for conference registration and hotel accommodation. Remember that early
+registration with lower price will be possible till March 1st.
+
+Best regards,
+
+{Config->confAcronym} chairs.

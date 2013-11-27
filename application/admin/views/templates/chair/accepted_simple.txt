@@ -1,0 +1,4 @@
+<!-- BEGIN PAPER -->
+{no} {Paper->title}
+     {Paper->authors}
+<!-- END PAPER -->

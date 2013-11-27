@@ -1,0 +1,41 @@
+<p>You are going to send the following message. Please check it
+carefully and confirm or cancel.
+</p>
+<!-- BEGIN WARNING_TEMPLATE -->
+<p>Note that the message shown below is a 'template': each
+entity surrounded by curly brackets (e.g., {name}) 
+is a placeholder  replaced by the appropriate value
+in each instance of the message.
+</p>
+<!-- END WARNING_TEMPLATE -->
+<form method="post" action="{base_url}/admin/mail/send">
+<input type="hidden" name="to" value="{to}"/>
+<input type="hidden" name="from" value="{from}"/>
+<input type="hidden" name="subject" value="{subject}"/>
+<input type="hidden" name="template" value="{template}"/>
+<input type="hidden" name="mailType" value="{mailType}"/>
+<input type='hidden' name="mailFormat" value="{mailFormat}"/>
+
+<table>
+<tr class="odd">
+  <td>From </td><td>{from}</td>
+</tr>
+<tr class="even">
+  <td>To </td><td>{to}</td>
+</tr>
+<tr class="odd">
+  <td>Subject </td><td>{subject}</td>
+</tr>
+<tr class='even'><td><b>Send a copy to the PC chair?</b></td>
+<td>Yes: <input type='radio' name='copyToChair' value='Y' /> 
+     No : <input type='radio' name='copyToChair' value='N' checked='1'/> </td>
+</tr>
+<tr class='odd'>
+  <td>Message</td><td><pre>{template}</pre></td>
+ </tr>
+ <tr class='even'>
+  <td>&nbsp;</td> 
+    <td><input type="submit" value="confirm" name="confirm"/></td>
+  </tr>
+</table>
+</form>

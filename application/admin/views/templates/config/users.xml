@@ -1,0 +1,75 @@
+
+
+<!-- Template for the list of members -->
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+
+{admin_local_menu}
+
+
+<h1>Create a new user</h1>
+
+{pcmember_message}
+
+<center>
+{form_reviewer}
+</center>
+
+<h1>List of users</h1>
+
+<p>
+You can use the form fields of the first row to restrict the search. 
+Note: role A=Author, C=Chair, R=Reviewer.
+</p>
+<center>
+<table border='1' cellpadding='2' cellspacing='3'>
+<tr class='header'><th>Email</th><th>Name</th>
+<!--   <th>Affiliation</th> -->
+  <th>Topics</th>
+  <th>Roles</th>
+   <th>Invitation</th>
+   <th>Message</th>
+    <th colspan='2'>Actions</th></tr>
+<tr class='odd'>
+<form action="{base_url}/admin/config/users" method="post" name="filter_list">
+<td><input type='text' name='mail_filter' size='15' value='{mail_filter}'/></td>
+<td><input type='text' name='name_filter' size='15' value='{name_filter}'/></td>
+<td>&nbsp;</td> <!-- <input type='text' name='topics_filter' size='15' value='{topics_filter}'/>--></td>
+<td>{filter_roles_list}</td>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td colspan='2'><input type='submit' value='Filter'/></td>
+</form>
+</tr>
+<!-- BEGIN MEMBER -->
+<tr class='{css_class}'>
+<td>{User->email}</td>
+<td>{User->first_name} {User->last_name}</td>
+<!-- <td>{User->affiliation}</td> -->
+<td>{User->topics}</td>
+<td>{User->roles}</td>
+<td><a 
+ href="{base_url}/admin/mail/invitation?to={User->email}&amp;mailType={someUser}">
+Invite</a></td>
+<td><a 
+ href="{base_url}/admin/mail/freemail?to={User->email}&amp;mailType={someUser}">
+Send a mail</a></td>
+<td><a href="{base_url}/admin/config/users?id_user={User->id}&instr=modify">Modify</a></td>
+<td><a href='#' onClick="ConfirmAction('This will remove {User->first_name} {User->last_name}', 
+           '{base_url}/admin/config/users?id_user={User->id}&instr=remove')">Remove</a></td>
+</tr>
+<!-- END MEMBER -->
+
+</table>
+</center>
+
+
+<!-- BEGIN post_message -->
+<p>
+The information on the user have been successfully
+stored in the system. Check, and modify them
+if needed. 
+</p>
+You can also <a href="{base_url}/admin/config/users">add a new user</a>.
+<!-- END post_message -->

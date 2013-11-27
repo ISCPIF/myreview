@@ -1,0 +1,67 @@
+<!-- Template for the list of accepted papers -->
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+
+<a href='{base_url}/admin/chair'>Back to the chair menu</a></p>
+
+
+{admin_local_menu}
+
+
+<h1>List of papers with status "{STATUS_LABEL}".</h1>
+
+
+<!-- BEGIN OPEN_FORM_ASSIGN -->
+<form action="base_url}/admin/chair/accepted" method="post">
+<input TYPE='SUBMIT' VALUE='Validate the conf. session assignment'/>
+<input TYPE='HIDDEN' NAME='form_assign_session' VALUE='1'/>
+<!-- END OPEN_FORM_ASSIGN -->
+
+<table border=3>
+<tr class='header'>
+  <th>Title, authors, password</th>
+  <th>Info</th>
+  <th>Conference session, position</th>
+  <th colSpan=2>Actions</th>
+</tr>
+
+<!-- BEGIN PAPER_DETAIL -->
+<tr class='{css_class}'>
+<td><b>{Paper->id}</b> - {Paper->title}, {Paper->authors}
+
+	  <a href="#{Paper->id}"
+onClick="ShowWindow('{base_url}/author/showinfo?id_paper={Paper->id}&idSession={Session->id}&noReview=1&noForum=1');">
+                 (infos)</a>
+</td>
+
+<td>
+{CR_PAPER}
+</td>
+
+  <!-- BEGIN SELECT_ASSIGN -->
+  <!-- Present the list of sessions when an assignment 
+             must be done -->
+    <td nowrap>{SESSION_LIST}
+           <INPUT TYPE='TEXT' SIZE='3' MAXSIZE='3' 
+		NAME='position_in_session[{Paper->id}]' 
+	               VALUE='{Paper->position_in_session}'>	
+    </td>
+   <!-- END SELECT_ASSIGN -->
+
+<td>{DOWNLOAD}</td>
+<td><a href="mailto:{Paper->emailContact}">Mail authors</a></td>
+
+
+</tr>
+
+<!-- END PAPER_DETAIL -->
+
+</table>
+
+<!-- BEGIN CLOSE_FORM_ASSIGN -->
+</form>
+<!-- END CLOSE_FORM_ASSIGN -->
+
+
+<a href='Admin.php'>Back to the admin menu</a> | {LINK}

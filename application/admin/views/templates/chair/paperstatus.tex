@@ -1,0 +1,81 @@
+% Use your own class of Latex document here
+%
+% IMPORTANT: since data comes from the Web, it may contains weird
+% characters. The simplest solution is to compile with xelatex. 
+%
+
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage[english]{babel}
+\usepackage[final]{pdfpages}
+\usepackage[margin=2cm,includefoot,includehead]{geometry}
+\usepackage{makeidx}
+\usepackage{index}
+\usepackage[bookmarks=yes]{hyperref}
+
+\makeindex
+
+% Declare the index of authors. Note: the index must
+% be produced with the following command (after a first Latex compilation):
+% makeindex proceedings.ax -o proceedings.ad
+%\newindex{authors}{ax}{ad}{Index of authors}
+
+% Some pdfpages parameters
+%\includepdfset{pages=-,pagecommand={}}
+
+% OK, here begins the document
+\begin{document}
+
+% The title page
+\title{ \textbf{Status of submissions to {Config->confName}}}
+\author{ {Config->chair_names} }
+\date{\today}
+
+\maketitle
+
+% The table of contents
+\tableofcontents
+
+%\part{Papers ranked on their overall marks, in desc. order}
+
+    <!-- BEGIN REVIEW_CRITERIA -->
+    
+     <!-- END REVIEW_CRITERIA -->
+
+
+<!-- BEGIN PAPER_DETAIL -->
+
+ <!-- BEGIN PAPER_INFO -->
+
+\section{Submission({paper_id}) {paper_title} -- Overall: {paper_overall}}  
+
+\textit{Authors}: {paper_authors}
+ <!-- END PAPER_INFO -->
+
+     <!-- BEGIN REVIEWER -->
+ \subsection{Reviewer:  {reviewer_fname} {reviewer_lname}}
+    
+   Level of expertise for this submission: {reviewer_expertise}.   
+     <!-- END REVIEWER -->
+\begin{enumerate}
+    <!-- BEGIN REVIEW_MARK -->
+      \item \textbf{{criteria_label}}: {ReviewMark->mark}
+    <!-- END REVIEW_MARK -->
+ \end{enumerate}
+External reviewer:   {external_reviewer_fname}  {external_reviewer_lname} 
+   \subsubsection*{Summary}
+   {review_summary}
+      
+   \subsubsection*{Details}
+   {review_details}
+
+   \subsubsection*{Comments for PC}
+   {review_comments}
+<!-- END PAPER_DETAIL -->
+
+% Print the index of authors
+%\addcontentsline{toc}{chapter}{Index of authors}
+%\printindex[authors]
+
+\end{document}

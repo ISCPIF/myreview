@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Do NOT modify this templates VIA MyReview: the '\' disappear...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hypertarget{listAbstracts}{~}
+
+<!-- BEGIN day -->
+\addcontentsline{toc}{chapter}{{slot_date}}
+\chapter*{{slot_date}.}
+
+<!-- BEGIN session -->
+
+\addcontentsline{toc}{section}{{conf_session_name}}
+\section*{{conf_session_name}, {slot_date}, {conf_slot_name}.}
+
+<!-- BEGIN paper -->
+%\newpage
+%\addcontentsline{toc}{subsection}{{paper_title},
+%\newline
+%\textit{paper_authors}}
+ 
+%\section*{}
+<!-- BEGIN index -->
+\index[authors]{{author}}
+<!-- END index -->
+\label{{paper_id}}
+
+\addcontentsline{toc}{subsection}{{paper_title}}
+\subsection*{{paper_title}}
+\textit{{paper_authors}}
+
+% 
+% \begin{center}
+% {\large \bf {paper_title}}\newline
+% {{paper_authors}}\newline
+% {\em {conf_session_name}}\newline
+% \end{center}
+
+
+<!-- BEGIN abstract -->
+\subsubsection*{{section_name}}
+
+{abstract_content}
+<!-- END abstract -->
+
+%\centerline{\href{../{CR_NAME}}{Link to the PDF file}}
+
+<!-- END paper -->
+
+<!-- END session -->
+<!-- END day -->

@@ -1,0 +1,8 @@
+# Rewrite rules for Zend Framework
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !\.(js|ico|gif|jpg|png|css|txt)$
+RewriteCond %{REQUEST_URI} !/(css|js).*$
+RewriteRule .* index.php
+ 
+# Removie automatic quoting
+php_flag magic_quote_gpc off

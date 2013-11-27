@@ -1,0 +1,5514 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<myreview:translations lang="fr">
+
+	<!-- neuma export for language: fr -->
+
+	
+	<myreview:namespace id="def">
+
+		
+		<myreview:text id="accept_invitation_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {User->first_name},</p>
+				<p>
+Thanks a lot for accepting our invitation to serve in the programm committee of {Config->confAcronym}. A 
+default account has been 
+created for you by the program chair. It allows you to connect to the system with:
+  <ol><li>Your email: {User->email}
+  </li><li>Your password: {User->default_password}
+  </li></ol>
+  </p>
+  <p>
+The submission site can be found at
+  <center><a href='{Config->submissionURL}'>{Config->submissionURL}</a>
+  </center>
+
+Note that the password has been automtically generated. We strongly 
+encourage you to complete your profile and change your password right now. Connect to the system, and 
+follow the "Change my profile" link.
+  </p>
+  <p>
+Thanks again for your time and effort. We will send you detailed instructions
+when the reviewing phase begins.
+  </p>
+  <p>
+{Config->chair_names}.<br></br>
+{Config->confAcronym}
+ </p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Cher(e) {User->first_name},</p>
+				<p>
+Merci beaucoup d'avoir accepté notre invitation à participer
+ au comité de programme de {Config->confAcronym}. Un compte par défaut a été créé pour vous
+ par le président du comité de programme. Il vous permet de vous connecter au système avec : 
+
+  <ol><li>Votre email: {User->email}
+  </li><li>Votre mot de passe: {User->default_password}
+  </li></ol></p><p>
+Le site de soumission se trouve  à:
+
+  <center><a href='{Config->submissionURL}'>{Config->submissionURL}</a></center>
+
+Merci de noter que le mot de passe a  été automatiquement engendré. Nous vous
+encourageons vivement à compléter votre profil et à changer votre mot de passe
+dès maintenant. Vous pouvez vous connecter au système, et utiliser le lien "Changer mon profil".
+  </p>
+  <p>
+Merci encore pour le temps et les efforts que vous consacrez 
+  à cette tâche. Nous vous enverrons
+des instructions détaillées quand la phase d'évaluation commencera.
+</p><p>
+{Config->chair_names}.<br></br>
+{Config->confAcronym}
+  </p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="access_denied">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You cannot access this page.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous ne pouvez pas accéder a cette page.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_account_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Checked!
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vérifié !
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_check_account">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				This account has been checked. If you are registered as a user of the system, you will get a confirmation by mail.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre compte a  été vérifié. Si vous êtes inscrit(e) en tant qu'utilisateur du système, 
+				vous recevrez une confirmation par mail.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_invitation_accepted">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Thanks a lot for accepting our invitation to serve in the programm committee of {Config->confAcronym}. 
+An email has been sent with a list of instructions to set up your
+reviewer account. Please read them carefully, and get back to the PC chair 
+in case of problems.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Merci beaucoup d'avoir accepté notre invitation à participer au comité de programme de {Config->confAcronym}. 
+Un message vient de vous être transmis avec les instructions pour compléter la mise en place de votre compte. Merci de les lire soigneusement et de vous adresser
+au président du comité de programme en cas de problème.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_login_successful">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You are now connected to the system.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous êtes maintenant connecté(e) au système.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_password_recall">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				A new password has been generated for this user, and sent by mail.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Un nouveau mot de passe a été engendré pour cet utilisateur, et transmis
+				 par courrier électronique.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_upload">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The following files have been uploaded for your paper
+<i>{Paper->title}</i> (Authors: {Paper->authors}).
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="actions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Actions
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Actions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="admin_console">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Admin console
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Console administrateur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="admin_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Admin menu
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Menu administrateur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="anonymous_author">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				anonymous author
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				auteur anonyme
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="authors_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Authors menu
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Menu auteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="author_console">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Author console
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Console des auteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="author_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Guidelines
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Instructions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="check_account_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Check whether you are a registered user
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vérifiez que vous êtes connu(e) par le système.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="check_account_instruction">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Enter your email and submit the form. An email will be sent to this user to confirm whether s/he is know from the system.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Entrez votre mot de passe et soumettez le formulaire. Un message sera envoyé 
+				à cet utilisateur pour confirmer qu'il/elle est connu(e) du système.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="choose_email_instr">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Enter a valid email that will be used to log in the system. Please note that MyReview always stores and compares email addresses in 
+  <i>lowercase</i>.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Entrer une adresse électronique qui servira à vous connecter. Notez que MyReview conserve
+				les emails en  <i>minuscules</i>.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="choose_topics_instr">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				As a reviewer, you are required to choose one or several topics in the list below. 
+They will be used for a better paper assignment.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				En tant que relecteur, vous devez chosir un ou plusieurs sujets dans la liste
+				ci-dessous. Ils seront pris en compte pour une meilleure affectation des articles.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="configuration_tasks">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Configuration tasks
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Fonctions de configuration
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="connection_status">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Connection status
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Statut de connexion
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="create_account">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Create an account
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Créer un compte
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="create_account_info">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must be registered in the system as a user to acces all the password-protected functions. Please access to the following form and provide your id, profile and password.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez être connecté au système pour accéder aux fonctions protégées. Merci
+				  d'entrer votre email et votre mot de passe.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="decline_invitation_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {User->first_name},</p>
+				<p>
+We note that you decline our invitation to serve in the program
+committee. Thanks for your answer.
+  </p>
+  <p>{Config->chair_names}.</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>
+Cher/chère {User->first_name},
+
+  </p><p>
+Nous avons bien noté que vous avez décliné notre invitation à participer au comité
+de programme. Merci de votre réponse.
+</p>
+<p>{Config->chair_names}.</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="error_account_expl">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The following error have been met when tying to process your request. Please correct.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Les erreurs suivantes ont été constatées. Merci de les corriger.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="error_account_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please check and correct
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Merci de vérifier et de corriger.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="follow_this_link">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Follow this link
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Suivez ce lien
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="form_account_info">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Access the form to create your account
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Accès au formulaire de création d'un compte
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="home">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Home
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Page d'acueil
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="home_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Welcome to the submission site of {Config->confAcronym}. Please send an email to 
+  <a href='mailto:{Config->chairMail}'>{Config->chairMail}</a>
+for any question, and visit the 
+  <a href='{Config->confURL}'>conference site</a> for general information.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Bienvenue sur le site de soumission de {Config->confAcronym}. 
+				Pour toute question, vous pouvez contacter 
+  <a href='mailto:{Config->chairMail}'>{Config->chairMail}</a>,
+     et visiter le  <a href='{Config->confURL}'>site principal</a>
+ de la conférence pour des informations
+       générales.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="home_page">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Welcome to the submission site of {Config->confAcronym}!</p>
+
+<h2>About {Config->confAcronym}</h2>
+
+<p>
+ Visit the <a href='{Config->confURL}'>main conference site</a> for information.
+</p>
+
+
+<h2>Submission instructions</h2>
+
+<p>In order to submit a paper, please
+<a href='{base_url}/index/createaccount'>create an account</a>
+in the MyReview submission system, then access the
+<a href='{base_url}/author/submit'>submission form</a>.
+</p>
+<p>
+Note that the deadline for paper submission submission is {Config->submissionDeadline}.
+Visit the <a href='{Config->submissionURL}/index/guidelines'> submission guidelines </a> for information. 
+</p>
+<p>
+Thanks for your interest in {Config->confAcronym}</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Bienvenue sur le site de soumission de  {Config->confAcronym}!</p>
+
+<h2>A propos de {Config->confAcronym}</h2>
+
+<p>
+Visitez le <a href='{Config->confURL}'>site principal de la conférence </a> pour plus d'informations.
+</p>
+
+
+<h2>Instructions pour la soumission</h2>
+
+<p>Pour soumettre un article, merci de 
+<a href='{base_url}/index/createaccount'>créer un compte </a>
+dans le système de soumission MyReview si vous n'en avez pas déjà un. Vous
+pourrez alors accéder au 
+<a href='{base_url}/author/submit'>formulaire de soumission</a>.
+</p>
+<p>
+La date limite de soumission est le  {Config->submissionDeadline}.
+Visitez la page des  <a href='{Config->submissionURL}/index/guidelines'> instructions aux auteurs </a> pour plus de détails. 
+</p>
+<p>
+Merci de votre intérêt pour  {Config->confAcronym}</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="local_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Local menu
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Meu local
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="login">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your email
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre email
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="login_failed">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your login attempt failed. Please check your email and/or your password.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre tentative de connexion a 
+  échoué. Vérifiez votre email
+				  et votre mot de passe.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="login_info">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please provide your id and password to log in the system.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Entrez votre email et votre mot de passe pour vous connecter.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="login_welcome">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Sign in!
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Connectez-vous!
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="log_in">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Log in
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Connexion
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="log_out">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Logout
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Déconnexion
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="lost_password">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Password recovery
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Retrouver votre mot de passe
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="lost_password_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				We cannot recover your original password since, for security reasons, it is encrypted in our system. The lost password procedure will assign to a user a temporary password, which is sent by mail. The user can then connect with this password and change it through the profile update form.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nous ne pouvons retrouver votre mot de passe qui est conservé sous forme cryptée. En revanche, 
+				la procédure
+				de récupération va en engendrer un pour vous et le transmettre par courrier électronique. Vous pourrez alors
+				vous connecter et réiniialiser votre profile.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="manage_submissions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Manage submissions
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Gestion des soumissions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="message_sent_to_some_user">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The message has been sent.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Le message a été transmis.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="myreview_about">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				About MyReview
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				A propos de MyReview
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="myreview_info">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				MyReview is an open-source submission and
+			   evaluation system distributed under the GPL licence.
+  <br></br><a href='http://myreview.sourceforge.net'>http://myreview.sourceforge.net
+  </a><br></br>
+			 Copyright: Philippe Rigaux, 2003-2010
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				MyReview est une application Web libre de roits pour la soumission 
+				et l'évaluation d'articles. Il est disponible 
+				à <a href='http://myreview.sourceforge.net'>http://myreview.sourceforge.net
+  </a><br></br>
+			 Copyright: Philippe Rigaux, 2003-2010
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="new_submission">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				New submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nouvelle soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="not_registered">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Not yet registered? Please  <a href='{base_url}/index/createaccount'>create 
+          and account
+  </a>
+.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous n'êtes pas encore enregistré(e)?  
+  <a href='{base_url}/index/createaccount'>Créez un compte</a>.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="no_file_to_download">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				No file to download
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Pas de fichier à récupérer
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="password">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your password
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre mot de passe
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="password_forgotten">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Password forgotten? Enter your email in the form and
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous avez oublié votre mot de passe? Entrer votre email et
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="password_recall">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your password has been reset
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre mot de passe a été réinitialisé
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="password_recall_action">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Send my password
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Transmettre mon mot de passe
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="program_registrations">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Program and registrations
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Programme et inscriptions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="register_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Registration
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Inscription
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="register_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please read carefully (...)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Merci de lire soigneusement
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="reviewers_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Reviewers menu
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Menu relecteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="reviewer_console">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Reviewer console
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Console relecteur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_new_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				New review received
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nouveau rapport reçu
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submit">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Submit
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Soumettre
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="text_author_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please read carefully the following guidelines. They will
+help you to manage your account and your submission(s).
+  <p>
+You must have an account to use this system. As an
+user, you are uniquely identified by your 
+  <i>email</i>.
+It can be changed, but the general rule in MyReview is
+that there cannot exist two users with the same email.  
+
+  </p><p><b>Are you already registered as a user?
+  </b>
+
+ You may be already known as a user, even if you are not aware of it. For instance:
+
+  <ol><li>You are a reviewer for this event, and the administrator created an account for you.
+  </li><li>You already proposed a submission in the past, and your account still exists.
+  </li><li>You are an author of a submission create by another user.
+  </li></ol>
+Before creating an account you can   <a href='{base_url}/index/checkaccount'>check whether
+you are already registered</a>.
+  </p><p>
+When your account is created, you can 
+  <a href='{base_url}/index/login'>log in the system</a>, 
+
+  <a href='{base_url}/author/submit'>submit one or several papers</a>, and
+  <a href='{base_url}/author/console'>manage your profile and the list or your submissions</a>. 
+
+  </p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Merci de lire soigneusement les instructions qui suivent. Elles vous indiquent
+		comment gérer votre compte et vos soumissions.
+ <p>
+Vous devez disposer d'un compte pour utiliser ce système. En tant
+qu'utilisateur, vous êtes identifié(e) par votre  <i>email</i>. Vous
+pouvez le changer, mais la règle générale est qu'il ne peut pas exister
+deux utilisateurs avec la même adresse de courrier électronique.
+
+  </p><p><b>Etes-vous déjà inscrit(e) en tant qu'utilisateur/utilisatrice?
+  </b>Vous pouvez déjà être connu du système, même si vous  ne le savez pas. Par exemple:
+  <ol><li>Vous  êtes relecteur, et l'administrateur a créé un compte pour vous.
+  </li><li>Vous avez déjà effectué une soumission, et votre compte a été préservé.
+  </li><li>Vous  êtes co-auteur d'une soumission créée par un autre utilisateur.
+  </li></ol>
+Avant de créer un compte, vous pouvez  <a href='{base_url}/index/checkaccount'>vérifier 
+si vous êtes déjà connu(e).
+  </a>.
+
+  </p><p>
+Quand votre compte est créé, vous pouvez vous  
+  <a href='{base_url}/index/login'>connecter au système</a>, 
+  <a href='{base_url}/author/submit'>effectuer une ou plusieurs soumissions
+  </a>, et  <a href='{base_url}/author/console'>gérer votre profil et la liste de vos soumissions
+  </a>
+depuis la console Auteurs. </p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="topics_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your preferred research topics
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vos sujets d'expertise
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_connected">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You are currently connected.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous  êtes actuellement connecté(e).
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_not_connected">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You are currently not connected to the system.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous n'êtes pas connecté(e) au système.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="welcome_connected_reviewer">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Connection successful! This page shows the reviewer console, and lets you access the reviewing actions.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Connexion réussie ! Cette page montre la console des relecteurs,
+				   et donne accès aux actions correspondantes.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="welcome_connected_user">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Connection successful! This page shows the submission guidelines. Please read carefully.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Connexion réussie ! Cette page donne accès aux instructions de soumission. Merci
+				de lire soigneusement.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="you_are_currently_connected">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You are currently connected as
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous êtes connecté(e) en tant que
+	    </myreview:translation>
+		</myreview:text>
+
+
+	</myreview:namespace>
+
+	<myreview:namespace id="zmax">
+
+		
+		<myreview:text id="add_line">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Add a new
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nouveau
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="check">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Check
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vérifier
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="company_link">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Companies
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Sociétés
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="company_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Companies setting
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Gestion des sociétés
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="group_portal_link">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Group portal
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Portail groupe
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="homepage">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Homepage
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Accueil
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Menu
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Menu
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="news_link">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				News
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Actualités
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="packaging_portal_link">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Packaging portal
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Portail conditionnement
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="texts_link">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Texts
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Textes
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="texts_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Texts setting
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Gestion des textes
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="translation_link">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Translation
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Traduction
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_link">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Users
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Utilisateurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Users setting
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Gestion des utilisateurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="word">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				word
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				mot
+	    </myreview:translation>
+		</myreview:text>
+
+
+	</myreview:namespace>
+
+	<myreview:namespace id="db">
+
+		
+		<myreview:text id="comp_id">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Id
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Identifiant
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="comp_lang">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Language
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Langage
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="comp_name">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nom
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="lang">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Language
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Langue
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="namespace">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Namespace
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Espace de noms
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_abstract">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Abstract
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Résumé
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_answers">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Answers
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Réponses
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_authors">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				List of authors
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Liste des auteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_email_contact">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Email of contact author
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Email du contact
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_status">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Status
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Status
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Title
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Titre
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_topic">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Main topic
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Sujet principal
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_comments">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Comments (not shown to authors)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_details">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Review details
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_expertise">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Reviewer expertise
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_ext_reviewer_fname">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				External reviewer (first name)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_ext_reviewer_lname">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				External reviewer (last name)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_ext_reviewer_name">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				External reviewer name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_overall">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Overall
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_summary">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Summary
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="slot_date">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Date (yyyy-mm-dd)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Date (format aaaa-mm-jj)
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="text_code">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Text code
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Code du texte
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="the_text">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Text
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Texte
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_address">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Address
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Adresse
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_affiliation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Affiliation
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Affiliation
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_country">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Country
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Pays
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_cv">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				C. V.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_email">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Email
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Addresse électronique
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_fname">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				First name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Prénom
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_id">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Id user
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Identifiant utilisateur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_lname">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Last name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nom de famille
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_name">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nom
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_requirements">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Special needs
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_super_admin">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Super admin
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Administrateur
+	    </myreview:translation>
+		</myreview:text>
+
+
+	</myreview:namespace>
+
+	<myreview:namespace id="form">
+
+		
+		<myreview:text id="abstract_submission_form">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Abstract submission form
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Formulaire de soumission de résumé
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="additional_questions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Additional questions
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Questions complémentaires
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="address">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your address
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre addresse
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="add_author">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Add an author
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Ajouter un auteur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="add_me_as_author">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Add me for this author
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Ajoutez-moi en tant qu'auteur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="affiliation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Give your affiliation
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre affiliation
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="authors_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				List of authors
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Liste des auteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="cancel">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Cancel
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Annuler
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="city">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your city
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre ville
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="confirm_password">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Confirm your password
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Confirmez votre mot de passe
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="contact_author">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Contact author
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Auteur à contacter
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="country">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your country
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre pays
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="delete">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Delete
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Supprimer
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="download">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Download
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Récupérer
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="edit_paper">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Edit
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Modifier
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="email">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your email
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre adresse  électronique
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="first_name">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your first (given) name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre prénom
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="insert">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Insert
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Insérer
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="last_name">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your last name.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre nom de famille
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="modify">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Modify
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Modifier
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_abstract">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Abstract
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Résumé
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Title of the paper
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Titre de l'article
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_topic">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Choose the main topic
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Choisissez le sujet principal
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="password">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your password (6 chars min)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre mot de passe (6 caractères minimum)
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="phone">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your phone
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre téléphone
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="preview">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Preview
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Pr
+  évisualiser
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="questions_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Questions list
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Liste de questions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="register_form">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Registration form
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Formulaire d'inscription
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="requirements">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Special requirements
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Besoins particuliers
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="roles">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Roles
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Rôles
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="save">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Save
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Sauvegarder
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="save_draft">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Save as draft
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Sauvegarder le brouillon
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="search">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Search
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Rechercher
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="search_in_ad">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Search in group directory
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Recherche dans l'annuaire groupe
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="send">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Send
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Envoyer
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="show_paper">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Show
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Afficher
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="state">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your state (optional)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre Etat (optionnel)
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submission_complete">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				OK?
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				OK?
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submission_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Title
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Titre
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submit">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Submit
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Envoyer
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="title_abstract_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Title and abstract
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Titre et résumé
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="topics">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your preferred research topics
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vos sujet favoris
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="upload">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Upload
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Transférer
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_form">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				User form
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Formulaire utilisateur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="validate">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Validate
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Valider
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="visualised">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Visualised
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Visualiser
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="zip_code">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Zip code
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Code postal
+	    </myreview:translation>
+		</myreview:text>
+
+
+	</myreview:namespace>
+
+	<myreview:namespace id="author">
+
+		
+		<myreview:text id="abstract">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Abstract
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Résumé
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="abstract_section_empty">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Abstract (or part of) missing
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Le résumé (ou une partie) manque
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="abstract_submission_closed">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Submission is closed. You cannot create a new submission or edit an existing one.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				La phase de soumission est fermée.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="abstract_too_long">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Too many words in the abstract. Please correct.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Trop de mots dans le résumé. Merci de corriger.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="abstract_word_limit">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The size of an abstract is limited to {Config->max_abstract_size} words.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				La taille du résumé est limitée à {Config->max_abstract_size} mots.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="accept">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Accepted
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Accepté
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_edit_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your submission has been updated
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre soumission a été modifiée
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_submit_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				New submission received
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nouvelle soumission reçue
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_upload">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The following files have been uploaded for your paper
+<i>{Paper->title}</i> (Authors: {Paper->authors}).
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Les fichiers suivants ont bien été transférés pour votre
+    soumission <i>{Paper->title}</i> (auteurs: {Paper->authors}).
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_upload_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Status of your file upload
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Résultat de votre transfert de fichier
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="additional_files">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Additional files
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Fichiers additionnels
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="address_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must give your address
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez fournir votre adresse
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="affiliation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Affiliation
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Affiliation
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="affiliation_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must give your affiliation
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez indiquer votre affiliation
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="author">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				author
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				auteur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="author_in_committee">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Does one author belong to the program committee?
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Est-ce qu'un auteur appartient au comité de programme?
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="background">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Background
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				CV
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="camera_ready">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Camera-ready
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Version finale
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="change_my_profile">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Change my profile
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Modifier mon profil
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="city_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must enter a city name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez entrer le nom d'une ville
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="conclusion">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Conclusion
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Conclusion
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="conclusions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Conclusions
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Conclusions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="confirm_account">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Your account has been created. You can now log in the system and use the menu link to maintain your account. 
+  </p><p>
+As a user of the system, you can propose new submissions and 
+access the author console to manage the list of your submissions.
+  </p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Votre compte a 
+  été créé. Vous pouvez maintenant vous connecter au système
+				et utiliser le lien dans le menu pour maintenir votre profil à jour.
+  </p><p>
+En tant qu'utilisateur du système, vous pouvez proposer de nouvelles soumissions
+et accéder à la console des auteurs pour gérer vos soumissions. 
+  </p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="confirm_password">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Confirm your password
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Confirmez votre mot de passe
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="confirm_password_update">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your password has been changed.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre mot de passe a 
+  été modifié.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="confirm_registration">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your registration has been stored. You can now connect to the system and change your profile if needed.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre inscription a 
+  été enregistrée. Vous pouvez maintenant vous connecter 
+				au système et changer votre profil si nécessaire.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="confirm_update_account">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your profile has been modified.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre profil a 
+  été modifié.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="connect_user_mandatory">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must be part of the authors list.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez faire partie de la liste des auteurs.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="console_participation_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You registered to {Config->confAcronym}.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous êtes inscrit à {Config->confAcronym}.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="console_submission_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The following shows the list of your current submissions. You can edit each of them until the submission deadline, and upload the required files associated to a submission.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Le tableau suivant montre la liste de vos soumissions en cours. Vous pouvez éditer chacune d'entre elles (jusqu'à la date limite de soumission) et transférer les fichiers demandés.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="country">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Country
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Pays
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="create_account_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Create an account
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Créer un compte
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="create_account_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please enter the following information to create your account. Not that 
+  <i>all
+  </i>
+
+ the fields are mandatory. You must provide a secure password.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Merci d'entrer les informations suivantes pour créer votre compte.
+				Notez que 
+  <i>tous
+  </i>
+
+ les champs sont obligatoires. Vous devez 
+  également fournir un mot
+				de passe valide.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="duplicate_authors">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You cannot mention a same author more than once.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous ne pouvez pas indiquer un même auteur plus d'une fois.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="edit_account_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Change my profile
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Modifier mon profil
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="edit_account_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You can change the following information. Validate with the 'submit' button. Note that you must always re-renter and confirm your password.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous pouvez modifier les informations suivantes. Validez avec le bouton "Soumettre".
+			Vous devez toujours entrer et confirmer votre mot de passe.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="edit_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Here is the current content of your submission. You can modify each part at your convenience.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Voici le contenu actuel de votre soumission. Vous pouvez modifier
+				 chaque partie si nécessaire.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="edit_password_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Change my password
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Modifier mon mot de passe
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="edit_password_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Use the following form to change your password. You must enter at least 6 characters, and confirm the password.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Utilisez le formulaire suivant pour modifier votre mot de passe. Vous devez entrer au moins
+				6 caractères, et donner une confirmation à l'identique.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="edit_submission_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Edit a submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Modifier une soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="email_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your email must be of the form xxx@yyy[.zzz]
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre adresse 
+  électronique doit être de la forme xxx@yyy[.zzz]
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="email_mandatory">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must provide a valid email
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez fournir une adresse 
+  électronique valide
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="existing_email_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				This email is already used
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Cette addresse 
+  électronique est déjà utilisée
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="file_description">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The file size is {file_size} bytes.
+   You can   <a href='{base_url}/author/download?id_file={RequiredFile->id}&amp;id_paper={Paper->id}'>check 
+  that the file is correctly uploaded.</a>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				La taille du fichier est de {file_size} octets.
+   Vous pouvez <a href='{base_url}/author/download?id_file={RequiredFile->id}&amp;id_paper={Paper->id}'>vérifier 
+ que ce fichier est correctement transféré.</a>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="file_too_large">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				File size exceeds the allowed limit. Please contact the admin.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Ce fichier dépasse la taille limite autorisée. Merci de 
+				contacter l'administrateur.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="first_name">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				First name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="first_name_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must give your first name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez fournir un prénom
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="invalid_format">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				This file type is not accepted.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Le type de ce fichier n'est pas accepté
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="invalid_paper_id">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please provide a correct paper id.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="invalid_paper_info">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Invalid paper id or password. Please correct.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="in_author_feedback">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Correction required
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Corrections demandées
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="in_evaluation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Evaluation in progress
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Evaluation en cours
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="in_revision">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Revision in progress
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Révision en cours
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="in_submission">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Submission in progress
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Soumission en cours
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="last_name">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Last name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="last_name_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must give your last name
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez fournir votre nom
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="list_papers">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				List of my current submissions
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Liste de vos soumissions en cours
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="login_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please enter the paper id and password to access 
+the upload interface.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="main">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Main part
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Partie principale
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="materiel">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Materiel
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="methods">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Methods
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="missing_abstract">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must provide an abstract
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez entrer un résumé
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="missing_authors">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must provide at least one author
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez spécifier au moins un auteur
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="missing_contact_author">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must define a contact author.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez définir un auteur-contact
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="missing_file">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				File is missing. Please correct.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Un fichier manque. Merci de corriger.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="missing_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must provide a title.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez fournir un titre.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="my_papers_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your submissions
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vos soumissions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="my_participation_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your registration(s)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre (vos) inscription(s)
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="my_profile_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your profile
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre profil
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="new_submission_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				New submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nouvelle soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="no_submission_so_far">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You do not have any current submission.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous n'avez aucune soumission en cours.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="objectives">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Objectives
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="partial_upload">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				File partially uploaded. Please try again or contact the admin.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Fichier partiellement transféré. Contactez l'administrateur.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="password_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must provide a valid password (at least 6 chars) and
+confirm it
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez fournir un mot de passe valide et le confirmer.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="password_recall">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				A mail containing the password has been sent to the contact author of this paper.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Un mail contenant votre mot de passe a 
+  été envoyé à l'auteur contact.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="phone_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must provide your phone number
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez indiquer un numéro de téléphone.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="questions_are_mandatory">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must provide an answer to each question
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez répondre à chaque question
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="recall_submission_deadline">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Note that the submission deadline is {deadline}.
+Beyond this date, no further modification of your submission is allowed.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Notez que la date limite de soumission est le {Config->submissionDeadline}.
+				Après cette date, aucune modification ne sera acceptée.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="reject">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Reject
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Rejeté
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="results">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Results
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="show_paper_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Details of your submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Détails de la soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="sides">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Slides
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="slides">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Slides
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Transparents
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subject_password_recall">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Password recall.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_cr_paper_upload">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Upload of your camera-ready file.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_new_submission">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				New submission to
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_paper_update">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Update of your submission.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_paper_upload">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Upload of your paper.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submission">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Submitted paper
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Article soumis
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submission_closed">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The paper submission is closed.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				La phase de soumission est fermée
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submission_created">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The following information on your submission
+have been successfully
+stored in the system. A mail has been
+sent to <i>{Paper->emailContact}</i>
+ to
+confirm this submission. The new submission appears in the <a href='{base_url}/author/console'> Author console</a>. Please visit this page, and check whether additional files are required for this submission to be complete.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				La soumission suivante a  bien été enregistrée. Un message 
+				a été transmis à <i>{Paper->emailContact}</i>  pour
+        confirmation. 
+La nouvelle soumission apparaît dans  
+la <a href='{base_url}/author/console'> console des auteurs</a>. 
+Merci de visiter cette page et de vérifier si d'autres informations  sont requises, et en particulier le transfert de fichiers complémentaires.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submission_modified">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your submission has been successfully modified. A mail has been
+sent to <i>{Paper->emailContact}</i>.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				La soumission suivante a  bien été modifiée. Un message a été transmis
+				à <i>{Paper->emailContact}</i> pour confirmation.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submit_authors_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Enter the list of authors.  <b>Important</b>: (i) you   <i>must</i>
+     appear in this list (use the "Add me" button to do so), (ii) all the fields are mandatory and 
+     (iii) there must be exactly one contact author (s/he will receive the confirmation mail).
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Indiquez la liste des auteurs.  <b>Important</b>: (i) vous   <i>devez</i>
+  apparaître dans cette liste (utilisez le bouton "Ajoutez moi"), 
+(ii) tous les champs sont obligatoires (iii) il doit y avoir exactement un auteur contact.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submit_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please use the form below for your submission, and use the "Submit" button. 
+     Note that all the fields marked by a '*' are mandatory.
+     Your submission can then be accessed in the Author console, checked and modified until the 
+     submission deadline.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Utilisez le formulaire ci-dessous pour créer une soumission, et utilisez le bouton "soumettre".
+  Tous les champs marqués par une '*' sont obligatoires.
+ Votre soumission est alors accessible dans la Console Auteurs, modifiée et
+ complétée jusqu'à la date de soumission.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="upload_file">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				File upload
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Transfert de fichier
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="upload_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Use the following form to choose the file.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Utilisez ce formulaire pour choisir votre fichier.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="upload_submission_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				File upload
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Transfert de fichier
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="user_mandatory">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must be part of the author list.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez faire partie de la liste des auteurs.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="zip_code_error">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				You must enter a zip code
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Vous devez entrer un code postal
+	    </myreview:translation>
+		</myreview:text>
+
+
+	</myreview:namespace>
+
+	<myreview:namespace id="admin">
+
+		
+		<myreview:text id="all_reviewers">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				All reviewers
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Tous les relecteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="conflicts_prefs_already_set">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Conflicts and preferences have already been determined.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Les conflits et préférences ont déjà été déterminés.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="export_texts_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Export the texts
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Exporter les textes
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="free_mail_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Send free mails
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Envoyer des messages libres
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="import_texts_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Import  translations in the database.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Importer des traductions dans MyReview.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="index_intro">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The present page proposes all the choices of the MyReview
+administration.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Cette page propose toutes options d'administration de MyReview.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="index_menu_addlangs">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Add/remove a lang.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Ajouter/supprimer une langue.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="index_menu_admin_title">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Configure the system behavior and layout.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Configuration du système et de sa présentation
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="index_menu_config">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Configuration form
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Formulaire de configuration
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="index_menu_prepare_conf">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Prepare your conference
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Préparation de la conférence
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="manage_assignment_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Papers assignment
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Affectation des articles
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="manage_selection_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Manage the selection process
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Gérér le processus de sélection
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="manage_submission_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Submissions and authors
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Soumissions et auteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="message_sent_to_authors">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The message has been sent to all authors.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="message_sent_to_authors_accepted">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The message has been sent to the authors of accepted submissions.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="message_sent_to_participants">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The message has been sent to all attendees.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="message_sent_to_reviewers">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The message has been sent to all reviewers.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Le message a  été transmis à tous les relecteurs.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="message_sent_to_some_user">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The message has been sent to
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="not_uploaded">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Not yet uploaded
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Pas encore transféré
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="program_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Prepare the program of the conference
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Preparer le programme de la conférence
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="register_menu">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Manage registrations
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Gestion des traductions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="slot_date">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Date (yyyy-mm-dd)
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Date (aaaa-mm-jj)
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_askreviews">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Beginning of reviewing phase
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_new_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				New review submitted
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_notification">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Status of your submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_prefs">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Paper rating
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_topics">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Choose your preferred topics.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submission_now_closed">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The submission phase is now over.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				La phase de soumission est maintenant terminée.
+	    </myreview:translation>
+		</myreview:text>
+
+
+	</myreview:namespace>
+
+	<myreview:namespace id="reviewer">
+
+		
+		<myreview:text id="ack_rating">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Your preferences have been stored. Thanks. You can modify
+them at any moment, or access to another group.
+</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Vos préférences ont été renregistrées. Merci. Vous
+							 pouvez les modifier à tout moment, ou accéder à un autre groupe.
+</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_review_submission">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The following information have
+been stored for the submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Les informations suivantes ont bien été enregistrées pour la soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="additional_questions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Additional questions -- answers are mandatory!
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Questions complémentaires -- il est obligatoire de fournir une réponse!
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="add_child_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Answer to this message
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Répondre à ce message
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="add_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Add a message
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Ajouter un message
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="all_reviews">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				all reviews on this paper, along with discussion threads.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				tous les rapports sur cette soumission, ainsi que la discussion éventuelle.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="back_to_list">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Back to your list of reviews
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Retour à la liste de vos rapports
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="best_paper_award">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Is this paper, to your knowledge, already published in a regular conference?
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Cet article est-il, à votre connaissance, déjà publié dans une conférence avec actes?
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="candidate_best_paper">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Candidate for the Best Paper Award?
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Candidat pour le prix de la meilleure soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="console_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Reviewer console
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Console relecteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="discussion_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Messages
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Messages
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="edit_your_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Edit your review with the following form
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Editer votre rapport avec le formulaire suivant
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="invite_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Please enter your message in the form below. Once submitted, it will take place in the discussion regarding the following submission:
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Entrez votre message à l'aide du formulaire ci-dessous. Une fois soumis, il prendra place dans la discussion sur la soumission suivante:
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="invite_update_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				A mail has been sent with this summary. 
+You can modify your
+review until the end of the reviewing phase.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Un courier électronique a été transmis avec ce résumé. Vous
+						pouvez modifier ce rapport jusqu'à la fin de la phase de relecture.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="not_yet_uploaded">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				File has not been uploaded yet
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Fichier non encore transféré
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_detail_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Reviews and discussion on a specific submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Rapports et discussion sur une soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="paper_group">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Group of submissions
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Groupe de soumissions
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="parent_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				This is an answer to the following message:
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Il s'agit d'une réponse au message:
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="preference">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your preference
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre préférence
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="propose_paper_groups">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				MyReview shows groups of papers. You can select your current group of papers
+from the following list (the grey cell shows the current group).
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				MyReview affiche les sousmissions par groupe pour faciliter
+								   votre lecture. Vous pouvez sélectionner le groupe 
+								   dans la liste suivante (la cellule en grisé montre le groupe courant).
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="propose_submission_abstract">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Abstract of this submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Résumé de cette soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="rating_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>
+You can browse the list of papers and express your
+preferences. Note that <i>No</i> means that 
+you will never be assigned as reviewer to the paper.
+Use it to express a conflict, if necessary.
+</p>
+<p>
+At most {size_rating} paper are displayed simultaneously. 
+You can switch from a group to another by using
+the list of numbered links below. 
+</p>
+<p>
+<b>Important</b>: you
+must validate your preferences <i>before</i> accessing
+another group, otherwise they will be lost.
+</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Vous pouvez parcourir la liste des articles et exprimer
+						vos préférences. Notez que la réponse <i>Non</i> indique que 
+						vous le système ne vous affectera pas cette soumission. Vous
+						pouvez utiliser ce choix pour exprimer un conflit. 
+</p>
+<p>
+Au plus  {size_rating} soumissions sont affichées simultanément. Vous pouvez
+passer d'un groupe à l'autre avec la liste des liens ci-dessous.
+</p>
+<p>
+<b>Important</b>: vous devez valider vos préférences <i>avant</i> d'accéder
+à un autre groupe, ou elles seront perdues.
+</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="reviews_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				All reviews
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="review_phase_is_closed">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				The reviewing phase is closed.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				La phase d'évaluation est close.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="see_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				See your review
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Voir votre rapport
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="slides">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Presentation file
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Fichier de votre présentation orale
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_invitation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Invitation to participate as a PC member
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submission">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Submission file
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="submit_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Submit your review
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Soumettre votre rapport
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="thanks_header">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Thanks!
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Merci !
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="update_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Update your review
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Modifier votre rapport
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="validate_preferences">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Validate your preferences
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Valider vos préférences
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="welcome">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Here is the list of your papers. Use the   <i>download</i>  link to get the file,
+and the  <i>submit review</i> link to enter or
+modify your review.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Voici la liste des soumissions qui vous sont affectées. Uilisez
+  le lien   <i>télécharger</i> pour récupérer un fichier, 
+  et le lien "soumettre mon rapport" quand votre rapport est prêt.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="welcome_to_discussion">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				This page shows all the reviews posted for the paper below, including yours. You can also participate to a discussion to find an agreement with the other reviewers if necessary. 
+Note finally that you can update your review at any moment.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Cette page montre tous les rapports sur la soumission ci-dessous. Vouspouvez également participer à une discussion pour converger vers un avis commun avec les autres relecteurs. Notez enfin que vous pouvez modifier votre rapport à tout moment.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="your_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your message
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre message
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="your_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your review
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Votre rapport
+	    </myreview:translation>
+		</myreview:text>
+
+
+	</myreview:namespace>
+
+	<myreview:namespace id="mail">
+
+		
+		<myreview:text id="accept_invitation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>{invited_user}  has accepted
+your invitation to serve in the program committee.
+  </p><p>
+S/he has been invited to complete her/his profile.
+  </p>
+
+MyReview -- {Config->confAcronym}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>
+{invited_user}  a accepté(e) votre inviation de participer au comité de programme.
+ </p><p>
+Il/elle a   été invité(e) à compléter son profil. 
+</p>
+
+MyReview -- {Config->confAcronym}
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_account">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {User->first_name},
+  </p><p>
+You are indeed registered as {User->email}. If you forgot your password, please use the 
+password recovery interface.
+  </p>
+MyReview -- {Config->confAcronym}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Cher/chère  {User->first_name},
+  </p><p>Vous 
+  êtes effectivement enregistré en tant que  {User->email}. 
+Si vous avez oublié votre mot de passe, merci d'utiliser 
+l'interface de récupération. 
+  </p>
+
+MyReview -- {Config->confAcronym}
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_edit">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {Paper->emailContact}
+  </p><p>
+The following submission to {Config->confAcronym} has been updated.
+  </p><ol><li><b>Title
+  </b>: {Paper->title}
+  </li><li><b>Authors
+  </b>: {Paper->authors}
+  </li><li><b>Main topic
+  </b>: {Paper->topic_name}
+  </li><li><b>Email of the contact author
+  </b>: {Paper->emailContact}
+  </li></ol><p>
+You can now access the
+
+  <a href='{Config->submissionURL}/author/console'>Author console</a>, check that your submission
+ is reported there, and modify its description at your convenience,
+  including by uploaded any additional file required by the conference organization.
+  </p><p>
+Note that the submission deadline is {Config->submissionDeadline}.
+Beyond this date, no further modification of your submission is allowed.
+</p><p>
+Thanks for submitting to {Config->confAcronym}
+  </p><p>
+Best regards,
+  </p>
+{Config->chair_names}<br></br>
+{Config->confAcronym}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {User->first_name},
+</p>
+ <p>
+This is an acknowledgment of the following review submission:
+</p>
+
+<ul>
+  <li>Paper ID: {Paper->id}</li>
+  <li>Title: {Paper->title}</li>
+  <li>Authors: {Paper->authors}</li>
+</ul>
+
+<h2>Your review:</h2>
+
+<ol>
+<!-- BEGIN template_mail -->
+  <li>Reviewer: {User->first_name} {User->last_name}</li>
+ <li>Overall: {Review->overall}</li>
+
+<!-- BEGIN template_mark -->
+  <li> {Criteria->label} : {ReviewMark->mark}</li>
+<!-- END template_mark -->
+
+  <li>Summary: {Review->summary}</li>
+  <li>Details: {Review->details}</li>
+
+<!-- BEGIN template_answer  -->
+   <li>{reviewer.{ReviewQuestion->question_code}} : {RQChoice->choice}</li>
+<!-- END template_answer -->
+ <li>Comments for PC: {Review->comments}</li>
+ <li>External reviewer: {Review->fname_ext_reviewer} {Review->lname_ext_reviewer}</li>
+<!-- END template_mail -->
+</ol>
+
+<p>
+Thanks for your cooperation.
+</p>
+{Config->chair_names}<br></br>
+{Config->confAcronym}.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Cher/chère {User->first_name},
+</p>
+ <p>
+Nous avons bien enregistré votre rapport relatif à la soumission suivante:
+</p>
+
+<ul>
+  <li>identifiant: {Paper->id}</li>
+  <li>Titre: {Paper->title}</li>
+  <li>Auteurs: {Paper->authors}</li>
+</ul>
+
+<h2>Votre rapport:</h2>
+
+<ol>
+<!-- BEGIN template_mail -->
+  <li>Nom: {User->first_name} {User->last_name}</li>
+ <li>Evaluation globale: {Review->overall}</li>
+
+<!-- BEGIN template_mark -->
+  <li> {Criteria->label} : {ReviewMark->mark}</li>
+<!-- END template_mark -->
+
+  <li>Résumé: {Review->summary}</li>
+  <li>Détails: {Review->details}</li>
+
+<!-- BEGIN template_answer  -->
+   <li>{reviewer.{ReviewQuestion->question_code}} : {RQChoice->choice}</li>
+<!-- END template_answer -->
+ <li>Comentaires pour le comité de programme: {Review->comments}</li>
+ <li>Relecteur externe: {Review->fname_ext_reviewer} {Review->lname_ext_reviewer}</li>
+<!-- END template_mail -->
+</ol>
+
+<p>
+Merci de votre travail.
+</p>
+{Config->chair_names}<br></br>
+{Config->confAcronym}.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ack_submit">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {Paper->emailContact}</p>
+				<p>
+The following abstract has been submitted to {Config->confAcronym}.
+  </p><ol><li><b>Title
+  </b>: {Paper->title}
+  </li><li><b>Authors
+  </b>: {Paper->authors}
+  </li><li><b>Main topic
+  </b>: {Paper->topic_name}
+  </li><li><b>Email of the contact author
+  </b>: {Paper->emailContact}
+  </li></ol><p>
+You can now access the
+  <a href='{Config->submissionURL}/author/console'>Author console</a>, check that your submission
+  is reported there, and modify its description at your convenience,
+  including by uploaded any additional file required by the conference
+  organization.
+ </p><p>
+Note that the submission deadline is {Config->submissionDeadline}.
+Beyond this date, no further modification of your submission is allowed.
+ </p><p>
+Thanks for submitting to {Config->confAcronym}
+ </p><p>
+Best regards,
+  </p>
+{Config->chair_names}
+<br></br>
+{Config->confAcronym}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Chers() {Paper->authors}</p>
+				<p>
+La soumission suivante a bien été prise en compte pour {Config->confAcronym}.
+  </p><ol><li><b>Titre
+  </b>: {Paper->title}
+  </li><li><b>Auteurs
+  </b>: {Paper->authors}
+  </li><li><b>Sujet principal:
+  </b>: {Paper->topic_name}
+  </li><li><b>Adresse électonique de l'auteur-contact:
+  </b>: {Paper->emailContact}
+  </li></ol><p>
+Vous pouvez maintenant accéder à la 
+  <a href='{Config->submissionURL}/author/console'>console des auteurs</a>, 
+  vérifier que votre soumission est bien présente, et la modifier si vous le souhaitez,
+  en particulier en transmettant les fichiers requis. 
+ </p><p>
+La date limite de soumission est le  {Config->submissionDeadline}. Au-delà
+de cette date, les modifications ne seront plus acceptées.
+
+ </p><p>
+Merci de votre intérêt pour {Config->confAcronym}
+ </p><p>
+Sincèrement,
+  </p>
+{Config->chair_names} <br></br>
+{Config->confAcronym}
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="ask_reviews">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>
+Dear {User->first_name},
+</p>
+<p> 
+Time has come for the paper review process of the {Config->confAcronym}
+conference. So far {Config->nb_papers} papers have been submitted.
+Here are the instruction on downloading the papers 
+that you have been assigned, as well as how to provide you reviews:
+</p>
+<ol>
+   <li> First log in the system at {Config->submissionURL}.</li>
+   <li> Access the reviewer console.</li>
+     <li>PLEASE CHECK that
+         you can properly download and print each assigned paper.</li>  
+    <li>Each paper in your list comes with a "Submit my review" link. Use it
+         to access your review form. You can return latter and
+         modify you review if needed.</li>
+ </ol>
+ <p>
+If we have assigned a paper to you which you feel is a conflict of
+interest, please let us know right away and we will correct the problem.
+</p>
+<p>
+Recall that the deadline for submitting your review is the {Config->reviewDeadline} 
+Please don't be in late, since we must provide sufficient time for 
+discussion between the reviewers in order to resolve any 
+significant differences between the reviews.
+</p>
+<p>
+{Config->chair_names} <br></br>
+{Config->confAcronym}
+</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="decline_invitation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>
+				{invited_user}  has declined
+your invitation to serve in the program committee.
+S/he is still registered as a user in the system, but
+without the 'Reviewer' role.
+</p>
+<p>MyReview</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>
+				{invited_user}  a décliné votre invitation à participer
+				au comité de programme. Il/elle est toujours enregistrée
+				en tant qu'utilisateur/trice mais sans le rôle "relecteur".
+</p>
+<p>MyReview</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="eviewer_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {User->first_name},</p>
+
+<p>Thans for accepting our invitation to be part of the program committee
+of {Config->confAcronym}. The submission system is located at {Config->submissionUrl}.
+You can log in the system with the following account:</p>
+
+<ul>
+    <li>Login: {User->email}</li>
+     <li>Password: {password}</li>
+</ul>
+<p>We invite you to log and complete your profile, by indicating in particular
+your topics of expertise. 
+</p>
+<p>Best regards,</p>
+
+{Config->chair_names} -- {Config->confAcronym}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="new_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>
+Dear {User->first_name},
+</p>
+<p>
+A new message has been posted by {author_first_name}
+{author_last_name} regarding the following submission:
+<center>
+  {Paper->title}, by {Paper->authors}
+</center> 
+<p>
+Answer to this message <a href='{Config->submissionURL}/reviewer/paper?id_paper={Paper->id}'>here</a>.
+</p>
+</p>
+<p>
+<b>Message</b>: {Message->message}.
+</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>
+Cher/chère {User->first_name},
+</p>
+<p>
+Un nouveau message a été déposé par {author_first_name}
+{author_last_name} à propos de la soumission suivante:
+<center>
+  {Paper->title}, par {Paper->authors}
+</center> 
+</p>
+<p>
+<b>Message</b>: {Message->message}.
+</p>
+<p>
+Répondez à ce message   <a href='{Config->submissionURL}/reviewer/paper?id_paper={Paper->id}'>ici</a>.
+</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="notif_accept">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<b>Dear {Paper->authors}</b>
+<p>
+We are happy to inform you that your paper entitled "{Paper->title}", submitted
+to {Config->confAcronym}, has been accepted for inclusion in the proceedings. Below,
+you will find attached the reports of the reviewers. Please consider the
+reviewers' comments carefully when preparing the final version of your paper.
+</p>
+<p>
+The camera-ready copy of your paper is required before
+{Config->cameraReadyDeadline}. You can upload your final
+version from the author console.
+</p>
+<p>
+Please note that any delay may prevent the inclusion of your paper in the
+proceedings.  Follow the instructions found at the {Config->confAcronym} site
+in order to prepare your final version.
+</p>
+<p>
+The {Config->confAcronym}  site also provides all necessary information for conference
+registration and hotel accommodation.
+</p>
+<p>
+Best regards,
+</p>
+<p>
+{Config->chair_names}<br></br>
+{Config->confAcronym}.
+</p>
+{reviews}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="notif_reject">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {Paper->authors}</p>
+
+<p>
+We regret to inform you that your paper entitled "{Paper->title}", submitted to
+ {Config->confAcronym}, has not been accepted for inclusion in the
+proceedings.  Below, you will find attached the reports of the reviewers. We
+believe that they will be useful to you.
+</p>
+<p>
+Thank you for your interest in {Config->confAcronym}. You are cordially invited to
+participate in {Config->confAcronym}. 
+</p>
+<p>
+Best regards,
+</p>
+<p>
+{Config->confAcronym} chairs.
+</p>
+
+{reviews}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="preferences">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>
+Dear {User->first_name},
+</p>
+<p>
+The abstract submission phase is now over. We received {Config->nb_papers}
+submissions. In order to obtain
+the best possible assignment of papers to reviewers, we would like you
+to express your preferences regarding all the papers that have been
+declared by authors to match one of your preferred research topics.
+</p>
+<p>
+You need to connect on the site to consult this list of
+papers. Each paper comes with its title, abstract, and
+a predefined list of ratings. This list is available at 
+</p>
+<center>
+                   {Config->submissionURL}/reviewer/bids
+</center>
+<p>
+         Before accessing the system you will be asked to enter your
+         login/password.  
+</p>
+<p> 
+Please browse through the list of papers, and give a level
+ of preference to as many papers as you can.
+This is necessary to ensure a good assignnment.
+</p>
+<p>
+Thanks for your cooperation.
+</p>
+<p>
+{Config->chair_names} <br></br>
+{Config->confAcronym}
+</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>
+Cher/chère {User->first_name},
+</p>
+<p>
+La phase de soumission est maintenant terminée. Nous avons
+reçu {Config->nb_papers}
+soumissions. Afin d'obtenir la meilleure affectation possible
+aux relecteurs, nous vous invitons à exprimer vos préférences.
+</p>
+<p>
+Vous pouvez vous connecter au site pour consulter la
+liste des soumissions. Chacune est présentée avec son titre,
+son résumé et un ensemble pré-défini de préférences. La liste
+est consultatble à: 
+</p>
+<center>
+                   {Config->submissionURL}/reviewer/bids
+</center>
+<p>
+        Avant d'accéder au système vous devrez entrer votre
+        email et votre mot de passe. 
+</p>
+<p> 
+Merci d'exprimer un niveau de préférence pour le plus grand
+nombre possible de soumissions. La qualité des affectations en dépend.
+</p>
+<p>
+Merci de votre coopération.
+</p>
+<p>
+{Config->chair_names} <br></br>
+{Config->confAcronym}
+</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="reviewer_instructions">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {User->first_name},</p>
+
+<p>Thanks for accepting our invitation to be part of the program committee
+of {Config->confAcronym}. The submission system is located at {Config->submissionURL}.
+You can log in the system with the following account:</p>
+
+<ul>
+    <li>Login: {User->email}</li>
+     <li>Password: {password}</li>
+</ul>
+<p>We invite you to log and complete your profile, by indicating in particular
+your topics of expertise. 
+</p>
+<p>Best regards,</p>
+
+{Config->chair_names} -- {Config->confAcronym}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Cher/chère {User->first_name},</p>
+
+<p>Merci beaucoup d'avoir accepté notre invitation à participer au comité de programme 
+de {Config->confAcronym}. Le système de soumission est accessible à {Config->submissionURL}.
+Vous pouvez vous connecter avec le compte suivant:</p>
+
+<ul>
+    <li>Login: {User->email}</li>
+     <li>Mot de passe: {password}</li>
+</ul>
+<p>Nous vous invitons à vous connecter dès maintenant pour compléter votre profil, 
+en particulier la liste des thèmes dont vous estimez être expert(e).
+</p>
+<p>Bien cordialement,</p>
+
+{Config->chair_names} -- {Config->confAcronym}
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="reviewer_invitation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {User->first_name},</p>
+
+<p> 
+You are invited to participate to the program committee
+of {Config->confAcronym}.  Please let us know if you accept or not
+this invitation. In case you prefer to decline, you
+just have to use the following link:
+</p>
+<center>
+  <a href='{Config->submissionURL}/index/decline?email={User->email}'>
+             I decline this invitation</a>
+</center>
+
+<p>
+We are glad if you accept. In that case, the following link
+will lead you to our submission site. The reviewer console lets you
+complete your profile and obtain detailed instructions.
+</p>
+<center>      
+<a href='{Config->submissionURL}/index/accept?email={User->email}'>
+             I accept this invitation</a>
+</center>
+
+<p>We thank you in advance for your cooperation.</p>
+
+<p>Best regards, </p>
+<p>{Config->chair_names} <br></br>
+{Config->confAcronym}</p>
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>
+Cher/chère {User->first_name},
+</p>
+
+<p> 
+Vous  êtes invité(e) à participer au comité de programme
+de la conférence  {Config->confAcronym}.  Merci de nous indiquer si vous acceptez ou non
+ cette invitation. Si vous la déclinez,  vous avez juste à suivre le lien suivant:
+</p>
+
+<center>
+       <a href='{Config->submissionURL}/index/decline?email={User->email}'>
+            Je décline cette invitation</a>   
+</center>
+<p>
+Bien entendu, nous serons très heureux si vous acceptez. Dans ce
+cas, le lien suivant vous mènera au site de soumission. Vous prendrez
+connaissance de votre mot de passe et serez invité(e) à compléter votre profil.
+</p>
+
+<center>      
+<a href='{Config->submissionURL}/index/accept?email={User->email}'>
+             J'accepte cette invitation</a>
+</center>
+<p>Nous vous remercions d'avance de votre coopération.</p>
+
+<p>Bien cordialement</p>
+<p>{Config->chair_names} <br></br>
+{Config->confAcronym}</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="send_password">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				<p>Dear {User->first_name},</p>
+
+<p>Here is your login/password:</p>
+
+<ul>
+    <li>Login: {User->email}</li>
+     <li>Password: {password}</li>
+</ul>
+
+<p>Best regards,</p>
+
+{Config->chair_names} -- {Config->confAcronym}
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				<p>Cher/chère {User->first_name},</p>
+
+<p>Voici votre login et votre mot de passe:</p>
+<ul>
+    <li>Login: {User->email}</li>
+  <li>Mot de passe: {password}</li>
+</ul>
+<p>Bien cordialement,</p>
+
+<p>{Config->chair_names} <br></br>
+{Config->confAcronym}</p>
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_accept_invitation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Invitation accepted
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Invitation acceptée
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_ack_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Review submitted
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Rapport soumis
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_askreviews">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Beginning of reviewing phase
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Début de la phase de relecture
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_check_account">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Account check -- confirmation
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Contrôle de compte -- confirmation
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_cr_paper_upload">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Upload of your camera-ready file.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Transfert de votre fichier définitif.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_decline_invitation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Invitation declined
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Invitation déclinée
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_new_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				A new message has been posted for submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Un nouveau message a été déposé pour la soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_new_review">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				New review submitted
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nouveau rapport reçu
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_new_submission">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				New submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Nouvelle soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_notification">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Status of your submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Statut de votre soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_paper_update">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Update of your submission.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Mise à jour de votre soumission.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_paper_upload">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Upload of your paper.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Transfert de votre article.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_password_recall">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Your MyReview login/password
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Mot de passe pour accéder à MyReview
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_prefs">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Paper rating
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Préférences
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_reviewer_invitation">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Invitation to participate to the program committee
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Invitation à participer au comité de programme
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="subj_topics">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				Choose your preferred topics.
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Choisissez vos sujets de recherche favoris.
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="sub_new_message">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				A new message has been posted for submission
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				Un nouveau message a été déposé pour la soumission
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="to_all_authors">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				To all authors
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				A tous les auteurs
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="to_all_participants">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				To all conference attendees
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				A tous les participants
+	    </myreview:translation>
+		</myreview:text>
+
+		<myreview:text id="to_all_reviewers">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<myreview:translation lang='en'>
+				To all reviewers
+	    </myreview:translation>
+			<!-- This is the current translation for language fr.  -->
+			<myreview:translation lang='fr'>
+				A tous les relecteurs
+	    </myreview:translation>
+		</myreview:text>
+
+
+	</myreview:namespace>
+
+
+</myreview:translations>

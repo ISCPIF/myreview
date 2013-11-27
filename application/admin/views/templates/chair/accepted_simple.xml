@@ -1,0 +1,16 @@
+<!-- Template for the list of accepted papers -->
+
+
+{admin_local_menu}
+
+
+<h1>List of papers with status "{PaperStatus->label}".</h1>
+
+
+<ol>
+<!-- BEGIN PAPER -->
+<li><b>{Paper->title}</b><br/>
+  <i>{Paper->authors}</i>
+</li>
+<!-- END PAPER -->
+</ol>

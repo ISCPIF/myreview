@@ -1,0 +1,13 @@
+
+
+   <h1>{def.check_account_header}</h1>
+   <p>
+   {def.check_account_instruction}
+   </p>
+   <p>
+       <form action="{base_url}/index/checkaccount" method="post">
+       
+     {form.email}: <input type='text' name='email' value='' size='30'/>
+           <input type='submit' value='{form.submit}'/>
+   </form>
+   </p>          

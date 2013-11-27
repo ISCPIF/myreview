@@ -1,0 +1,194 @@
+
+<form method='post' action='{base_url}/index/addaccount' name='form_user'>
+
+	<input type='hidden' name="form_mode" value="{form_mode}" />
+	<input type='hidden' name="change_password" value="{change_password}" />
+	<input type='hidden' name="register" value="{register}" />
+
+	<table cellpadding="3" cellspacing="3">
+
+		<tr class="header">
+			<td colspan='2'>{form.user_form}</td>
+		</tr>
+		<tr class='odd'>
+			<td width="250">
+				<b>{form.email}*</b>
+				<br />
+				<font size="small"> {def.choose_email_instr}</font>
+			</td>
+			<td>
+				<input type='text' name="email" value="{User->email}" size='30'
+					maxlength='40' />
+			</td>
+		</tr>
+		<tr class='even'>
+			<td>
+				<b>{form.first_name}*</b>
+			</td>
+			<td>
+				<input type='text' name="first_name" value="{User->first_name}"
+					size='30' maxlength='40' />
+			</td>
+		</tr>
+		<tr class='odd'>
+			<td>
+				<b>{form.last_name}*</b>
+			</td>
+			<td>
+				<input type='text' name="last_name" value="{User->last_name}"
+					size='30' maxlength='30' />
+			</td>
+		</tr>
+
+		<tr class='even'>
+			<td>
+				<b>{form.affiliation}*</b>
+			</td>
+			<td>
+				<input type='text' name="affiliation" value="{User->affiliation}"
+					size='30' maxlength='30' />
+			</td>
+		</tr>
+
+		<!-- BEGIN PASSWORD -->
+		<tr class='odd'>
+			<td>
+				<b>{form.password}*</b>
+			</td>
+			<td>
+				<input type='password' name="password" value="" size='30'
+					maxlength='30' />
+			</td>
+		</tr>
+		<tr class='even'>
+			<td>
+				<b>{form.confirm_password}*</b>
+			</td>
+			<td>
+				<input type='password' name="confirm_password" value="" size='30'
+					maxlength='30' />
+			</td>
+		</tr>
+		<!-- END PASSWORD -->
+
+		<tr class='odd'>
+			<td>
+				<b>{form.address}*</b>
+			</td>
+			<td>
+				<textarea name="address" rows='2' cols='40'>{User->address}</textarea>
+			</td>
+		</tr>
+
+		<tr class='even'>
+			<td>
+				<b>{form.city}*</b>
+			</td>
+			<td>
+				<input type='text' name="city" value="{User->city}" size='30'
+					maxlength='40' />
+			</td>
+		</tr>
+
+		<tr class='odd'>
+			<td>
+				<b>{form.zip_code}*</b>
+			</td>
+			<td>
+				<input type='text' name="zip_code" value="{User->zip_code}"
+					size='30' maxlength='30' />
+			</td>
+		</tr>
+
+		<tr class='even'>
+			<td>
+				<b>{form.state}</b>
+			</td>
+			<td>
+				<input type='text' name="state" value="{User->state}" size='30'
+					maxlength='30' />
+			</td>
+		</tr>
+
+		<tr class='odd'>
+			<td>
+				<b>{form.phone}</b>
+			</td>
+			<td>
+				<input type='text' name="phone" value="{User->phone}" size='20'
+					maxlength='20' />
+			</td>
+		</tr>
+		<tr class='even'>
+			<td>
+				<b>{form.country}*</b>
+			</td>
+			<td>{country_list}</td>
+		</tr>
+
+		<!-- Used only for registration -->
+
+		<!-- BEGIN NO_ATTENDEE -->
+		<input type='hidden' name="requirements" value="{User->requirements}" />
+		<input type='hidden' name="cv" value="{User->cv}" />
+		<!-- END NO_ATTENDEE -->
+
+		<!-- BEGIN ATTENDEE -->
+		<tr class='odd'>
+			<td>
+				<b>{db.user_requirements}</b>
+			</td>
+			<td>
+				<textarea name="requirements" rows='4' cols='40'>{User->requirements}</textarea>
+			</td>
+		</tr>
+
+		<tr class='even'>
+			<td>
+				<b>{db.user_cv}</b>
+			</td>
+			<td>
+				<textarea name="cv" rows='4' cols='40'>{User->cv}</textarea>
+			</td>
+		</tr>
+		<!-- END ATTENDEE -->
+
+		<!-- BEGIN TOPICS -->
+		<tr class='odd'>
+			<td>
+				<b>{form.topics}*</b>
+				<br />
+				<font size="small"> {def.choose_topics_instr}</font>
+			</td>
+			<td>{topic_list}</td>
+		</tr>
+		<!-- END TOPICS -->
+
+	</table>
+
+<!--  BEGIN REGISTRATION_QUESTION -->
+<h2>{form.additional_questions}  (<a id="display-questions" href="javascript:toggle('questions');">hide</a>)</h2>
+
+<div id="questions" style="display: block">
+
+{author.questions_are_mandatory}.
+
+		<table border='1' width="100%">
+			<tr class='header'>
+				<th colspan='2'>{form.questions_header}</th>
+			</tr>
+
+    <!--  BEGIN QUESTION -->
+			<tr class='even'>
+				<td><b>{author.{question}}</b></td>
+				<td>
+				{CHOICES}
+				</td>
+			</tr>
+    <!--  END QUESTION -->
+		</table>
+		</div>
+		<!--  END REGISTRATION_QUESTION -->
+		
+	<input type='submit' name="insert" value="{form.submit}" />
+</form>

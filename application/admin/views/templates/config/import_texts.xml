@@ -1,0 +1,47 @@
+
+{admin_local_menu}
+
+
+<h1>{admin.import_texts_title}</h1>
+
+<div>
+
+<p>You must provide a MyReview translation file. Once uploaded, 
+MyReview will import the translations in the database and they
+will become readily available.
+ </p>
+
+<div>
+<form action="{base_url}/admin/config/doimport" enctype='multipart/form-data'
+	method="post">
+	<table cellspacing="2">
+
+		<tr>
+			<td nowrap='1'>
+				Choose your translation file</td>
+			<td>
+				<input type='file' name="translation" size='40' />
+
+			</td>
+		</tr>
+
+		<tr>
+			<td nowrap='1'>
+				Do you want to import the English text as well?</td>
+			<td>
+				No: <input type='radio' name="importEnglish" value='0' checked='1'/>
+				Yes: <input type='radio' name="importEnglish" value='1'/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan='2'>
+				<input type='submit' value='Upload' />
+			</td>
+		</tr>
+</table>
+</form>
+</div>
+</div>
+       

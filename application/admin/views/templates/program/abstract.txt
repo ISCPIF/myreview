@@ -1,0 +1,19 @@
+
+01, R02, P01 : numérotation générique des communications orales, 
+réserve orales (à la suite des orales), posters
+
+<!-- BEGIN day -->
+<!-- BEGIN session -->
+{conf_session_name}
+
+<!-- BEGIN paper -->
+{paper_position}
+{paper_title}
+{paper_authors}
+{authors_affiliations}
+<!-- BEGIN abstract -->
+{section_name}. {abstract_content}
+<!-- END abstract -->
+<!-- END paper -->
+<!-- END session -->
+<!-- END day -->

@@ -1,0 +1,40 @@
+
+<h2 class="title bg1">{reviewer.add_message}</h2>
+<div class="content">
+	<p>
+		{reviewer.invite_message}.
+		<center>
+		<i>{Paper->title}</i>, {Paper->authors}		
+		</center>
+		</p>
+		<br/>
+		<p>
+		<!--  BEGIN parent_message -->
+		{reviewer.parent_message}: {Message->message} ({message_author}).
+		<!--  END parent_message -->		
+	</p>
+	
+		<form action="{base_url}/reviewer/paper" method="post">
+			<input type='hidden' name='form_message' value='1' />
+			<input type='hidden' name='id_user' value='{id_user}' />
+			<input type='hidden' name='id_parent' value='{id_parent}' />
+			<input type='hidden' name='id_paper' value='{id_paper}' />
+			<input type='hidden' name='form_message' value='1' />
+
+			<table>
+					<tr>
+					<th>{reviewer.your_message}</th>
+					<td>
+						<textarea name='message' cols='60' rows='10'></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type='submit' value='{def.submit}' />
+					</td>
+				</tr>
+			</table>
+		</form>
+
+</div>

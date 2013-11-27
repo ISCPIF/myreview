@@ -1,0 +1,56 @@
+<!-- JavaScript function to toggle the status of papers  -->
+<script language="JavaScript1.2" src="{base_url}/js/TogglePaperStatus.js"></script>
+
+
+{admin_local_menu}
+
+<p>
+{initial_message}
+</p>
+
+<p>
+Papers are sorted by <i>session</i> whenever they are assigned.
+Unsigned papers can be sorted  by 
+<a href="{base_url}/admin/program/assign?sort_status=1">status</a>
+or by <a href="{base_url}/admin/program/assign?sort_topic=1">topic</a>.
+</p>
+
+<h1>Assignment to sessions</h1>
+
+
+<form action="{base_url}/admin/program/assign" method="post">
+<input type='submit' value='Validate the conf. session assignment'/>
+<input type='hidden' name='form_assign_session' value='1'/>
+
+<table border='3'>
+<tr class='header'>
+  <th>Title, authors</th>
+   <th>Camera-ready files</th>
+  <th>Conference session, position</th>
+</tr>
+
+<!-- BEGIN PAPER_DETAIL -->
+<tr class='{css_class}'>
+<td><b>{paper_id}</b> - {paper_title}, {paper_authors}
+ (<a href="{base_url}/admin/mail/freemail?to={paper_email_contact}&amp;mailType={someUser}">
+          Mail author</a>)
+ <br/>
+<b>Status</b>: {paper_status}<br/>
+<b>Topic</b>: {paper_topic}<br/>
+</td>
+<td>{download_link}</td>
+
+  <!-- Present the list of sessions when an assignment 
+             must be done -->
+    <td nowrap='1'>{session_list}
+           <input type='text' size='3' maxsize='3' 
+		name='position_in_session[{paper_id}]' 
+	               VALUE='{paper_position_in_session}'/>	
+    </td>
+</tr>
+
+<!-- END PAPER_DETAIL -->
+
+</table>
+
+</form>

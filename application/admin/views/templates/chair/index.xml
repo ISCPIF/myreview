@@ -1,0 +1,120 @@
+<!-- JavaScript function to toggle the status of papers  -->
+<script language="JavaScript1.2" src="{base_url}/js/TogglePaperStatus.js"></script>
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+
+{admin_local_menu}
+
+<p>
+{initial_message}
+</p>
+<h1>{admin.manage_submission_menu}</h1>
+
+<ol>
+<li><a href="{base_url}/admin/chair/submitted">List of submitted papers.</a>
+   Shows the list of current submissions.
+</li>
+<li><a href="{base_url}/admin/chair/authors">List of authors.</a>
+   Shows the list of people that submitted one or several papers.
+</li>
+  <li><a href="{base_url}/admin/chair/closesubmission">Close the submission 
+                      phase</a>
+      This will prevent any additional submission by keeping users
+      any access to  the submission form.
+  </li>
+
+  <li><a href="{base_url}/admin/chair/impersonate">Impersonate another user.</a>
+      Take the identity of another user. 
+  </li>
+  </ol>
+
+<h1>{admin.manage_assignment_menu}</h1>
+
+<ol>
+<li>
+<a href="{base_url}/admin/chair/computeprefs">Compute preferences and conflicts.</a>
+This option must be run when the submission phase is over. It computes an estimate
+  of the preferences and conflicts of reviewers wrt the set of submitted papers.
+  (NB: not useful in case of topic-based assignment).
+</li>
+ <li><a href="{base_url}/admin/mail/askprefs">Send
+         a mail to reviewers, asking for their preferences on the submitted papers</a>
+      This invites reviewers to browse through the list of submitted papers, in order
+       to provide a level of preference for each.  (NB: not useful in case of topic-based assignment).
+  </li>
+ 
+<li><a href="{base_url}/admin/chair/computeassignment">Compute the 
+             automatic assignment of papers.</a> This function
+             determines an optimal assignment of papers to reviewers, based
+          either   on the reviewers bids (preference-based) or on the topics (topic-based).
+</li>
+<li><a href="{base_url}/admin/chair/showassignment">
+          Manual assignment - check and modify.</a> You can manually
+            adjust the paper assignments.
+</li>
+<li><a href="{base_url}/admin/mail/askreviews">Start the reviewing phase</a>.
+      This sends a mail to all reviewers, with review instructions. Should
+       be done once the assignments are completed. 
+  </li>
+  </ol>
+  
+<h1>{admin.manage_selection_menu}</h1>
+
+<ol>
+  <li><a href="{base_url}/admin/chair/paperstatus">Status of papers</a>. 
+      Monitor the reviewing process and assign a status to papers.
+  </li>
+  
+  <!-- BEGIN PAPER_CLASSIFICATION -->
+    <li>
+     <a href="{base_url}/admin/chair/accepted?status={PaperStatus->id}">
+      List of papers with status "{PaperStatus->label}"</a>
+      [<a href="{base_url}/admin/chair/accepted?status={PaperStatus->id}&amp;format=text">list in plain text</a>]
+   </li>
+<!-- END PAPER_CLASSIFICATION -->
+
+<!-- 
+  <li><a href="{base_url}/admin/chair/accepted">List of accepted papers</a>. 
+      A paper is considered as 'accepted' if the camera-ready field
+      of its status is set to 'Y'.
+  </li>
+-->
+
+<li><a href="{base_url}/admin/mail/notify">Send the notification message to all
+     authors.</a>
+     This sends a message to all contact authors, with a notification of their 
+       submission status and the anonymous reviews.
+</li>
+
+<!--  
+<li><a href="{base_url}/admin/chair/closeselection">Close the selection phase.</a>
+     This keeps reviewers from accessing the review forms.
+     -->
+</ol>
+
+
+<h1>{admin.free_mail_menu}</h1>
+
+<ol>
+
+<li><a href="{base_url}/admin/mail/freemail?mailType={all_reviewers}">
+   Send a free message to all
+     reviewers.</a>
+     This shows a form that lets you enter a message to all reviewers.
+</li>
+
+<li><a href="{base_url}/admin/mail/freemail?mailType={all_authors}">
+   Send a free message to all
+     authors.</a>
+     This shows a form that lets you enter a message to the contact authors of all the submissions.
+</li>
+
+<li><a href="{base_url}/admin/mail/freemail?mailType={all_authors_accepted}">
+   Send a free message to the
+     authors of accepted submissions.</a>
+     This shows a form that lets you enter a message to  the contact authors of all the submissions
+     whose final status is 'Accept' (i.e., the 'camera ready option' is set to 'Yes').
+</li>
+</ol>

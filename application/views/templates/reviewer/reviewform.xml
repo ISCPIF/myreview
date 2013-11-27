@@ -1,0 +1,19 @@
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/myreview.js"></script>
+
+<h1>{reviewer.your_review} --  <i>{Paper->title}</i>,
+<i> {Paper->authors}</i></h1>
+
+
+<div id="abstract-{Paper->id}" style="display:none">
+<ul>
+    <!-- BEGIN SECTION -->
+      <li><b>{author.{AbstractSection->section_name}}</b>: {Abstract->content}</li>
+      <!-- END SECTION -->
+</ul>
+</div>
+
+<h3>{reviewer.edit_your_review}</h3>
+
+{review_form}

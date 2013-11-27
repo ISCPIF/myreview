@@ -1,0 +1,9 @@
+
+<h1>{author.create_account_header}</h1>
+
+<p>
+{author.create_account_instructions}
+</p>
+
+{form_user}
+ 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<{trSpace}:translations lang="{lang}">
+
+	<!-- neuma export for language: {lang} -->
+
+	<!-- BEGIN namespace -->
+	<{trSpace}:namespace id="{nspace}">
+
+		<!-- BEGIN text -->
+		<{trSpace}:text id="{tcode}">
+			<!--
+				This is the English reference text for this text code. Do not change
+			-->
+			<{trSpace}:translation lang='en'>
+				{the_text}
+	    </{trSpace}:translation>
+			<!-- This is the current translation for language {lang}.  -->
+			<{trSpace}:translation lang='{lang}'>
+				{the_translation}
+	    </{trSpace}:translation>
+		</{trSpace}:text>
+
+		<!-- END text -->
+
+	</{trSpace}:namespace>
+
+	<!-- END namespace -->
+
+</{trSpace}:translations>

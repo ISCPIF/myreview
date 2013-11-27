@@ -1,0 +1,19 @@
+<table border='1'>
+<tr class='header'><th>Email</th><th>Name</th>
+  <th>Affiliation</th>
+  <th>Address</th>
+  <th>Topics</th>
+  <th>Roles</th>
+</tr>
+<!-- BEGIN MEMBER -->
+<tr class='{css_class}'>
+<td>{User->email}</td>
+<td>{User->first_name} {User->last_name}</td>
+ <td>{User->affiliation}</td>
+<td>{User->address}, {User->city}, {User->zip_code}. {User->country}</td>
+<td>{User->topics}</td>
+<td>{User->roles}</td>
+</tr>
+<!-- END MEMBER -->
+
+</table>

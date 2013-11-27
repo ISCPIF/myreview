@@ -1,0 +1,25 @@
+<table border='1'>
+<tr class='header'><th>Email</th><th>Name</th>
+  <th>Affiliation</th>
+  <th>Address</th>
+  <th>Choices</th>
+  <th>Cv</th>
+    <th>Special needs</th>
+  </tr>
+<!-- BEGIN ATTENDEE -->
+<tr class='{css_class}'>
+<td>{User->email}</td>
+<td>{User->first_name} {User->last_name}</td>
+ <td>{User->affiliation}</td>
+<td>{User->address}, {User->city}, {User->zip_code}. {User->country}</td>
+<td>{choices}</td>
+<td>{User->cv}</td>
+<td>{User->requirements}</td>
+</tr>
+<!-- END ATTENDEE -->
+
+</table>
+
+
+<!-- BEGIN GROUPS_LINKS -->
+<!-- END GROUPS_LINKS -->

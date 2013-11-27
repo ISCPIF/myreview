@@ -1,0 +1,50 @@
+<!-- Template for the list of papers to rate -->
+
+<div>
+
+<script language="JavaScript1.2" src="{base_url}/js/myreview.js"></script>
+
+<form action="{base_url}/reviewer/bids" method="post">
+<input type='hidden' name='iMin' value='{IMIN_CUR}'/>
+<input type='hidden' name='iMax' value='{IMAX_CUR}'/>
+
+{bids_message}
+
+<p>
+<hr/>
+<b>{reviewer.paper_group}</b>:
+<!-- BEGIN GROUPS_LINKS -->
+<a href="{base_url}/reviewer/bids?iMin={IMIN_VALUE}&amp;iMax={IMAX_VALUE}">{LINK}</a>
+<!-- END GROUPS_LINKS -->
+<hr/>
+</p>
+<input type="submit" value="{reviewer.validate_preferences}"/>
+
+<table border='1' cellspacing='2' cellpadding='2'>
+<tr class='header'>
+  <th>{db.paper_title}</th><th>{db.paper_authors}</th><th>{reviewer.preference}</th>
+</tr>
+
+<!-- BEGIN PAPER -->
+<tr class='{css_class}'>
+ <td>{Paper->title}
+     (<a id="display-abstract-{Paper->id}" 
+     href="javascript:toggle('abstract-{Paper->id}');">show</a>)
+
+<div id="abstract-{Paper->id}" style="display:none">
+<ul>
+    <!-- BEGIN SECTION -->
+      <li><b>{author.{AbstractSection->section_name}}</b>: {Abstract->content}</li>
+      <!-- END SECTION -->
+</ul>
+</div>
+
+  </td>
+ <td>{Paper->authors}</td>
+ <td>{list_bids}</td>
+</tr>
+<!-- END PAPER -->
+
+</table>
+</form>
+</div>

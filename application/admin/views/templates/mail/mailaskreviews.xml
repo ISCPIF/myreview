@@ -1,0 +1,32 @@
+<p>
+Dear {User->first_name},
+</p>
+<p> 
+Time has come for the paper review process of the {Config->confAcronym}
+conference. So far {Config->nb_papers} papers have been submitted.
+Here are the instruction on downloading the papers 
+that you have been assigned, as well as how to provide you reviews:
+</p>
+<ol>
+   <li> First log in the system at {Config->submissionURL}.</li>
+   <li> Access the reviewer console.</li>
+     <li>PLEASE CHECK that
+         you can properly download and print each assigned paper.</li>  
+    <li>Each paper in your list comes with a "Submit my review" link. Use it
+         to access your review form. You can return latter and
+         modify you review if needed.</li>
+ </ol>
+ <p>
+If we have assigned a paper to you which you feel is a conflict of
+interest, please let us know right away and we will correct the problem.
+</p>
+<p>
+Recall that the deadline for submitting your review is the {Config->reviewDeadline} 
+Please don't be in late, since we must provide sufficient time for 
+discussion between the reviewers in order to resolve any 
+significant differences between the reviews.
+</p>
+<p>
+{Config->chair_names} <br/>
+{Config->confAcronym}
+</p>

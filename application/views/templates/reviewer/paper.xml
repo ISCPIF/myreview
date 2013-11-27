@@ -1,0 +1,71 @@
+<div>
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/myreview.js"></script>
+
+<p>
+{initial_message}
+</p>
+
+<!--  Link to the paper status page, for admins only -->
+<!-- BEGIN paper_status_link -->
+<p>
+<b>For PC chairs</b>: follow <a href="{base_url}/admin/chair/paperstatus#{Paper->id}">this link</a> to get back to the paper status list.
+</p>
+<!-- END paper_status_link -->
+<p>
+{reviewer.welcome_to_discussion}
+</p>
+
+<h1>{reviewer.paper_detail_header}</h1>
+
+<b>{db.paper_title}</b>: <i>{Paper->title}</i>,  {Paper->authors}
+
+  <h2>{reviewer.discussion_header}</h2>
+    
+   <!-- During discussion phase, propose a forum  -->
+    <p>
+   <a 
+     href="{base_url}/reviewer/message?id_paper={Paper->id}">{reviewer.add_message}</a>
+   </p>
+     
+     <ul>
+     <!-- BEGIN message -->
+     <li><b>{User->first_name} {User->last_name}</b>: {Message->message}
+         (<a href="{base_url}/reviewer/message?id_parent={Message->id}&amp;id_paper={Paper->id}">
+              {reviewer.add_child_message}</a>)</li>
+     <!-- END message -->
+  </ul>
+<h2>{reviewer.reviews_header}</h2>
+
+<p>
+<a href="{base_url}/reviewer/reviewform?id_paper={Paper->id}">{reviewer.update_review}</a>.
+</p>
+
+    <a id="display-review-{Paper->id}" href="javascript:toggle('review-{Paper->id}');">show</a>
+    {reviewer.all_reviews}.
+    
+   
+<!--This div contains the current review for the current paper. Only shown when the user requires it -->
+<div id="review-{Paper->id}" style="display:none">
+
+<!-- BEGIN review -->
+<h4>{User->first_name} {User->last_name}</h4>
+<ol>
+<li><b>{db.review_overall}</b>: {Review->overall}</li>
+
+<!-- BEGIN review_mark  -->
+<li> <b>{Criteria->label}</b> : {ReviewMark->mark}</li>
+<!-- END review_mark -->
+<li><b>{db.review_summary}</b>: {Review->summary}</li>
+<li><b>{db.review_details}</b>: {Review->details}</li>
+<!-- BEGIN review_answer  -->
+<li><b>{reviewer.{ReviewQuestion->question_code}}</b> : {RQChoice->choice}</li>
+<!-- END review_answer -->
+<li><b>{db.review_comments}</b>: {Review->comments}</li>
+<li><b>{db.review_ext_reviewer_name}</b>: 
+   {Review->fname_ext_reviewer} {Review->lname_ext_reviewer}</li>
+</ol>
+<!-- END review -->
+</div>
+
+</div>

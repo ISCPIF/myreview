@@ -1,0 +1,89 @@
+<!-- Template for the list of submitted papers -->
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+
+{admin_local_menu}
+
+
+<h1>List of the current submissions</h1>
+
+<!-- BEGIN SHOW_SELECTION_FORM -->
+You can choose to <a href="{base_url}/admin/chair/submitted?show_selection_form=1">show
+ the selection form</a>. It will allow you to select a subset of papers.
+<!-- END SHOW_SELECTION_FORM -->
+
+<!-- BEGIN SELECTION_FORM -->
+<h3>Set the current selection</h3>
+
+<p>
+Use the following form to get a selection of submitted
+papers.
+</p>
+
+{FORM_SELECT_PAPERS}
+
+You can choose to <a href="{base_url}/admin/chair/submitted?hide_selection_form=1">hide the above
+selection form</a>. You will be able to display it again at any moment.
+
+<!-- END SELECTION_FORM -->
+
+<h3>Papers in the current selection</h3>
+
+<table border='3' cellspacing='2' cellpadding='2'>
+<tr class='header'>
+  <th><font color='white'>Title, authors, password</font></th>
+  <th><font color='white'>Reviewers</font></th>
+  <th colSpan='4'><font color='white'>Actions</font></th>
+</tr>
+
+<!-- BEGIN PAPER_DETAIL -->
+<tr class='{css_class}'>
+<a name="{Paper->id}"></a>
+<td><b>{Paper->id}</b> - {Paper->title}, {Paper->authors}
+	   <a href="#{Paper->id}"
+onClick="ShowWindow('{base_url}/author/showinfo?id_paper={Paper->id}&idSession={Session->id}&noReview=1&noForum=1');">
+                 (infos)</a>
+</td>
+
+<td>
+  <!-- BEGIN REVIEWER -->
+    {User->first_name} {User->last_name} 
+    <a href='#{Paper->id}' 
+ onClick="ConfirmAction('Remove assignment of reviewer {User->first_name} {User->last_name}\n from paper {Paper->id}?', 
+           '{base_url}/admin/chair/submitted?instr=removeReviewer&amp;id_user={User->id}&id_paper={Paper->id}')">
+      (Remove)
+    </a>
+    <br/>
+  <!-- END REVIEWER -->
+</td>
+
+<td>
+<ol>
+     <!-- BEGIN DOWNLOAD -->
+     <li><b>File</b>: {reviewer.{RequiredFile->file_code}} --
+           <!-- BEGIN DOWNLOAD_LINK -->
+           <a href="{base_url}/author/download?id_paper={Paper->id}&amp;id_file={RequiredFile->id}">{form.download}</a>
+           <!-- END DOWNLOAD_LINK -->
+    </li>
+    <!-- END DOWNLOAD -->
+    </ol>
+  </td>
+
+
+ <td><a href='#{Paper->id}' 
+           onClick="ConfirmAction('Remove paper {Paper->id}\n and its reviews', 
+           '{base_url}/admin/chair/submitted?idPaper={Paper->id}&instr=remove')">
+      Remove
+    </a>
+  </td>
+
+
+<td><a href="{base_url}/admin/mail/freemail?to={Paper->emailContact}&amp;mailType={mailType}">Mail authors</a></td>
+</tr>
+
+<!-- END PAPER_DETAIL -->
+
+</table>
+

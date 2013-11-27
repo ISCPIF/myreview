@@ -1,0 +1,45 @@
+<!-- Template for the list of papers to rate -->
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+
+{admin_local_menu}
+ 
+<h1>List of authors</h1>
+
+<hr/>
+<p>
+<b>Groups of authors</b>:
+<!-- BEGIN GROUPS_LINKS -->
+<a href="{base_url}/admin/chair/authors?iMin={IMIN_VALUE}&iMax={IMAX_VALUE}">{LINK}</a>
+<!-- END GROUPS_LINKS -->
+</p>
+<hr/>
+
+<table border='1' cellspacing='2' cellpadding='2'>
+<tr class='header'>
+  <th>Author's name</th><th>Affiliation</th><th>Submitted papers</th>
+</tr>
+
+<!-- BEGIN AUTHOR -->
+<tr class='{css_class}'>
+ <td>{User->first_name} {User->last_name}</td>
+  <td>{User->affiliation}</td>
+  <td><ol>
+
+  <!-- BEGIN PAPER -->
+  <li>{Paper->title}
+	   <a href="#{Paper->id}"
+onClick="ShowWindow('{base_url}/author/showinfo?id_paper={Paper->id}&noForum=1');">
+                 (infos)</a>
+                 </li>
+    <!-- END PAPER -->
+     </ol>
+  </td>
+</tr>
+<!-- END AUTHOR -->
+
+</table>
+
+

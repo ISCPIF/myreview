@@ -1,0 +1,101 @@
+<form method='POST' action='{action}' NAME='Form'>
+
+	<table border='1'>
+	<tr class='header'>
+	<td colspan='6'>Search criteria</td>
+	</tr>
+		<tr class='even'>
+			<td>
+				<b>Title contains:</b>
+			</td>
+			<td>
+				<input type='TEXT' NAME="spTitle" VALUE="{PAPERS_WITH_TITLE}"
+					SIZE='20' MAXLENGTH='30' />
+			</td>
+			<td>
+				<b>Authors contains:</b>
+			</td>
+			<td>
+				<input type='TEXT' NAME="spAuthor" VALUE="{PAPERS_WITH_AUTHOR}"
+					SIZE='20' MAXLENGTH='30' />
+			</td>
+			<td>
+				<b>Uploaded files?</b>
+			</td>
+			<td> {SP_UPLOADED}</td>
+		</tr>
+
+		<tr class='odd'>
+			<td>
+				<b>Status</b>
+			</td>
+			<td>{SP_STATUS}</td>
+			<td>
+				<b>Filter</b>
+			</td>
+			<td>
+				{SP_FILTER}
+				<input type='text' name="spRate" value="{SP_RATE}" size='4'
+					maxlength='4' />
+					</td>
+				<td>
+					<b>Reviewer</b>
+					<td>
+						{SP_REVIEWERS}</td>
+				</td>
+			</tr>
+			<tr class='even'>
+				<td>
+					<b>Topic</b>
+				</td>
+				<td>
+					{SP_TOPICS}</td>
+
+					<td>
+						<b>Conflicting papers</b>
+					</td>
+					<td>
+						{SP_CONFLICTS}</td>
+
+						<td>
+							<b>Missing reviews</b>
+						</td>
+						<td>{SP_MISSING}</td>
+			</tr>
+			<!-- Paper questions -->
+			<!-- BEGIN ALL_QUESTIONS -->
+			<tr class='header'>
+				<td colspan='5'>
+					<b>Submission questions</b>
+				</td>
+				<td>
+					<b>Answer</b>
+				</td>
+			</tr>
+			<!-- BEGIN PAPER_QUESTION -->
+			<tr class='even'>
+				<td colspan='5'>{QUESTION}</td>
+				<td>{CHOICES}</td>
+			</tr>
+			<!-- END PAPER_QUESTION -->
+			<tr class='header'>
+			<td colspan='5'>
+				<b>Review questions</b>
+			</td>
+			<td>
+				<b>Answer</b>
+			</td>
+			</tr>
+			<!-- BEGIN REVIEW_QUESTION -->
+			<tr class='odd'>
+				<td colspan='5'>{QUESTION}</td>
+				<td>{CHOICES}</td>
+			</tr>
+			<!-- END REVIEW_QUESTION -->
+			<!-- END ALL_QUESTIONS -->
+
+	</table>
+
+	<input type='submit' name="Submit" VALUE="Go" />
+
+</form>

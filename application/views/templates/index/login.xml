@@ -1,0 +1,51 @@
+
+<!--  BEGIN MESSAGE -->
+<font color='red'>{login_message}</font>
+<!--  END MESSAGE -->
+
+<table width="99%">
+<tr>
+<td width="45%" valign='top'>
+  <h2>{def.login_welcome}</h2>
+  <hr/>
+  
+  <p>
+   {def.login_info}
+   </p>
+   
+       <form action="{base_url}/index/login" method="post">
+       <input type="hidden" name="requestedUrl" value="{requestedUrl}"/>
+       
+     <table>
+       <tr> <th>   {def.login} </th>
+       <td>       <input type='text' name='email' value='{email}' size='30'/></td>
+       </tr>
+       <tr> <th>   {def.password} </th>
+       <td>       <input type='password' name='password' size='30'/></td>
+       </tr>
+       <tr><td align='center' colspan='2'>  
+           <input type='submit' value='{def.submit}'/>
+              </td>
+       </tr>
+      </table>
+      </form>
+      
+            {def.password_forgotten} <a href="{base_url}/index/lostpassword">{def.follow_this_link}</a>
+  
+</td>
+<td  width="45%"  valign='top'>
+
+
+ <h2>{def.create_account}</h2>
+ <hr/>
+
+<p>
+   {def.create_account_info}
+</p>
+<center>
+   <a href="{base_url}/index/createaccount">{def.form_account_info}</a>
+</center>  
+</td>
+</tr>
+</table>
+

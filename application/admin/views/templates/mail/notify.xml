@@ -1,0 +1,37 @@
+
+<script language="JavaScript1.2" src="{base_url}/js/myreview.js"></script>
+
+This will send a mail to each author, based on the following
+templates:
+
+<table border='1' cellpadding='4'>
+<!-- BEGIN TEMPLATE --> 
+<tr class="{css_class}">
+ <td>
+  <tt>{PaperStatus->mailTemplate}</tt> 
+   (<a id="display-template-{PaperStatus->id}" href="javascript:toggle('template-{PaperStatus->id}');">show</a>)<br/>
+  for papers with status "{PaperStatus->label}"  
+  </td>
+  <td width="80%">
+    &nbsp; 
+<div id="template-{PaperStatus->id}" style="display:none">
+  <pre>{template_content}</pre>
+</ul>
+</div>
+  </td>
+ </tr>
+<!-- END TEMPLATE -->
+</table>
+<p>In all cases the anonymous reviews will be joined.
+</p>
+<p>
+<b>VERY IMPORTANT</b>: check these templates if you do not
+trust them. You can also
+<a href="{base_url}/admin/mail/notify?export=1">get a text file with all the notification mails</a>.
+</p>
+<p>
+Everyhing  is checked. Ok:
+<center>
+<a href="{base_url}/admin/mail/notify?confirmed=1">send all the notification mails</a>
+</center>
+</p>

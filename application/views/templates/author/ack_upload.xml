@@ -1,0 +1,15 @@
+<h1>{author.ack_upload_header}</h1>
+
+<p>{author.ack_upload}</p>
+
+ <ol>
+ <!--  BEGIN FILE -->
+<li>
+  <b>{author.{RequiredFile->file_code}}</b>: 
+    {author.file_description}
+</li>
+<!-- END FILE -->
+</ol>
+<p>
+{author.recall_submission_deadline}
+</p>

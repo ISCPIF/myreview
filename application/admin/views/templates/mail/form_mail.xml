@@ -1,0 +1,38 @@
+<h1>Send a mail</h1>
+
+<p>
+Please enter a subject and a message body. Both are mandatory.
+</p>
+
+<center>
+<form  method='post' action='{base_url}/admin/mail/send' name='Form'><table >
+<tr class='odd'>
+
+<td></td>
+<td><input type='hidden' name="sendmail" value="1"/></td>
+<td><input type='hidden' name="to" value="{to}"/></td>
+<td><input type='hidden' name="mailType" value="{mailType}"/></td>
+<td><input type='hidden' name="mailFormat" value="text/plain"/></td>
+</tr>
+
+<tr class='even'><td><b>To </b></td>
+<td>{to}</td>
+</tr>
+<tr class='odd'><td><b>Subject*</b></td>
+<td><input type='text' name="subject" value="{subject}" size='50' maxlength='100'/></td>
+</tr>
+<tr class='odd'><td><b>Send a copy to the PC chair?</b></td>
+<td>Yes: <input type='radio' name='copyToChair' value='Y' /> 
+     No : <input type='radio' name='copyToChair' value='N' checked='1'/> </td>
+</tr>
+
+<tr class='even'>
+<td><b>Body*</b></td>
+<td><textarea name="template" rows='20' cols='50'>{body}</textarea></td>
+</tr>
+</table>
+
+<input type='submit' name="submit" value="Send"/>
+
+</form>
+</center>

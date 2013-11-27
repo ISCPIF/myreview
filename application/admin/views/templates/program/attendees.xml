@@ -1,0 +1,67 @@
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+
+<a href='{base_url}/admin/program'>Back to the program menu</a>
+
+<hr/>
+<p>
+<b>Groups of registrations</b>:
+<!-- BEGIN GROUPS_LINKS -->
+<a href="{base_url}/admin/program/attendees?iMin={IMIN_VALUE}&iMax={IMAX_VALUE}">{LINK}</a>
+<!-- END GROUPS_LINKS -->
+</p>
+<hr/>
+
+<h3>Registrations (Sorted by Name)</h3>
+
+Registrations count: {nb_attendees}<BR>
+
+<table border='2' cellspacing='2' cellpadding='2'>
+<tr class='header'>
+  <th>Name</th>
+  <th>Position</th>
+  <th>Address</th>
+  <th>Requirements</th>
+  <th>Choices</th>
+  <th>Payment mode</th>
+  <th>Paid?</th>
+  <th>Actions</th>
+</tr>
+
+<!-- BEGIN ATTENDEE -->
+<tr class='{css_class}'>
+<a name='{User->id}'></a>
+<td>
+<a href="mailto:{User->email}">
+{User->first_name} {User->last_name}</a>
+</td>
+<td>{User->affiliation}</td>
+<td> {User->city}, {User->zip_code}, {User->country}</td>
+
+<td>{User->requirements}</td>
+<td>{choices}</td>
+<td>{User->payment_mode}</td>
+<td>{User->payment_received}</td>
+ <td nowrap='1'> 
+ <a 
+ href="{base_url}/admin/mail/freemail?to={User->email}&amp;mailType={mailType}">
+Send a mail</a>
+<br/>
+  <a href='#{PERSON_ID}' 
+ onClick="ConfirmAction('Remove registration of {User->first_name} {User->last_name}?', 
+           '{base_url}/admin/program/attendees?remove=1&id_user={User->id}')">
+      Remove
+    </a><br/>
+  <a href='#{PERSON_ID}' 
+ onClick="ConfirmAction('Do you confirm the payment for the registration of {User->first_name} {User->last_name}?', 
+           '{base_url}/admin/program/attendees?confirm_payment=1&id_user={User->id}')">
+      Confirm payment
+ </a>
+ </td>
+</tr>
+
+<!-- END ATTENDEE -->
+
+</table>
+

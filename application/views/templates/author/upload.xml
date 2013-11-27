@@ -1,0 +1,9 @@
+<h1>{author.upload_file}</h1>
+
+<p>
+	{author.upload_instructions}
+</p>
+
+<p>
+	{form_upload}	
+</p>

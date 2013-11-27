@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<CODES lang="eng">
+  <CODE name="boolean">
+    <VALUE value='Y' name='Yes'/>
+    <VALUE value='N' name='No'/>
+  </CODE>
+
+<CODE name="list_style">
+<VALUE value='myreview2.css' name='Layout 1 (default)'/>
+<VALUE value='default_wp.css' name='Layout 2'/>
+<VALUE value='mumrik.css' name='Layout 3'/>
+</CODE>
+
+  <CODE name="discussion_mode">
+    <VALUE value='1' name='None'/>
+    <VALUE value='2' name='Local'/>
+    <VALUE value='3' name='Global'/>
+  </CODE>
+
+  <CODE name="assignment_mode">
+    <VALUE value='1' name='Topic based'/>
+    <VALUE value='2' name='General'/>
+  </CODE>
+
+  <!-- Codes for the current selection form -->
+  <CODE name="conflicts">
+    <VALUE value='A' name='Any'/>
+    <VALUE value='Y' name='With conflict'/>
+    <VALUE value='N' name='Without conflict'/>
+  </CODE>
+
+  <CODE name="missing_review">
+    <VALUE value='A' name='Any'/>
+    <VALUE value='Y' name='With missing review'/>
+    <VALUE value='N' name='Without missing review'/>
+  </CODE>
+
+  <CODE name="uploaded">
+    <VALUE value='A' name='Any'/>
+    <VALUE value='Y' name='Uploaded papers'/>
+    <VALUE value='N' name='Not yet uploaded'/>
+  </CODE>
+
+  <CODE name="filters">
+    <VALUE value='0' name='Any'/>
+    <VALUE value='1' name='Above'/>
+    <VALUE value='2' name='Below'/>
+  </CODE>
+
+  <CODE name="person_title">
+    <VALUE value='1' name='Ms'/>
+    <VALUE value='2' name='Mr.'/>
+    <VALUE value='3' name='Dr.'/>
+  </CODE>
+
+  <CODE name="months">
+    <VALUE value='1' name='Jan.'/>
+    <VALUE value='2' name='Feb.'/>
+    <VALUE value='3' name='March'/>
+    <VALUE value='4' name='April'/>
+    <VALUE value='5' name='May'/>
+    <VALUE value='6' name='June'/>
+    <VALUE value='7' name='July'/>
+    <VALUE value='8' name='Aug.'/>
+    <VALUE value='9' name='Sept.'/>
+    <VALUE value='10' name='Oct.'/>
+    <VALUE value='11' name='Nov.'/>
+    <VALUE value='12' name='Dec.'/>
+  </CODE>
+
+</CODES>

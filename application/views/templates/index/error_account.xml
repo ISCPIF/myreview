@@ -1,0 +1,11 @@
+
+<h1>{def.error_account_header}</h1>
+
+{def.error_account_expl}
+
+<ol>
+<!-- BEGIN MESSAGE -->
+  <li><font color='red'>{message}</font></li>
+<!-- END MESSAGE -->
+</ol>
+{form_user}

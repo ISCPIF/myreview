@@ -1,0 +1,98 @@
+
+
+<center>
+	<form method='post' action='{base_url}/reviewer/processreview' name='Form'>
+		<input type='hidden' name="mode" value="maj" />
+		<input type='hidden' name="idPaper" value="{Paper->id}" />
+		<input type='hidden' name="idUser" value="{User->id}" />
+		<table border='1'>
+
+			<tr class='header'>
+				<th colspan='2'>Review form</th>
+			</tr>
+
+			<!-- BEGIN review_mark -->
+			<tr class='odd'>
+				<td>
+					<B>
+						{Criteria->label}
+						<P class='expl'></P>
+					</B>
+				</td>
+				<td>{list_marks}</td>
+			</tr>
+			<!-- END review_mark -->
+
+			<tr class='even'>
+				<td>
+					<B>{db.review_expertise}</B>
+				</td>
+				<td>
+					<select name="reviewerExpertise" size='1'>
+						<option value="1" {selected1}>Low</option>
+						<option value="2" {selected2}>Medium</option>
+						<option value="3" {selected3}>High</option>
+					</select>
+				</td>
+			</tr>
+			<tr class='odd'>
+				<td>
+					<B>{db.review_summary}</B>
+				</td>
+				<td>
+					<textarea name="summary" rows='5' cols='70'>{Review->summary}</textarea>
+				</td>
+			</tr>
+			<tr class='even'>
+				<td>
+					<B>{db.review_details}</B>
+				</td>
+				<td>
+					<textarea name="details" rows='15' cols='70'>{Review->details}</textarea>
+				</td>
+			</tr>
+		<tr class='header'>
+				<th colspan='2'>
+					{reviewer.additional_questions}
+				</th>
+			</tr>
+			<!-- BEGIN review_answer -->
+			<tr class='odd'>
+				<td>
+					<b>{reviewer.{ReviewQuestion->question_code}}</b>
+				</td>
+				<td>{list_choices}</td>
+			</tr>
+			<!-- END review_answer -->
+			<tr class='even'>
+				<td>
+					<B>{db.review_comments}</B>
+				</td>
+				<td>
+					<textarea name="comments" rows='4' cols='60'>{Review->comments}</textarea>
+				</td>
+			</tr>
+			<tr class='odd'>
+				<td>
+					<b>{db.review_ext_reviewer_fname}</b>
+				</td>
+				<td>
+					<input type='text' name="fname_ext_reviewer" value="{Review->fname_ext_reviewer}" size='30'
+						maxlength='60' />
+				</td>
+			</tr>
+			<tr class='even'>
+				<td>
+					<b>{db.review_ext_reviewer_lname}</b>
+				</td>
+				<td>
+					<input type='texte' name="lname_ext_reviewer" value="{Review->lname_ext_reviewer}" size='30'
+						maxlength='60' />
+				</td>
+			</tr>
+		</table>
+		<B>
+		</B>
+		<input type='submit' name="submit" value="{form.submit}"/>
+	</form>
+</center>

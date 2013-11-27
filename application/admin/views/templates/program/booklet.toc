@@ -1,0 +1,354 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Program committee}{12}{section.1}
+\contentsline {section}{\numberline {2}List of abstracts}{13}{section.2}
+\contentsline {section}{\numberline {3}Official Opening}{13}{section.3}
+\contentsline {section}{\numberline {4}Scientific session 1: Head and Neck 1}{13}{section.4}
+\contentsline {subsection}{\numberline {4.1}Brain malformations in children with syndromic craniosynostosis}{13}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Postnatal biometry of the corpus callosum in MRI: reference data}{13}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}MR imaging and neurodevelopmental spectrum in a series of children with Rhombencephalosynapsis}{14}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}The clinical and radiological presentation of preterm cerebellar haemorrhage}{15}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Subpial hemorrhage in the neonate. About 12 cases.}{15}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Creatine synthesis and transport defects: Clinical presentation, MRI and treatment in a series of 12 children}{16}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Tumefactive Demyelination in Childhood - Diagnostic Uncertainty, Predictive Imaging Features and the Pursuit of Causation}{17}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Neuroimaging in Cockayne syndrome}{17}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}Optimisation procedure for paediatric intraoperative MSCT axial protocol}{18}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}Intra-operative MRI for paediatric brain tumours - initial experience with a dedicated high-field (3T) system.}{18}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}Usefulness of surface-rendering views of cerebral MRI to the diagnosis of developmental cortical abnormalities in patients with medically intractable epilepsy.}{19}{subsection.4.11}
+\contentsline {subsection}{\numberline {4.12}MRI Findings in children with Tuberculous meningitis: a comparison of HIV infected and non-infected patients}{20}{subsection.4.12}
+\contentsline {subsection}{\numberline {4.13}A Retrospective Review of Pituitary MR Findings in Pediatric Patients on Growth Hormone (GH) Therapy}{20}{subsection.4.13}
+\contentsline {section}{\numberline {5}Uroradiology Taskforce}{21}{section.5}
+\contentsline {section}{\numberline {6}Coffee break}{21}{section.6}
+\contentsline {section}{\numberline {7}Posters Head and Neck}{21}{section.7}
+\contentsline {subsection}{\numberline {7.1}Cranial nerve enhancement in children with TBM (tuberculous meningitis): Incidence, distribution, and clinical correlation}{21}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}MULTINODULAR THYROID GLAND (MNTG) IN CHILDREN: CORRELATION OF ULTRASOUND (US) AND CLINICAL FINDINGS}{21}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}The radiological diagnosis of intracranial lipomas: about 4 cases}{22}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Optimisation of fast T2 mapping of the premature brain: a phantom study}{23}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Contribution of fetal MRI to the diagnosis of X-linked hydrocephalus: report of four cases}{23}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}Lesions of the cranial vault in children: CT and MRI findings}{24}{subsection.7.6}
+\contentsline {subsection}{\numberline {7.7}Pre- and postnatal brain MR imaging findings of an unusual case of molar tooth malformation with supratentorial heterotopia and hamartoma of the tuber cinereum}{24}{subsection.7.7}
+\contentsline {subsection}{\numberline {7.8}Bilateral optic nerve aplasia in twins}{25}{subsection.7.8}
+\contentsline {subsection}{\numberline {7.9}Multimodality imaging appearances of neonatal meningitis}{26}{subsection.7.9}
+\contentsline {subsection}{\numberline {7.10}Advancements in fetal MRI and postnatal surgical planning for central nervous system disorders}{26}{subsection.7.10}
+\contentsline {subsection}{\numberline {7.11}Ultrasound Versus Computed Tomography in Detecting of Nasal Fractures : Comparision between children and adult patients.}{27}{subsection.7.11}
+\contentsline {subsection}{\numberline {7.12}Dirt Bike Injuries in Children}{27}{subsection.7.12}
+\contentsline {subsection}{\numberline {7.13}Congenital intracranial lipomas: pre and post-natal imaging features and pitfalls.}{28}{subsection.7.13}
+\contentsline {subsection}{\numberline {7.14}The corpus callosum: normal imaging appearance, variants, and pathologic conditions}{29}{subsection.7.14}
+\contentsline {subsection}{\numberline {7.15}Effect of maturation on MRI diffusion measures on corticospinal tract (CST) in preterm newborn near term.}{29}{subsection.7.15}
+\contentsline {subsection}{\numberline {7.16}Pediatric otospongiosis}{30}{subsection.7.16}
+\contentsline {subsection}{\numberline {7.17}Review of a cohort of Rennes\IeC {\textquoteright } hospital patients with neuronal migration defects.}{31}{subsection.7.17}
+\contentsline {subsection}{\numberline {7.18}Stroke in the Neonate}{31}{subsection.7.18}
+\contentsline {subsection}{\numberline {7.19}Head and neck infections in infants and children - a pictorial essay}{32}{subsection.7.19}
+\contentsline {subsection}{\numberline {7.20}A pictorial review of Neurofibromatosis type 1.}{32}{subsection.7.20}
+\contentsline {subsection}{\numberline {7.21}First and second branchial arch syndromes: multimodality approach}{33}{subsection.7.21}
+\contentsline {subsection}{\numberline {7.22}Imaging of middle ear cholesteatoma in children}{33}{subsection.7.22}
+\contentsline {subsection}{\numberline {7.23}The New Image of the Neurodisability.}{34}{subsection.7.23}
+\contentsline {subsection}{\numberline {7.24}PHACE Syndrome : the spectrum of findings at imaging.}{34}{subsection.7.24}
+\contentsline {subsection}{\numberline {7.25}Posterior reversible encephalopathy syndrome: Two cases in children}{35}{subsection.7.25}
+\contentsline {subsection}{\numberline {7.26}Diffuse periventricular leukomalacia in preterm children: Assessment of grey matter changes by MRI.}{36}{subsection.7.26}
+\contentsline {subsection}{\numberline {7.27}Mandibular Lesions in Children; Imaging Findings on Multi-detector CT (MDCT) versus Plain Radiographs}{37}{subsection.7.27}
+\contentsline {subsection}{\numberline {7.28}Radiological aspects of microtia in 28 patients}{37}{subsection.7.28}
+\contentsline {subsection}{\numberline {7.29}Congenital sensorineural hearing impairment}{38}{subsection.7.29}
+\contentsline {subsection}{\numberline {7.30}Imaging of maxillary tumors in children}{38}{subsection.7.30}
+\contentsline {subsection}{\numberline {7.31}MRI findings in the intracranial complications of acute sinusitis: the added value of Diffusion Weighted Imaging.}{39}{subsection.7.31}
+\contentsline {subsection}{\numberline {7.32}Pictorial and literature review of septo-optic dysplasia (de Morsier's Syndrome).}{39}{subsection.7.32}
+\contentsline {subsection}{\numberline {7.33}Moya moya disease.Rare and severe case}{40}{subsection.7.33}
+\contentsline {subsection}{\numberline {7.34}Correlation of linear and volumetric measurements with clinic-radiological diagnosis of hydrocephalus in children with TBM (Tuberculous meningitis)}{41}{subsection.7.34}
+\contentsline {subsection}{\numberline {7.35}Division of the Corpus Callosum into Multiple Points for Measuring Thickness and Generating Fiber Tracts - A Semi-Automated Method for Determining Normal Values and for use as a Surrogate Marker of Hemispheric Disease}{41}{subsection.7.35}
+\contentsline {subsection}{\numberline {7.36}Ultrasound findings of congenital cervical cystic lesions, in the pediatric age}{42}{subsection.7.36}
+\contentsline {subsection}{\numberline {7.37}\IeC {\textquotedblleft }Eye (I) spy with my little eye\IeC {\textquotedblright } - ultrasound of the paediatric eye}{42}{subsection.7.37}
+\contentsline {subsection}{\numberline {7.38}Spinal ultrasound in infants suspected spinal dysraphism}{43}{subsection.7.38}
+\contentsline {subsection}{\numberline {7.39}MRI appearances of primary intracranial arachnoid cysts in infants and children}{44}{subsection.7.39}
+\contentsline {subsection}{\numberline {7.40}Nontumoral bilateral occlusion of the Monro foramina : a pediatric case report}{44}{subsection.7.40}
+\contentsline {subsection}{\numberline {7.41}Grey Matter Gliomatosis Cerebri :a new pediatric entity and MRI pattern}{45}{subsection.7.41}
+\contentsline {subsection}{\numberline {7.42}Volitional dyskinesia caused by a post-traumatic infarction of the globus pallidus in a child}{45}{subsection.7.42}
+\contentsline {subsection}{\numberline {7.43}White matter signal abnormalities on MRI in children with HIV encephalopathy}{46}{subsection.7.43}
+\contentsline {subsection}{\numberline {7.44}Cerebellum volume in children with syndromic craniosynostosis}{47}{subsection.7.44}
+\contentsline {section}{\numberline {8}Research conference: High field MRI}{47}{section.8}
+\contentsline {section}{\numberline {9}Scientific session 2: Head and Neck 2}{47}{section.9}
+\contentsline {subsection}{\numberline {9.1}Correlations between late radiological findings and long-term neurodevelopmental outcome in inflicted traumatic brain injury}{47}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Shaken Baby Syndrome: Judicial admissions highlight chronic violence}{48}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Delayed puberty or hypogonadism caused by pituitary transfusional hemochromatosis}{48}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Retinoblastoma: role of high resolution MR imaging to evaluate efficacy of chemioherapy .}{49}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Retinoblastoma: correlation between high resolution MRI and histology for optic nerve assessment prior to enucleation}{50}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Unilateral sensorineural hearing loss in children : MRI or CT first ?}{50}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}MRI in recurrent ear cholesteatomas in children}{51}{subsection.9.7}
+\contentsline {subsection}{\numberline {9.8}Thyroid cancer in children - variable sonographic presentation and difficulties in diagnosis}{52}{subsection.9.8}
+\contentsline {subsection}{\numberline {9.9}Application of an automatic computerized algorithm for the analysis of upper airways reduction in patients with Pierre Robin sequence studied by MDCT.}{52}{subsection.9.9}
+\contentsline {subsection}{\numberline {9.10}Can malignant transformation of pediatric solid gliomas be predicted with MRSI? A comparison grading between children and adults}{53}{subsection.9.10}
+\contentsline {section}{\numberline {10}Quiz Skeletal dysplasia}{54}{section.10}
+\contentsline {section}{\numberline {11}Scientific session 3: Genitourinary}{54}{section.11}
+\contentsline {subsection}{\numberline {11.1}Re-appraisal of the sonographic characteristics of the neonatal kidney}{54}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Renal cysts in tuberous sclerosis complex (TSC): patterns and significance}{54}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Contrast-enhanced, real-time volumetric ultrasound imaging of tissue perfusion: preliminary results}{55}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.4}Ultrasound (US) evaluation of peritoneal thickness in children and young patients in peritoneal dialysis (PD): a single centre experience.}{55}{subsection.11.4}
+\contentsline {subsection}{\numberline {11.5}MCUG: Are we in line with current recommendations?}{56}{subsection.11.5}
+\contentsline {subsection}{\numberline {11.6}MR Voiding cystourethrography (MRVC) for vesico-ureteric reflux in unsedated infants}{57}{subsection.11.6}
+\contentsline {subsection}{\numberline {11.7}Non-contrast enhanced MR angiography of renal arteries in pediatric patients: a feasibility study.}{57}{subsection.11.7}
+\contentsline {subsection}{\numberline {11.8}Comparison of non-contrast and contrast-enhanced MR angiography of the renal arteries in pediatric patients - initial experience.}{58}{subsection.11.8}
+\contentsline {subsection}{\numberline {11.9}Demonstration of Automated Characterization of Renal Function and Tissue Enhancement in Dynamic Magnetic Resonance Imaging (MRI) Using Factor Analysis of Dynamic Sequence (FADS).}{59}{subsection.11.9}
+\contentsline {subsection}{\numberline {11.10}Functional-morphological MR urography (MRU) - 12 years of experience from technical development to clinical practice}{59}{subsection.11.10}
+\contentsline {subsection}{\numberline {11.11}The Imaging Features of Infantile Urolithiasis Resulted From Melamine}{60}{subsection.11.11}
+\contentsline {section}{\numberline {12}Oncology Task Force}{61}{section.12}
+\contentsline {section}{\numberline {13}URO MR special session}{61}{section.13}
+\contentsline {section}{\numberline {14}Oncology Task Force}{61}{section.14}
+\contentsline {section}{\numberline {15}Coffee break}{61}{section.15}
+\contentsline {section}{\numberline {16}Posters urogenital}{61}{section.16}
+\contentsline {subsection}{\numberline {16.1}Posterior urethral valves: cystography and cystoscopy results correlation}{61}{subsection.16.1}
+\contentsline {subsection}{\numberline {16.2}Role of ultrasound in management of scrotal swelling in children}{61}{subsection.16.2}
+\contentsline {subsection}{\numberline {16.3}Intrapelvic Wilms\IeC {\textquoteright } Tumour: A Rare Entity for the Most Commonly Encountered Malignant Renal Tumour in Children}{62}{subsection.16.3}
+\contentsline {subsection}{\numberline {16.4}Herlyn-Werner-Wunderlich syndrome: Imaging findings in 13 cases}{63}{subsection.16.4}
+\contentsline {subsection}{\numberline {16.5}Inter-observer reproducibility of non contrast-enhanced MR angiography of renal arteries in pediatric patients.}{63}{subsection.16.5}
+\contentsline {subsection}{\numberline {16.6}Rare cases of scrotal blood effusion in newborn mimickers of neonatal testicular torsion}{64}{subsection.16.6}
+\contentsline {subsection}{\numberline {16.7}Antenatal ultrasonographic diagnosis of mild to moderate fetal pyelectasis is not always a significant finding for urinary tract pathology.}{64}{subsection.16.7}
+\contentsline {subsection}{\numberline {16.8}The role of catheter-free methods for vesicoureteric reflux detection in children}{65}{subsection.16.8}
+\contentsline {subsection}{\numberline {16.9}Ultrasound characterisation of the paediatric breast - a pictorial review}{66}{subsection.16.9}
+\contentsline {subsection}{\numberline {16.10}Multiple Giant Bladder Diverticula in Menkes Kinky Hair Disease.}{66}{subsection.16.10}
+\contentsline {section}{\numberline {17}Scientific session 4: Interventionnal}{67}{section.17}
+\contentsline {subsection}{\numberline {17.1}Achieving hemostasis after transhepatic portal vein access in children}{67}{subsection.17.1}
+\contentsline {subsection}{\numberline {17.2}CT-guided radiofrequency ablation of osteoid osteoma in a pediatric population : our experience in 9 children.}{67}{subsection.17.2}
+\contentsline {subsection}{\numberline {17.3}Primary aneurysmal bone cysts in children: percutaneous Ethanol injection and proposal of a vascular classification}{68}{subsection.17.3}
+\contentsline {subsection}{\numberline {17.4}Computed tomography guided RFA as a treatment method in pediatrics}{69}{subsection.17.4}
+\contentsline {subsection}{\numberline {17.5}Arterial embolisation of pulmonary sequestration in children.}{69}{subsection.17.5}
+\contentsline {section}{\numberline {18}Symposium Sickle cell Anemia}{70}{section.18}
+\contentsline {section}{\numberline {19}Research : Molecular imaging, cooperative work}{70}{section.19}
+\contentsline {section}{\numberline {20}ESPR gold medalist, Honorary Members, IPR announcement}{70}{section.20}
+\contentsline {section}{\numberline {21}Posters Interventionnal}{70}{section.21}
+\contentsline {subsection}{\numberline {21.1}Sclerotherapy with tetracycline hydrochloride (HCL) solution in treatment of solitary hepatic cyst in childhood}{70}{subsection.21.1}
+\contentsline {subsection}{\numberline {21.2}Percutaneous treatment of primary aneurysmal bone cyst by alcoholic solution of zein in 25 patients}{70}{subsection.21.2}
+\contentsline {subsection}{\numberline {21.3}How to manage treatment-resistant post-operative pelvic lymphocele in an infant - our local experience: combined percutaneous catheter drainage and transcatheter sclerotherapy}{71}{subsection.21.3}
+\contentsline {subsection}{\numberline {21.4}CT-guided percutaneous biopsy of spinal lesions in children}{72}{subsection.21.4}
+\contentsline {section}{\numberline {22}Posters antenatal}{72}{section.22}
+\contentsline {subsection}{\numberline {22.1}Can fetal MRI give prognostic criteria in gastroschisis?}{72}{subsection.22.1}
+\contentsline {subsection}{\numberline {22.2}Fetal MRI: luxury or necessity? Our experience using 0.6T open machine.}{73}{subsection.22.2}
+\contentsline {subsection}{\numberline {22.3}Fetal gastrointestinal MRI: all that glitters in T1 is not necessarily colon\IeC {\textellipsis }}{73}{subsection.22.3}
+\contentsline {subsection}{\numberline {22.4}Fetal abdominal masses as enhanced by ultrafast magnetic resonance imaging: comparison with postnatal imaging features and histologic results}{74}{subsection.22.4}
+\contentsline {subsection}{\numberline {22.5}Fetal MRI in the diagnosis of congenital lung lesions associated with diaphragmatic hernia}{75}{subsection.22.5}
+\contentsline {subsection}{\numberline {22.6}Congenital tumors: Imaging when life just begins}{75}{subsection.22.6}
+\contentsline {subsection}{\numberline {22.7}Fetal CT : When ? How ? what for ?}{76}{subsection.22.7}
+\contentsline {subsection}{\numberline {22.8}Prenatal diagnosis of intestinal malrotation with fetal MRI}{76}{subsection.22.8}
+\contentsline {subsection}{\numberline {22.9}Normal relative values of cerebral biometry in fetal magnetic resonance imaging.}{77}{subsection.22.9}
+\contentsline {subsection}{\numberline {22.10}Antenatal MRI in the diagnosis of upper abdominal foetal masses.}{78}{subsection.22.10}
+\contentsline {subsection}{\numberline {22.11}Walker Warburg syndrome: how prenatal US ocular anomalies can help to reach the diagnosis?}{78}{subsection.22.11}
+\contentsline {subsection}{\numberline {22.12}Role of MRI in diagnosis of non-CNS fetal abnormalities}{79}{subsection.22.12}
+\contentsline {subsection}{\numberline {22.13}\IeC {\textquotedblleft }Isolated\IeC {\textquotedblright } Dandy-Walker malformation (DWM) on prenatal imaging}{79}{subsection.22.13}
+\contentsline {subsection}{\numberline {22.14}Imaging findings and utility of fetal central nervous system MRI}{80}{subsection.22.14}
+\contentsline {subsection}{\numberline {22.15}Rhombencephalosynapsis (RES) prenatal imaging : retrospective multicenter study of 17 cases detected by ultrasound +/- subsequent MRI.}{81}{subsection.22.15}
+\contentsline {section}{\numberline {23}Scientific session 5: Antenatal}{81}{section.23}
+\contentsline {subsection}{\numberline {23.1}Fetal body MRI - comparison to prenatal ultrasound and postnatal findings}{81}{subsection.23.1}
+\contentsline {subsection}{\numberline {23.2}Impact of maternal sedation on quality of fetal cerebral MRI}{82}{subsection.23.2}
+\contentsline {subsection}{\numberline {23.3}Distortion of the anterior part of the interhemispheric fissure. Significance and impact on prenatal diagnosis.}{82}{subsection.23.3}
+\contentsline {subsection}{\numberline {23.4}Prenatally Diagnosed Congenital Lobar Hyperinflation (CLO)- Not Uncommon and Non Surgical Management is Feasible}{83}{subsection.23.4}
+\contentsline {subsection}{\numberline {23.5}Sonographic evaluation of the fetal pancreas}{83}{subsection.23.5}
+\contentsline {subsection}{\numberline {23.6}Abnormal fetal hepatic signal on MRI}{84}{subsection.23.6}
+\contentsline {subsection}{\numberline {23.7}When will multidetectorCT (MDCT) of the fetus improve prenatal management: a retrospective survey; 7 years experience, 150 cases.}{85}{subsection.23.7}
+\contentsline {subsection}{\numberline {23.8}Prenatal imaging characterization of congenital bronchopulmonary malformations (BPM)}{85}{subsection.23.8}
+\contentsline {section}{\numberline {24}ESPR and J Lefebvre Lecture}{86}{section.24}
+\contentsline {section}{\numberline {25}Coffee break}{86}{section.25}
+\contentsline {section}{\numberline {26}Posters cardiovascular}{86}{section.26}
+\contentsline {subsection}{\numberline {26.1}Is Diastolic Dysfunction in treated Tetralogy of Fallot (TOF) patients related to pure volume overload or is it secondary to other associated abnormalities?}{86}{subsection.26.1}
+\contentsline {subsection}{\numberline {26.2}MR IMAGING APPEARANCES OF ANOMALOUS PULMONARY VENOUS DRAINAGE - A PICTORIAL REVIEW}{87}{subsection.26.2}
+\contentsline {subsection}{\numberline {26.3}Hemangiomas revisited: the useful, the unusual and the new.}{87}{subsection.26.3}
+\contentsline {subsection}{\numberline {26.4}Tietze syndrome in infants and young children: Clinical and imaging findings}{88}{subsection.26.4}
+\contentsline {subsection}{\numberline {26.5}Anomalous Left Coronary Artery from the Pulmonary Artery (ALCAPA):A rare cause of heart failure in children}{88}{subsection.26.5}
+\contentsline {subsection}{\numberline {26.6}Comparison of Ergospirometry (ESM) with cardiac Magnetic Resonance imaging (cMRI) in patients with surgically repaired tetralogy of fallot (TOF)}{89}{subsection.26.6}
+\contentsline {subsection}{\numberline {26.7}CMR and Echo assessment of right ventricle function and venous pathway obstruction after atrial switch operation (Senning procedure)}{89}{subsection.26.7}
+\contentsline {subsection}{\numberline {26.8}Cardiac MRI of transposition of the great vessels: a review of MRI appearance of normal and abnormal, pre and post operative findings and of long term complications.}{90}{subsection.26.8}
+\contentsline {subsection}{\numberline {26.9}Long-term follow-up of large atrial septal occluder (Amplatzer device) with cardiac MR imaging in a pediatric population}{91}{subsection.26.9}
+\contentsline {subsection}{\numberline {26.10}The difficulties of ultrasound diagnostics of non-compact myocardium in children with underlying carditis}{91}{subsection.26.10}
+\contentsline {section}{\numberline {27}Posters Chest}{92}{section.27}
+\contentsline {subsection}{\numberline {27.1}Tracheobronchial stenoses by vascular anomalies: role of multislice CT}{92}{subsection.27.1}
+\contentsline {subsection}{\numberline {27.2}Congenital Lung Lesions and their mimickers}{92}{subsection.27.2}
+\contentsline {subsection}{\numberline {27.3}Severe respiratory and neurological presentation of H1N1 in pediatric patients}{93}{subsection.27.3}
+\contentsline {subsection}{\numberline {27.4}A new CT scorig system to detecting clinically relevant changes in pediatric patients with cystic fibrosis}{93}{subsection.27.4}
+\contentsline {subsection}{\numberline {27.5}Chest CT imaging interpretation in young patients with cystic fibrosis (CF): comparison of axial versus spiral HRCT}{94}{subsection.27.5}
+\contentsline {subsection}{\numberline {27.6}Congenital cystic pulmonary malformations (CCPM) diagnosed antenatally: imaging and histopathological correlations.}{94}{subsection.27.6}
+\contentsline {subsection}{\numberline {27.7}Anterior Lower Mediastinal Tumors in Infants and Children: CT findings}{95}{subsection.27.7}
+\contentsline {subsection}{\numberline {27.8}Multimodality Imaging Evaluation of Pulmonary Vascular Anomalies and Abnormalities in Children}{96}{subsection.27.8}
+\contentsline {subsection}{\numberline {27.9}Pediatric pulmonary and thoracic aspergillosis}{96}{subsection.27.9}
+\contentsline {subsection}{\numberline {27.10}CT findings of mycoplasma pneumonia in pediatric patients}{97}{subsection.27.10}
+\contentsline {subsection}{\numberline {27.11}Unexpected detection of congenital diaphragmatic hernia (CDH) in childhood}{97}{subsection.27.11}
+\contentsline {subsection}{\numberline {27.12}Acute Respiratory Distress Syndrome in Children: the Early Findings of Chest Radiography}{98}{subsection.27.12}
+\contentsline {subsection}{\numberline {27.13}The Radiological Findings and its Clinical Value in Children with Influenza A (H1N1) Infection}{99}{subsection.27.13}
+\contentsline {subsection}{\numberline {27.14}Left Sided Diaphragmatic Hernia and Life threatening Infusion Thorax following Umbilical Vein Catherisation in a Premature Baby}{99}{subsection.27.14}
+\contentsline {subsection}{\numberline {27.15}Idiophatic spontaneous pneumomedistinum in childhood}{100}{subsection.27.15}
+\contentsline {subsection}{\numberline {27.16}Chest radiographic findings, clinical presentation and immune status in HIV infected children}{100}{subsection.27.16}
+\contentsline {subsection}{\numberline {27.17}Imaging findings of congenital tuberculosis in four infants}{101}{subsection.27.17}
+\contentsline {subsection}{\numberline {27.18}Imaging investigation of congenital chylothorax presented in two newborns}{101}{subsection.27.18}
+\contentsline {subsection}{\numberline {27.19}Use of ultrasonography for the diagnosis of pneumothorax in the neonatal intensive care unit}{102}{subsection.27.19}
+\contentsline {section}{\numberline {28}Scientific session 6: Cardiovascular}{102}{section.28}
+\contentsline {subsection}{\numberline {28.1}Umbilical venous catheter position evaluation by an ultrasound}{102}{subsection.28.1}
+\contentsline {subsection}{\numberline {28.2}Pericardial Effusions in Adolescent Girls with Anorexia Nervosa. Clinical course and risk factors}{103}{subsection.28.2}
+\contentsline {subsection}{\numberline {28.3}Evaluation of free breathing 3D Steady-State Free-Precession (3D SSFP) sequence for the study of congenital cardiac and thoracic vascular disease: comparison to conventional angiographic MRI sequence (MRA)}{104}{subsection.28.3}
+\contentsline {subsection}{\numberline {28.4}Basal plane selection at cardiac MRI -- Influende on heart Volumetry and cardiac Performance Parameters}{104}{subsection.28.4}
+\contentsline {subsection}{\numberline {28.5}Right Branch Bundle Block at cardiac MRI -- Influence on Heart Volumetry and cardiac Performance Parameters}{105}{subsection.28.5}
+\contentsline {subsection}{\numberline {28.6}The role brain MRI in a complex pre-surgery examination of newborns with TGA: terms and conditions.}{105}{subsection.28.6}
+\contentsline {subsection}{\numberline {28.7}Free Breathing Fast 3D Cine Steady-State Free Precession Imaging for Assessment of Ventricular Function in Pediatric Patients}{106}{subsection.28.7}
+\contentsline {section}{\numberline {29}CT Dose Task Force}{106}{section.29}
+\contentsline {section}{\numberline {30}Scientific session 7: Chest}{106}{section.30}
+\contentsline {subsection}{\numberline {30.1}CT of congenital lung abnormalities - 9 year experience.}{106}{subsection.30.1}
+\contentsline {subsection}{\numberline {30.2}Cross-sectional study on tracheomegaly in children following fetal tracheal occlusion because of severe congenital diaphragmatic hernia}{107}{subsection.30.2}
+\contentsline {subsection}{\numberline {30.3}Chest radiograph and computed tomography evaluation of lung parenchyma and airway abnormalities in pediatric patients with laryngeal cleft.}{108}{subsection.30.3}
+\contentsline {subsection}{\numberline {30.4}Comparison of the evolution between CT and lung function tests (LFT) in the follow up of Primary Ciliary Dyskinesia (PCD) patients}{108}{subsection.30.4}
+\contentsline {subsection}{\numberline {30.5}Aortopulmonary collateral blood flow in cystic fibrosis assessed by phase-contrast MRI}{109}{subsection.30.5}
+\contentsline {subsection}{\numberline {30.6}Idiopathic pulmonary haemosiderosis and concomitant coeliac disease.}{109}{subsection.30.6}
+\contentsline {subsection}{\numberline {30.7}Pictures of a pandemic: A pediatric ICU case review series of H1N1 Influenza A.}{110}{subsection.30.7}
+\contentsline {subsection}{\numberline {30.8}Doppler Ultrasonography in Childhood Pulmonary Consolidations: Diagnostic Contribution to Gray Scale Imaging and Prediction of Clinical Outcomes of Pneumonias}{111}{subsection.30.8}
+\contentsline {subsection}{\numberline {30.9}The importance of high resolution CT in the diagnosis of pulmonary graft versus host disease after allogeneic bone marrow transplantation - a correlation between lung abnormalities on HRCT and clinical GVHD diagnosis}{111}{subsection.30.9}
+\contentsline {subsection}{\numberline {30.10}The Radiological Appearances of Complications of H1N1 Influenza (Swine Flu) Infection in Children}{112}{subsection.30.10}
+\contentsline {section}{\numberline {31}CT Dose Task Force}{113}{section.31}
+\contentsline {section}{\numberline {32}SFIPP General assembly}{113}{section.32}
+\contentsline {section}{\numberline {33}Scientific session 8: Digestive tract}{113}{section.33}
+\contentsline {subsection}{\numberline {33.1}Meconium obstruction in extremely-low-birth-weight premature infant: US contribution to diagnosis and management}{113}{subsection.33.1}
+\contentsline {subsection}{\numberline {33.2}Contrast Enema Findings in Patients Requiring Re-operation for Hirschsprung Disease(HD)With Surgical Correlation}{113}{subsection.33.2}
+\contentsline {subsection}{\numberline {33.3}Midgut malrotation in children with a so-called \IeC {\textquotedblleft }normal\IeC {\textquotedblright } duodenojejunal flexure (DJF)}{114}{subsection.33.3}
+\contentsline {subsection}{\numberline {33.4}Schatzki ring and eosinophilic esophagitis}{115}{subsection.33.4}
+\contentsline {subsection}{\numberline {33.5}Benign pneumatosis hepatis in children with colitis: Imaging with ultrasound}{115}{subsection.33.5}
+\contentsline {subsection}{\numberline {33.6}CT enterography: Inter-reader agreement and diagnostic performance in pediatric inflammatory bowel disease}{116}{subsection.33.6}
+\contentsline {subsection}{\numberline {33.7}Prevalence of penetrating and stricturing complications, and extraintestinal manifestations detected by CT enterography in pediatric inflammatory bowel disease patients}{116}{subsection.33.7}
+\contentsline {subsection}{\numberline {33.8}MRI and MR Enterography Assessment of IBD in pediatric patients}{117}{subsection.33.8}
+\contentsline {subsection}{\numberline {33.9}Are the biliary trees of children under three months of age visible on MR}{118}{subsection.33.9}
+\contentsline {subsection}{\numberline {33.10}Prevalence of Hepatic Pseudolesion Around the Falciform Ligament in Pediatric Age Group Evaluated by Portal-Dominant Phase Multidetector Computed Tomography (MDCT)}{118}{subsection.33.10}
+\contentsline {subsection}{\numberline {33.11}Liver MRI with DWI in children with liver disease}{119}{subsection.33.11}
+\contentsline {subsection}{\numberline {33.12}Evaluation of liver fibrosis with diffusion weighted image in infants}{119}{subsection.33.12}
+\contentsline {subsection}{\numberline {33.13}Prognostic significance of Doppler ultrasound measurements in follow-up of children after liver transplantation (LTX)}{120}{subsection.33.13}
+\contentsline {subsection}{\numberline {33.14}Long term outcome of portal vein size discrepancy in pediatric liver transplants}{121}{subsection.33.14}
+\contentsline {subsection}{\numberline {33.15}Congenital portosystemic shunt: complications and outcome after closure: about 19 pediatric cases}{121}{subsection.33.15}
+\contentsline {subsection}{\numberline {33.16}Ultrasonographic evaluation of the free abdominal fluid in asymptomatic children.}{122}{subsection.33.16}
+\contentsline {subsection}{\numberline {33.17}Separation of bowel gas on abdominal radiographs in neonates: sonographic correlation}{122}{subsection.33.17}
+\contentsline {section}{\numberline {34}Hip dysplasia Task force}{123}{section.34}
+\contentsline {section}{\numberline {35}Coffee break}{123}{section.35}
+\contentsline {section}{\numberline {36}Posters Digestive tract}{123}{section.36}
+\contentsline {subsection}{\numberline {36.1}Evaluation of disease activity in iodiopathic inflammatory small bowel disease: MR imaging.}{123}{subsection.36.1}
+\contentsline {subsection}{\numberline {36.2}Iintestinal pneumatosis: a rare complication of GVHD after bone marrow transplantation}{124}{subsection.36.2}
+\contentsline {subsection}{\numberline {36.3}Chronic Gastric Volvulus ( CGV) In Infants: An Insidious Diagnosis}{124}{subsection.36.3}
+\contentsline {subsection}{\numberline {36.4}Imaging features of non-hematological splenic lesions in infants and children}{125}{subsection.36.4}
+\contentsline {subsection}{\numberline {36.5}Paediatric Liver MRI: a pictorial review.}{125}{subsection.36.5}
+\contentsline {subsection}{\numberline {36.6}Cholangitis as the presenting symptom of autosomal recessive polycystic kidney disease (ARPKD)}{126}{subsection.36.6}
+\contentsline {subsection}{\numberline {36.7}Focal nodular hyperplasia in children}{126}{subsection.36.7}
+\contentsline {subsection}{\numberline {36.8}The utility of balloon catheter inflation in Fluoroscopic Loopograms}{127}{subsection.36.8}
+\contentsline {subsection}{\numberline {36.9}Sonographic findings predicting unsuccessful pneumatic reduction of intussusception}{128}{subsection.36.9}
+\contentsline {subsection}{\numberline {36.10}Ultrasound of Paediatric Intussusception - 5 years in a tertiary paediatric hosital.}{128}{subsection.36.10}
+\contentsline {subsection}{\numberline {36.11}Spontaneous meso-portal and porto-portal shunts following orthotopic liver transplantation (OLT) in children.}{129}{subsection.36.11}
+\contentsline {subsection}{\numberline {36.12}Hirschsprung's disease: 15 year retrospective review of Contrast Enema findings at a large tertiary care pediatric hospital.}{129}{subsection.36.12}
+\contentsline {subsection}{\numberline {36.13}Imaging findings of a spontaneous rupture of common bile duct in a young female patient : case report}{130}{subsection.36.13}
+\contentsline {subsection}{\numberline {36.14}MR enterography in pediatric Crohn's disease: preliminary results}{130}{subsection.36.14}
+\contentsline {subsection}{\numberline {36.15}US diagnosis of long segment severe necrotising enteritis caused by Candida albicans in a boy with ALL, febrile neutropenia and septic shock}{131}{subsection.36.15}
+\contentsline {subsection}{\numberline {36.16}Wandering liver in a neonate. A case report}{131}{subsection.36.16}
+\contentsline {subsection}{\numberline {36.17}Beyond Biliary Atresia: Ultrasound diagnosis of alternative causes of neonatal Conjugated Jaundice.}{132}{subsection.36.17}
+\contentsline {subsection}{\numberline {36.18}Color-Doppler findings in the postoperative evaluation of mesenterico-left portal shunt (Rex-shunt) for the treatment of portal hypertension due to extra-hepatic portal vein thrombosis in children.}{133}{subsection.36.18}
+\contentsline {subsection}{\numberline {36.19}Differentiation between Hirschsprung alied disease and Hirschsprung\IeC {\textquoteright }s disease in childhood with Barium enema}{133}{subsection.36.19}
+\contentsline {subsection}{\numberline {36.20}CT features in childhood Crohn's disease}{134}{subsection.36.20}
+\contentsline {subsection}{\numberline {36.21}MR enterography in inflammatory bowel disease with endoscopic and histopathologic correlation- a pictorial essay.}{134}{subsection.36.21}
+\contentsline {subsection}{\numberline {36.22}CT Findings of Mesenteric Laceration in Four Pediatric Patients}{135}{subsection.36.22}
+\contentsline {subsection}{\numberline {36.23}MRI appearances of focal infantile hepatic hemangioma}{136}{subsection.36.23}
+\contentsline {subsection}{\numberline {36.24}Occult Injuries in Pediatric Abdominal Trauma.}{136}{subsection.36.24}
+\contentsline {subsection}{\numberline {36.25}Spectrum of Imaging abnormalities in Paediatric Inflammatory bowel disease}{137}{subsection.36.25}
+\contentsline {subsection}{\numberline {36.26}Pictorial essay of imaging findings in children with biopsy proven eosinophilic esophagitis}{137}{subsection.36.26}
+\contentsline {subsection}{\numberline {36.27}An easily constructed simulator facilitates training of radiologists in gastrojejunal tube insertion}{138}{subsection.36.27}
+\contentsline {subsection}{\numberline {36.28}Evaluation of liver fibrosis with T2 relaxation time in infants}{139}{subsection.36.28}
+\contentsline {subsection}{\numberline {36.29}Pharmacological premedication efficacy in intussusception\IeC {\textquoteright }s management by enema in pediatrics: preliminary outcomes}{139}{subsection.36.29}
+\contentsline {subsection}{\numberline {36.30}Result of air enema reduction in 737 cases of intussusception}{140}{subsection.36.30}
+\contentsline {subsection}{\numberline {36.31}The role of ultrasound compared to plain radiography in the diagnosis and management of necrotizing enterocolitis}{140}{subsection.36.31}
+\contentsline {section}{\numberline {37}Scientific session 9: Oncology}{141}{section.37}
+\contentsline {subsection}{\numberline {37.1}Are the RECIST criteria useful in assessing response in paediatric rhabdomyosarcoma?}{141}{subsection.37.1}
+\contentsline {subsection}{\numberline {37.2}Characterizing individual cancers using dynamic MRI enhanced by macromolecular contrast media (MMCM)}{141}{subsection.37.2}
+\contentsline {subsection}{\numberline {37.3}Whole body MRI with DWIBS sequences for disease detection and staging of pediatric oncological patients}{142}{subsection.37.3}
+\contentsline {subsection}{\numberline {37.4}Comparing the value of the sequences T1, T2, STIR and DWIBS by whole body magnetic resonance imaging for staging and monitoring patients with Hodgkin\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:´ not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}s lymphoma in childhood}{143}{subsection.37.4}
+\contentsline {subsection}{\numberline {37.5}Whole-body MRI, including diffusion-weighted imaging, compared to FDG-PET for staging Hodgkin lymphoma - initial experiences}{144}{subsection.37.5}
+\contentsline {subsection}{\numberline {37.6}Derivation of histographic apparent diffusion coefficient (ADC) changes associated with successful response to first line chemotherapy of adolescent and childhood lymphoma.}{144}{subsection.37.6}
+\contentsline {subsection}{\numberline {37.7}Value of diffusion weighted images in differentiating responders to chemotherapy for osteosarcoma}{145}{subsection.37.7}
+\contentsline {subsection}{\numberline {37.8}Does Serum-Ferritin Level in Children receiving Blood Transfusions in the Treatment of Acute Leukemia correlate with Iron Load of the Liver? Initial Results}{146}{subsection.37.8}
+\contentsline {section}{\numberline {38}Oncology Task force synthesis}{146}{section.38}
+\contentsline {section}{\numberline {39}ESPR General Assembly}{146}{section.39}
+\contentsline {section}{\numberline {40}Lunch}{146}{section.40}
+\contentsline {section}{\numberline {41}Posters Oncology}{146}{section.41}
+\contentsline {subsection}{\numberline {41.1}Pediatric Rhabdomyosarcoma: Cross-sectional imaging findings with pathologic subtype correlation}{146}{subsection.41.1}
+\contentsline {subsection}{\numberline {41.2}Pictorial review of normal appearances and variants on paediatric 18-F FDG PET-CT.}{147}{subsection.41.2}
+\contentsline {subsection}{\numberline {41.3}Pediatric Dermatofibrosarcoma Protuberans: Case Report of a Rare Soft-Tissue Sarcoma}{147}{subsection.41.3}
+\contentsline {subsection}{\numberline {41.4}Imaging findings of childhood rhabdomyosarcoma in KK Women\IeC {\textquoteright }s and Children\IeC {\textquoteright }s Hospital, Singapore.}{148}{subsection.41.4}
+\contentsline {subsection}{\numberline {41.5}Comparison of STIR-HASTE and PROPELLER MRI for the evaluation of extranodal chest wall disease extension in pre-treatment paediatric and adolescent patients with known lymphoma}{149}{subsection.41.5}
+\contentsline {subsection}{\numberline {41.6}MR patterns of acute leukemia in 17 children presenting with skeletal complaints}{149}{subsection.41.6}
+\contentsline {section}{\numberline {42}Posters Miscellaneous Radiation protection}{150}{section.42}
+\contentsline {subsection}{\numberline {42.1}UNEXPECTED LOCATIONS AND COMPLICATIONS OF INTRAVASCULAR CATHETERS, TUBES, SHUNTS AND OTHER DEVICES IN CHILDREN. ROLE OF DIAGNOSTIC IMAGING AND MANAGEMENT.}{150}{subsection.42.1}
+\contentsline {subsection}{\numberline {42.2}The Revival of the Silver Lining}{150}{subsection.42.2}
+\contentsline {subsection}{\numberline {42.3}Online software for automated calculation of the effective dose for pediatric MDCT}{151}{subsection.42.3}
+\contentsline {subsection}{\numberline {42.4}Routine quality control (QC) of hardware and sequences in pediatric MR Imaging}{152}{subsection.42.4}
+\contentsline {subsection}{\numberline {42.5}Evaluation of a new phosphor plate technology for neonatal portable chest radiographs}{152}{subsection.42.5}
+\contentsline {subsection}{\numberline {42.6}Quality Assurance: A New Method of Monitoring Radiation Exposure for Portable Chest Radiographs in Neonates}{153}{subsection.42.6}
+\contentsline {subsection}{\numberline {42.7}Dose Distribution in Pediatric Abdominal CT Examination - Using elliptically-shaped sheet-roll phantom -}{153}{subsection.42.7}
+\contentsline {subsection}{\numberline {42.8}A focused performance improvement program to increase on time starts for fluoroscopy patients}{154}{subsection.42.8}
+\contentsline {subsection}{\numberline {42.9}Pharmacokinetics and Safety of Gadobenate Dimeglumine in Patients 2-5 Years of Age}{155}{subsection.42.9}
+\contentsline {subsection}{\numberline {42.10}A simple tool for enhancing transcription of radiological reports}{155}{subsection.42.10}
+\contentsline {section}{\numberline {43}Symposium Low dose, total body imaging 2}{156}{section.43}
+\contentsline {section}{\numberline {44}Scientific session 10: Miscelleaneous, radiation protection}{156}{section.44}
+\contentsline {subsection}{\numberline {44.1}An interactive oral presentation of a video study into children\IeC {\textquoteright }s perceptions of the radiology department and its various imaging modalities.}{156}{subsection.44.1}
+\contentsline {subsection}{\numberline {44.2}Contrast enhanced low MI sonography in paediatrics - applications and limitations}{156}{subsection.44.2}
+\contentsline {subsection}{\numberline {44.3}Digital X-ray examinations in the neonatal intensive care unit: Dose optimisation using a neonatal chest phantom}{157}{subsection.44.3}
+\contentsline {subsection}{\numberline {44.4}Processing optimization in Pediatric femur examinations - a phantom project focusing on dose optimization when usingCanon\IeC {\textquoteright }s new DR Spectra software}{158}{subsection.44.4}
+\contentsline {subsection}{\numberline {44.5}Dose savings in Computed Tomography (CT) due to a new, dedicated Kernel for Image Reconsruction - Influence on Image Quality}{158}{subsection.44.5}
+\contentsline {subsection}{\numberline {44.6}Proposed technique to reduce radiation dose in pediatric chest and abdomen CT along with reduction in image noise without compromising lesion detection by using adaptive iterative reconstruction versus filtered back projection CT.}{159}{subsection.44.6}
+\contentsline {subsection}{\numberline {44.7}Radiation exposure of obese children from body CT: are they appropriately treated as adults?}{159}{subsection.44.7}
+\contentsline {subsection}{\numberline {44.8}Implementation of pediatric automatic exposure control (AEC) CT protocols which are based on weight, clinical indication and number of prior CTs}{160}{subsection.44.8}
+\contentsline {subsection}{\numberline {44.9}Labeling of contrast agent containers - a potential source of confusion and error}{161}{subsection.44.9}
+\contentsline {section}{\numberline {45}CT Dose Task Force Synthesis}{161}{section.45}
+\contentsline {section}{\numberline {46}Scientific session 11: Musculoskeletal 1}{161}{section.46}
+\contentsline {subsection}{\numberline {46.1}Prevalence of the Classic Metaphyseal Lesion in Infants at Low versus High Risk for Abuse}{161}{subsection.46.1}
+\contentsline {subsection}{\numberline {46.2}3D Ultrasound in the Follow-Up of Developmental Dysplasia of the Hip Managed in a von Rosen Splint - Antenatal Applications Extended?}{162}{subsection.46.2}
+\contentsline {subsection}{\numberline {46.3}Acetabular immaturity - dysplasia in young adults. Preliminary results.}{163}{subsection.46.3}
+\contentsline {subsection}{\numberline {46.4}MRI findings of Kingella kingae osteomyelitis in children}{163}{subsection.46.4}
+\contentsline {subsection}{\numberline {46.5}Incidence of Avascular necrosis in patients with Acute Lymphoblastic Leukemia}{164}{subsection.46.5}
+\contentsline {section}{\numberline {47}Hip Dysplasia Task Force Synthesis}{164}{section.47}
+\contentsline {section}{\numberline {48}Coffee break}{164}{section.48}
+\contentsline {section}{\numberline {49}Posters Musculo-skeletal}{164}{section.49}
+\contentsline {subsection}{\numberline {49.1}TITLE. THE SO-CALLED OSTHEOCHONDROSIS: A GROUP OF DIFFERENT CLINICAL ENTITIES. IMAGING FINDINGS IN CHILDREN AND ADOLESCENTS. THE EPONYMS}{164}{subsection.49.1}
+\contentsline {subsection}{\numberline {49.2}Imaging Pyomyositis in children}{165}{subsection.49.2}
+\contentsline {subsection}{\numberline {49.3}Use of ultrasonography for the diagnosis of temporomandibular joint disorders in children with juvenile idiopathic arthritis.}{166}{subsection.49.3}
+\contentsline {subsection}{\numberline {49.4}MRI assessment of bone marrow changes in children with juvenile idiopathic arthritis: inter and intra-observer variability in a multicenter study}{166}{subsection.49.4}
+\contentsline {subsection}{\numberline {49.5}Size, shape and position of the mandibular condyle during childhood.}{167}{subsection.49.5}
+\contentsline {subsection}{\numberline {49.6}Lipofibromatosis - A rare pediatric soft-tissue tumor.}{167}{subsection.49.6}
+\contentsline {subsection}{\numberline {49.7}Multimodality Imaging of Skeletal Manifestations of Sickle Cell Anemia in Children}{168}{subsection.49.7}
+\contentsline {subsection}{\numberline {49.8}Diffusion Weighted Imaging at 3 Tesla for normal pediatric hip.}{169}{subsection.49.8}
+\contentsline {subsection}{\numberline {49.9}Diffusion Weighted Imaging at 3 Tesla for Legg-Calv\IeC {\'e}-Perthes Disease: preliminary results.}{169}{subsection.49.9}
+\contentsline {subsection}{\numberline {49.10}Use of Ultrasonography as the useful approach in diagnosis and management of JRA of the knee and hip: comparison between US and MRI data}{170}{subsection.49.10}
+\contentsline {subsection}{\numberline {49.11}The Usefulness of MRI in Juvenile Idiopathic Arthritis}{170}{subsection.49.11}
+\contentsline {subsection}{\numberline {49.12}Paediatric non-accidental hand fractures:a radiographic review}{171}{subsection.49.12}
+\contentsline {subsection}{\numberline {49.13}Post mortem skeletal surveys in suspected non-accidental injury: an imaging review}{172}{subsection.49.13}
+\contentsline {subsection}{\numberline {49.14}Spinal MRI findings in juvenile idiopathic arthritis}{172}{subsection.49.14}
+\contentsline {subsection}{\numberline {49.15}Cat-scratch disease: our US experience}{173}{subsection.49.15}
+\contentsline {subsection}{\numberline {49.16}An audit of spinal ultrasound for sacral dimples detected on routine newborn examination.}{173}{subsection.49.16}
+\contentsline {subsection}{\numberline {49.17}THE HAND AS AN INDICATOR OF SYSTEMIC DISEASES IN CHILDREN}{174}{subsection.49.17}
+\contentsline {subsection}{\numberline {49.18}Ultrasound of the pectoralis complex in patients with Poland syndrome}{175}{subsection.49.18}
+\contentsline {subsection}{\numberline {49.19}Assessment of active inflammation in juvenile dermatomyosits: A novel scoring system.}{175}{subsection.49.19}
+\contentsline {subsection}{\numberline {49.20}The L5 interpedicle distance - a useful measurement on scoliosis images}{176}{subsection.49.20}
+\contentsline {subsection}{\numberline {49.21}The supra-acetabular notch of the acetabulum: MR imaging findings of this anatomical variant.}{176}{subsection.49.21}
+\contentsline {subsection}{\numberline {49.22}Does ultrasonographic findings of patellar tendon correlated with hormone concentrations in adolescent female volleyball players?}{177}{subsection.49.22}
+\contentsline {subsection}{\numberline {49.23}Dynamic ultrasound in neonatal hip instability. Quantitative evaluation of instability and presentation of new normative references.}{177}{subsection.49.23}
+\contentsline {subsection}{\numberline {49.24}Osteoid osteoma in paediatric patients. Significance of dynamic gadolinium enhanced MR imaging.}{178}{subsection.49.24}
+\contentsline {subsection}{\numberline {49.25}Lessons learned from the follow-up skeletal survey}{179}{subsection.49.25}
+\contentsline {subsection}{\numberline {49.26}Ultrasound abnormalities of peripheral joints in Juvenile Idiopathic Arthritis (JIA) and correlation with clinical examination.}{179}{subsection.49.26}
+\contentsline {subsection}{\numberline {49.27}Congenital indifference to pain with anhidrosis- a radiological review}{180}{subsection.49.27}
+\contentsline {subsection}{\numberline {49.28}Chondrodysplasia punctata type 2, x-linked dominant (CDPX2): case report and review of the literature}{180}{subsection.49.28}
+\contentsline {subsection}{\numberline {49.29}Osteo-articular infection in young children: What's new?}{181}{subsection.49.29}
+\contentsline {subsection}{\numberline {49.30}Imaging of the spine in scoliosis, is nuclear medicine necessary in addition to MRI?}{182}{subsection.49.30}
+\contentsline {subsection}{\numberline {49.31}Limb length measurement with the EOS system: comparison with conventional systems.}{182}{subsection.49.31}
+\contentsline {subsection}{\numberline {49.32}The importance of contrast and post contrast subtraction MRI studies as the ultimate diagnostic tools in the differentiation between osteomyelitius and osteonecrosis in children with haematological disorders.}{183}{subsection.49.32}
+\contentsline {subsection}{\numberline {49.33}Multimodality imaging of nontraumatic back pain in children}{184}{subsection.49.33}
+\contentsline {subsection}{\numberline {49.34}Imaging in Congenital Spinal Deformity}{184}{subsection.49.34}
+\contentsline {subsection}{\numberline {49.35}Computer assisted evaluation of leg length inequality and alignment disorders in children.}{185}{subsection.49.35}
+\contentsline {subsection}{\numberline {49.36}Transient synovitis of the hip (TSH): involvement of the asymptomatic side.}{185}{subsection.49.36}
+\contentsline {subsection}{\numberline {49.37}Juvenile idiopathic arthritis: Assessment of synovitis with early and late gadolinium enhanced MR imaging.}{186}{subsection.49.37}
+\contentsline {section}{\numberline {50}Scientific session 12: Musculoskeletal 2}{187}{section.50}
+\contentsline {subsection}{\numberline {50.1}Prevalent Vertebral Fractures among Children Initiating Glucocorticoid Therapy for the Treatment of Rheumatic Disorders}{187}{subsection.50.1}
+\contentsline {subsection}{\numberline {50.2}Body Imaging findings in children on ketogenic diet}{187}{subsection.50.2}
+\contentsline {subsection}{\numberline {50.3}Is there an increased fracture risk in healthy infants and toddlers with Vitamin D deficiency?}{188}{subsection.50.3}
+\contentsline {subsection}{\numberline {50.4}Computer assisted evaluation of progression of spinal curvature in scoliosis.}{188}{subsection.50.4}
+\contentsline {subsection}{\numberline {50.5}3D X-Ray analysis of the idiopathic scoliotic spine before and after surgery}{189}{subsection.50.5}
+\contentsline {subsection}{\numberline {50.6}Ultrasound abnormalities of enthesitis in Juvenile Idiopathic Arthritis (JIA) and correlation with clinical examination.}{190}{subsection.50.6}
+\contentsline {subsection}{\numberline {50.7}Ultrasound findings on patients with JIA in clinical remission: a pilot study}{190}{subsection.50.7}
+\contentsline {subsection}{\numberline {50.8}Development of the wrist. Normal standards based on MRI for 6-15 year olds.}{191}{subsection.50.8}
+\contentsline {subsection}{\numberline {50.9}Carpal erosions in children with Juvenile Idiopathic Arthritis (JIA) as assessed on MRI. Repeatability of a novel scoring system.}{191}{subsection.50.9}
+\contentsline {subsection}{\numberline {50.10}Proposal of an MRI synovitis score in juvenile idiopathic arthritis: inter and intra observer reliability in a multicentre study.}{192}{subsection.50.10}
+\contentsline {subsection}{\numberline {50.11}Is a gadolinium enhanced sequence always required in knee MRI for patients with JIA?}{193}{subsection.50.11}
+\contentsline {subsection}{\numberline {50.12}Dating of fractures: an analysis of key radiological features in children aged five years and under}{193}{subsection.50.12}
+\contentsline {section}{\numberline {51}Closure of the congress}{194}{section.51}
+\contentsline {section}{Index of authors}{194}{section.51}

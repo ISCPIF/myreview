@@ -1,0 +1,50 @@
+<!-- JavaScript functions -->
+<script language="JavaScript1.2" src="{base_url}/js/myreview.js"></script>
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+{admin_local_menu}
+
+<!-- A form to select a subset of papers   -->
+
+<!-- BEGIN MESSAGE -->
+<p><font color='red'>{message}</font>.</p>
+<!-- END MESSAGE -->
+
+<h1>Set the current selection</h1>
+
+<!-- BEGIN SHOW_SELECTION_FORM -->
+<p>You can choose to <a href="{base_url}/admin/chair/paperstatus?show_selection_form=1">show
+ the selection form</a>. It will allow you to select a subset of papers.</p>
+<!-- END SHOW_SELECTION_FORM -->
+
+<!-- BEGIN SELECTION_FORM -->
+<p>
+Use the following form to get a selection of submitted
+papers.
+</p>
+<p>
+
+{FORM_SELECT_PAPERS}
+</p>
+
+You can choose to <a href="{base_url}/admin/chair/paperstatus?hide_selection_form=1">hide the above
+selection form</a>. You will be able to display it again at any moment.
+
+<!-- END SELECTION_FORM -->
+
+<h1>Actions on the current selection</h1>
+
+<!-- A form to toggle the status of selected papers -->
+<ol>
+ <li>Mark all the selected papers as {TOGGLE_LIST}</li>
+ 
+ <li><a href="{base_url}/admin/chair/paperstatus?export_latex=1">Export the current list as a LateX document (which can be compiled in PDF)</a>
+    [<a href="{base_url}/admin/chair/paperstatus?export_latex=1&anonymized=1">same document, anonymized</a>]
+ </li>
+ </ol>
+
+<h1>List of papers in the current selection</h1>
+
+{ranked_papers_list}

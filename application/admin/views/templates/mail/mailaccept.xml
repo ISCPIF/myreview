@@ -1,0 +1,29 @@
+<b>Dear {Paper->authors}</b>
+<p>
+We are happy to inform you that your paper entitled "{Paper->title}", submitted
+to {Config->confAcronym}, has been accepted for inclusion in the proceedings. Below,
+you will find attached the reports of the reviewers. Please consider the
+reviewers' comments carefully when preparing the final version of your paper.
+</p>
+<p>
+The camera-ready copy of your paper is required before
+{Config->cameraReadyDeadline}. You can upload your final
+version from the author console.
+</p>
+<p>
+Please note that any delay may prevent the inclusion of your paper in the
+proceedings.  Please follow the instructions found at the {Config->confAcronym} site
+in order to prepare your final version.
+</p>
+<p>
+The {Config->confAcronym}  site also provides all necessary information for conference
+registration and hotel accommodation.
+</p>
+<p>
+Best regards,
+</p>
+<p>
+{Config->chair_names}<br/>
+{Config->confAcronym}.
+</p>
+{reviews}

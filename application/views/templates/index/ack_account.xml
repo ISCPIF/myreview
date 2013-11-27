@@ -1,0 +1,5 @@
+   <h1>{def.ack_account_header}</h1>
+   <p>
+   {def.ack_check_account}
+   </p>
+  

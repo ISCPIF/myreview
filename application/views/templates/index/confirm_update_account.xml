@@ -1,0 +1,20 @@
+
+<b>{author.confirm_update_account}</b>
+
+<h1>{author.my_profile_header}</h1>
+
+<ol>
+  <li><b>{db.user_name}</b>: {User->first_name} {User->last_name} </li>
+  <li><b>{db.user_email}</b>: {User->email} </li>
+  <li><db>{db.user_affiliation}</db>:  {User->affiliation}</li>
+ <li><b>{db.user_address}</b>:  {User->address}, {User->city}, {User->zip_code}
+     {User->country}</li>
+  <!-- BEGIN INFO_REVIEWER -->   
+      <li><b>{form.topics}</b>:  {User->topics}</li>
+ <!-- END INFO_REVIEWER -->   
+
+  <!-- BEGIN INFO_ATTENDEE -->   
+      <li><b>{db.user_cv}</b>:  {User->cv}</li>
+     <li><b>{db.user_requirements}</b>:  {User->requirements}</li>
+ <!-- END INFO_ATTENDEE -->   
+ </ol>

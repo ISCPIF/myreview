@@ -1,0 +1,177 @@
+
+<form  method='post' action='{base_url}/admin/config/config' 
+name='Form'
+enctype= "multipart/form-data">
+
+<ol>
+  {messages}
+</ol>
+
+<input type="hidden" name="multi_topics" value="N"/>
+
+<table  border='1' >
+
+<tr class='header'>
+<th colspan='2'>Configuration form</th></tr>
+
+<tr class='even'><td><b>Conference acronym</b></td>
+<td><input type='text' name="confAcronym" value="{CONF_ACRONYM}" size='20' 
+        maxlength='20'/>
+</td>
+</tr>
+
+<tr class='odd'><td><b>Conference name</b></td>
+<td><input type='text' name="confName" value="{CONF_NAME}" size='50' maxlength='100'/>
+</td>
+</tr>
+
+<tr class='odd'><td><b>Conference location</b></td>
+<td><input type='text' name="conf_location" value="{Config->conf_location}" size='50' maxlength='255'/>
+</td>
+</tr>
+
+
+<tr class='even'><td><b>URL of the submission site</b></td>
+<td><input type='text' name="submissionURL" value="{SUBMISSION_URL}" size='50' maxlength='100'/>
+</td>
+</tr>
+
+
+<tr class='even'><td><b>URL of the conference site</b></td>
+<td><input type='text' name="confURL" value="{CONF_URL}" size='50' maxlength='100'/>
+</td>
+</tr>
+
+<tr class='odd'><td><b>Conference mail</b></td>
+<td><input type='text' name="confMail" value="{CONF_MAIL}" size='60' maxlength='60'/>
+</td>
+</tr>
+<tr class='even'><td><b>Chair mail</b></td>
+<td><input type='text' name="chairMail" value="{CONF_CHAIR_MAIL}" 
+     size='60' maxlength='60'/>
+</td>
+</tr>
+
+
+<tr class='odd'><td><b>Chair name(s)</b></td>
+<td><input type='text' name="chair_names" value="{Config->chair_names}" size='50' maxlength='255'/>
+</td>
+</tr>
+
+<tr class='odd'><td><b>Password generator</b></td>
+<td><input type='text' name="passwordGenerator" 
+    value="{CONF_PASSWORD_GENERATOR}" size='10' maxlength='10'/>
+</td>
+</tr>
+
+<tr class='odd'><td><b>Workflow</b></td>
+
+<td><table WIDTH="100%" BORDER='1' CELLSPACING='5' CELLPADDING='2'>
+<tr class='header'>
+<th>Submission open?</th>
+<th>Reviewing open?</th>
+<th>Selection open?</th>
+<th>Proceedings open?</th>
+</tr>
+<tr>
+<td align='center'>{LIST_SUBMISSION_OPEN}</td>
+<td align='center'>{LIST_REVIEWING_OPEN}</td>
+<td align='center'>{LIST_SELECTION_OPEN}</td>
+<td align='center'>{LIST_PROCEEDINGS_OPEN}</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr class='even'><td><b>Blind review?</b></td>
+<td>{LIST_BLIND_REVIEW}</td>
+</tr>
+
+<tr class='odd'><td><b>Two phases submission?</b></td>
+<td>{LIST_TWO_PHASES}</td>
+</tr>
+
+<tr class='even'><td><b>Assignment mode</b></td>
+<td>{LIST_ASSIGNMENT_MODE}</td>
+</tr>
+
+<tr class='odd'><td><b>Discussion mode</b></td>
+<td>{LIST_DISCUSSION_MODE}</td>
+</tr>
+
+<tr class='even'><td><b>Nb reviewers per paper</b></td>
+<td><input type='text' name="nbReviewersPerItem"  value="{CONF_NB_REV_PER_PAPER}" size='2' maxlength='2'/>
+</td>
+</tr>
+
+<tr class='odd'><td><b>Max words in abstract</b></td>
+<td><input type='text' name="max_abstract_size"  value="{MAX_ABSTRACT_SIZE}" size='4' maxlength='4'/>
+</td>
+</tr>
+
+<tr class='even'><td><b>Mail sending</b></td>
+<td>
+<table WIDTH="100%" BORDER='1' CELLPADDING='2'>
+<tr class='header'>
+ <th>On abstract?</th>
+ <th>On upload?</th>
+ <th>On review submission?</th>
+</tr>
+<tr>
+ <th>{SEND_ON_ABSTRACT}</th>
+ <th>{SEND_ON_UPLOAD}</th>
+ <th>{SEND_ON_REVIEW}</th>
+</tr>
+
+</table>
+</td>
+</tr>
+
+<tr class='odd'>
+<td><b>Deadlines</b></td>
+
+<td>
+<table WIDTH="100%" BORDER='1'>
+<tr class='header'>
+  <th>Paper submission</th>
+  <th>Review submission</th>
+  <th>Camera-ready submission</th>
+</tr>
+<tr>
+<td nowrap='1'>{CONF_SUBMISSION_DEADLINE}</td>
+<td nowrap='1'>{CONF_REVIEW_DEADLINE}</td>
+<td nowrap='1'>{CONF_CAMERA_READY_DEADLINE}</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr class='header'>
+<th colspan='2'>Graphic Chart Settings</th></tr>
+<tr class='even'><td><b>Template choice</b></td><td>{LIST_STYLE}</td></tr>
+
+<tr class='odd'><td><B>Image header (max-width:1100px)</B></td>
+<td><input type="file" name="logo_file" id="logo_file" /></td></tr>
+<!--<td><input type='submit' name="upload" value="ajouter logo"/></td>-->
+
+<tr class='even'><td><b>Date presentation</b></td>
+<td><input type='text' name="date_format" value="{CONF_DATE_FORMAT}" 
+     size='10' maxlength='20'/> (Y=year; m=month; d=days; F=month's name; D=day's name)
+</td>
+</tr>
+
+<tr class='odd'><td><b>Currency (registration)</b></td>
+<td><input type='text' name="currency" value="{CONF_CURRENCY}" 
+     size='10' maxlength='20'/>
+</td>
+</tr>
+<tr class='even'><td><b>Paypal business account (registration)</b></td>
+<td><input type='text' name="paypal_account" value="{CONF_PAYPAL_ACCOUNT}" 
+     size='40' maxlength='90'/>
+</td>
+</tr>
+</table>
+<b> </b><input type='SUBMIT' name="submit" value="Submit" size='0' maxlength='0'/>
+</form>
+

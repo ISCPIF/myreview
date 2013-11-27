@@ -1,0 +1,57 @@
+
+<form  method='post' 
+      action='{base_url}/admin/config/users' name='form_reviewer'>
+      
+ <input type='hidden' name="form_mode" value="{form_mode}"/>
+ <input type='hidden' name="id_user" value="{User->id}"/>
+ 
+<table cellpadding="3" cellspacing="3">
+
+<tr class="header">
+  <td colspan='2'>{form.user_form}</td>
+  </tr>
+<tr class='odd'>
+<td><b>{form.email}*</b></td>
+ <td><input type='text' name="email" value="{User->email}" size='30' maxlength='60'/>
+</td>
+</tr>
+<tr class='even'><td><b>{form.first_name}*</b></td>
+<td><input type='text' name="first_name" value="{User->first_name}" size='30' maxlength='40'/>
+</td>
+</tr>
+<tr class='odd'><td><b>{form.last_name}*</b></td>
+<td><input type='text' name="last_name" value="{User->last_name}" size='30' maxlength='30'/>
+</td>
+</tr>
+
+<!--  
+<tr class='even'><td><b>{form.affiliation}*</b></td>
+<td><input type='text' name="affiliation" value="{User->affiliation}" size='30' maxlength='30'/></td>
+</tr>
+-->
+<tr class='odd'><td><b>{form.roles}*</b></td>
+<td>{roles_list}</td>
+</tr>
+
+<!-- BEGIN TOPICS -->
+<tr class='odd'><td><b>{form.topics}*</b><br/>
+<font size="small"> {def.choose_topics_instr}</font>
+ </td>
+<td>{topic_list}</td>
+</tr>
+<!-- END TOPICS -->
+
+<!-- For compatibility with other forms -->
+<!-- BEGIN PASSWORD -->
+<!-- END PASSWORD -->
+	<!-- BEGIN NO_ATTENDEE -->
+			<!-- END NO_ATTENDEE -->
+	<!-- BEGIN ATTENDEE -->
+			<!-- END ATTENDEE -->
+
+	<!-- BEGIN REGISTRATION_QUESTION -->
+			<!-- END REGISTRATION_QUESTION -->
+			
+</table>
+<input type='submit' name="insert" value="{form_action}"/>
+</form>

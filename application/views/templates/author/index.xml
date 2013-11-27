@@ -1,0 +1,54 @@
+
+{local_menu}
+
+
+<h1>{author.my_papers_header}</h1>
+<p>
+{author.console_submission_instructions}
+</p>
+<table border='1'>
+ <tr class='header'>
+  <th>{form.submission_complete}</th>
+  <th>{db.paper_title}</th>
+ <th>{db.paper_authors}</th>
+ <th>{db.paper_status}</th>
+ <th>{def.actions}</th>
+ <th>{author.additional_files}</th>
+  </tr>
+ <!--  BEGIN PAPER -->
+  <tr class="{css_class}">
+  <td><img src="{base_url}/images/pictos/{icon_name}"/></td>
+    <td>{Paper->title}</td>
+    <td>{Paper->authors}</td>
+    <td>{author.{Paper->status}}</td>
+    <td nowrap='1'>
+       <a href="{base_url}/author/showpaper?id_paper={Paper->id}">{form.show_paper}</a> | 
+       <a href="{base_url}/author/edit?id_paper={Paper->id}">{form.edit_paper}</a>
+       </td>
+       
+       <td>
+      <form action="{base_url}/author/upload" enctype='multipart/form-data' method="post" name="form_upload">
+             <input type='hidden' name="id_paper" value="{Paper->id}"/>
+        <table cellspacing="2">
+           <!-- BEGIN UPLOAD -->
+         <tr>	        
+           <td nowrap='1'>
+           <font color='{font_color}'>{author.{RequiredFile->file_code}}{file_mandatory}</font> 
+               (format: {RequiredFile->file_extension})</td>
+           <td>
+            <input type='file' name="{RequiredFile->file_code}" size='10'/>
+<!--        <a href="{base_url}/author/upload?id_file={RequiredFile->id}&amp;id_paper={Paper->id}">{form.upload}</a> --> 
+       <!-- BEGIN DOWNLOAD -->
+       (<a href="{base_url}/author/download?id_file={RequiredFile->id}&amp;id_paper={Paper->id}">{form.download}</a>)
+       <!--  END DOWNLOAD -->
+       </td></tr>
+         <!-- END UPLOAD -->
+         <!-- BEGIN UPLOAD_BUTTON -->
+         <tr><td>&nbsp;</td><td colspan='2'><input type='submit' value='{form.upload}'/></td></tr>
+         <!-- END UPLOAD_BUTTON -->
+         </table>
+       </form>
+        </td>
+  </tr>
+ <!-- END PAPER -->
+</table>

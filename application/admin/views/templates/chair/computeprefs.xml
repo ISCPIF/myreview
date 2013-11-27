@@ -1,0 +1,26 @@
+
+{admin_local_menu}
+
+<h1>Results of the automatic preferences / conflicts computation</h1>
+
+<p>
+Preferences and conflicts have been computed.
+You can now 
+<a href="{base_url}/admin/mail/askprefs">send a mail 
+          asking for reviewers' preferences</a>.
+           This can also be done
+thanks to the  'send mail -- collecting preferences' option below.
+</p>
+
+<table border='1' cellspacing='2' cellpadding='2'>
+<tr class="header">
+  <td>PC Member</td>
+  <td>Conflicts and preferences</td>
+</tr>
+<!-- BEGIN MEMBER -->
+<tr class='{css_class}'>
+<td>{User->first_name} {User->last_name}</td>
+<td>{comments}</td>
+</tr>
+<!--  END MEMBER -->
+</table>

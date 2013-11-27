@@ -1,0 +1,10 @@
+<font color='red'><b>The following errors have been met:</b></font>
+<br/>
+
+<ol>
+   <!-- BEGIN ERROR -->
+    <li> <font color='red'>{message}</font></li>
+  <!-- END ERROR -->
+</ol>
+
+<b>Please correct and submit again.</b>.

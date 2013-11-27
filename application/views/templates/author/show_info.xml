@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>The MyReview submission system</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="{base_url}/css/default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div>
+<p>
+<center><input type='button' onClick="window.close()" value="Close"/></center>
+</p>
+<hr/>
+
+<!-- BEGIN DISCUSSION -->
+<h3>Messages posted for this submission</h3>
+    <ul>
+     <!-- BEGIN message -->
+     <li><b>{User->first_name} {User->last_name}</b>: {Message->message}</li>
+     <!-- END message -->
+  </ul>
+<!-- END DISCUSSION -->
+
+<table border='2' width="100%">
+<tr class='header'>
+  <th colspan='2'>Information on paper {Paper->id}</th>
+</tr>
+<tr class='odd'> <td><b>Title</b>:</td><td> {Paper->title}</td></tr>
+<tr class='even'> <td><b>Authors:</b></td><td> {Paper->authors}</td></tr>
+<tr class='odd'> <td><b>Abstract:</b></td>
+
+  <td> 
+      <ol>
+      <!-- BEGIN SECTION -->
+      <li><b>{author.{AbstractSection->section_name}}</b>: {Abstract->content}</li>
+      <!-- END SECTION -->
+      </ol>
+  </td>
+  </tr>
+ <tr class='even'> <td><b>Main topic:</b></td><td> {Paper->topic_name}</td></tr>
+ <!--  
+ <tr class='even'> <td><b>Other topics:</b></td><td> {PAPER_OTHER_TOPICS}</td></tr>
+-->
+
+ <!-- BEGIN ANSWER -->
+<tr class='odd'>
+  <td><b>{author.{PaperQuestion->question_code}}</b></td><td>{PQChoice->choice}</td>
+</tr>
+<!-- END ANSWER -->
+
+ <!-- BEGIN REVIEWER -->
+<tr class='even'>
+ <td><b>Reviewers:</b></td><td> {Paper->reviewers}</td>
+</tr>
+<!-- END REVIEWER -->
+
+ <!-- BEGIN REVIEWS -->
+<tr class='odd'>  <td><b>Reviews:</b></td><td> {SHOW_REVIEWS}</td></tr>
+<!-- END REVIEWS -->
+</table>
+
+
+</div>
+</body>
+
+</html>

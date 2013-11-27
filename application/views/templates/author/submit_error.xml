@@ -1,0 +1,13 @@
+
+<font color='red'><b>{def.error_account_expl}</b></font>
+<br/>
+
+<ol>
+   <!-- BEGIN ERROR -->
+    <li> <font color='red'>{ERROR_MESSAGE}</font></li>
+  <!-- END ERROR -->
+</ol>
+
+<hr/>
+
+{form_submit}

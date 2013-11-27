@@ -1,0 +1,92 @@
+<!-- JavaScript function to toggle the status of papers  -->
+<script language="JavaScript1.2" src="{base_url}/js/TogglePaperStatus.js"></script>
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+{admin_local_menu}
+
+<p>
+{admin.index_intro}
+</p>
+
+<h1>{admin.index_menu_admin_title}</h1>
+
+<ol>
+  <li><a href="{base_url}/admin/config/zmaxlangs">{admin.index_menu_addlangs}</a>
+     This allows to add a new language choice to the MyReview users. Note that
+     you must import the set of translations in the new language.
+  </li>
+   <li><a href="{base_url}/admin/config/zmaxnamespaces">Namespaces</a>
+     Manage translation namespaces. MyReview comes with a pre-defined set of namespaces:
+     you should'nt have to modify them.
+  </li>
+   <li><a href="{base_url}/admin/config/zmaxtexts">Manage translations.</a>
+     This choice alows you to change the texts displayed in the MyReview pages.
+  </li>
+  <li><a href="{base_url}/admin/config/exporttexts">Export translations.</a>
+     Get the translation as an XML file.
+  </li>
+  <li><a href="{base_url}/admin/config/importtexts">Import translations.</a>
+     Import translations from an XML file.
+  </li>
+  <li><a href="{base_url}/admin/config/config">{admin.index_menu_config}</a>
+     The configuration forms, which lets you modify the parameters for your
+        specific setting.
+  </li>
+</ol>
+
+<h1>{admin.index_menu_prepare_conf}</h1>
+
+<ol>
+  <li><a href="{base_url}/admin/config/topics">Research topics.</a>
+      Define the list of research topics that help to classify the submissions.
+  </li>
+
+ <li><a href="{base_url}/admin/config/requiredfile">Required files.</a>
+      Define the list of the files that must be uploaded by authors at each phase
+      of a submission.
+  </li>
+ 
+  <li><a href="{base_url}/admin/config/users">Manage users.</a>
+       Manage the users, and create your program committee 
+  [Export: <a href="{base_url}/admin/config/users?export_action=1">Excel</a> |
+       <a href="{base_url}/admin/config/users?export_action=2">XML</a> | 
+       <a href="{base_url}/admin/config/users?export_action=3">HTML</a>
+       ]
+  </li>
+  
+   <li><a href="{base_url}/admin/mail/invitation">Send
+         an invitation to reviewers.</a>
+      This invites reviewers to accept/decline the invitation to be part of the PC.
+      A reviewer that accepts can complete her/his profile, including the list of preferred topics.
+  </li>
+  
+    <li><a href="{base_url}/admin/config/abstract">Abstract structure.</a>
+      Define the structure of abstracts submitted by author (= a list of sections).
+  </li>
+  
+  
+   <li><a href="{base_url}/admin/config/criteria">Criteria.</a>
+      Define the list of evaluation criteria, along with their weights. 
+        Reviewers will be ask to provide
+         a mark for each criteria.
+  </li>
+   <li><a href="{base_url}/admin/config/paperquestions">Paper questions.</a>
+      Manage the admin-defined list of additional questions asked to an author
+        when a paper is submitted.
+  </li>
+    <li><a href="{base_url}/admin/config/reviewquestions">Review questions.</a>
+      Manage the admin-defined list of additional questions asked to a reviewer
+        when a paper is evaluated.
+  </li>
+     <li><a href="{base_url}/admin/config/statuscode">Status codes.</a>
+     Define the list of status that can be assigned to a paper as a result
+        of its evaluation: accepted, rejected, poster, short paper, etc.
+  </li>
+  <li>
+      <a href="{base_url}/admin/config/sqlqueries">SQL queries.</a>
+      A form that lets you enter and process read-only SQL queries on
+       the MyReview database.
+  </li>
+</ol>

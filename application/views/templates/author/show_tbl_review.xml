@@ -1,0 +1,26 @@
+<hr/>
+
+<table width="100%" border='1' cellspacing='2' cellpadding='2'>
+
+<tr class='header'>
+<th colspan='2'>Reviewer:  {User->first_name} {User->last_name}</th>
+</tr>
+<tr class='odd'><td><b>Overall</b></td><td>{Review->overall}</td></tr>
+
+<!-- BEGIN review_mark -->
+<tr class='{css_class}'>
+  <td><b>{Criteria->label}</b></td>
+  <td>{ReviewMark->mark}</td>
+</tr>
+<!-- END review_mark -->
+
+<tr class='odd'> <td><b>Summary</b> </td><td>{Review->summary}&nbsp;</td></tr>
+<tr class='even'> <td><b>Details</b> </td><td>{Review->details}&nbsp;</td></tr>
+<!-- BEGIN review_answer -->
+<tr class='{css_class}'>
+  <td><b>{reviewer.{ReviewQuestion->question_code}}</b></td><td>{RQChoice->choice}</td>
+</tr>
+<!-- END review_answer -->
+<tr class='odd'> <td><b>Comments for PC</b> </td><td>{Review->comments}&nbsp;</td></tr>
+<tr class='even'> <td><b>External reviewer</b> </td><td>{Review->fname_ext_reviewer}&nbsp;</td></tr>
+</table>

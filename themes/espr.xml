@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+
+<!-- Mirrored from www.espr2010.org/ by HTTrack Website Copier/3.x [XR&CO'2008], Sat, 28 Nov 2009 18:52:05 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+<head>
+<base />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="robots" content="index, follow" />
+
+<title>Submission site ofthe ESPR Congress -- Powered by MyReview</title>
+
+
+<link rel="stylesheet"
+	href="http://www.espr2010.org/components/com_acajoom/css/acajoom.css"
+	type="text/css" />
+
+<script type="text/javascript"
+	src="http://www.espr2010.org/media/system/js/mootools.js"></script>
+
+<script type="text/javascript"
+	src="http://www.espr2010.org/media/system/js/caption.js"></script>
+
+<script type="text/javascript"
+	src="http://www.espr2010.org/modules/mod_roknewsflash/roknewsflash-packed.js"></script>
+
+<script type="text/javascript"
+	src="http://www.espr2010.org/modules/mod_rokslideshow/tmpl/rokslideshow.js"></script>
+	
+<script type="text/javascript">
+		window.addEvent('domready', function(){ var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false}); });window.addEvent('load', function() {
+	var imgs = [];
+	imgs.push({file: 'bandeau-sup-1.jpg', title: '', desc: '', url: ''});
+	imgs.push({file: 'bandeau-sup-2.jpg', title: '', desc: '', url: ''});
+	imgs.push({file: 'bandeau-sup-3.jpg', title: '', desc: '', url: ''});
+	imgs.push({file: 'bandeau-sup-4.jpg', title: '', desc: '', url: ''});
+	imgs.push({file: 'bandeau-sup-5.jpg', title: '', desc: '', url: ''});
+	imgs.push({file: 'bandeau-sup-6.jpg', title: '', desc: '', url: ''});
+	var myshow = new Slideshow('slideshow', { 
+		type: 'push',
+		externals: 0,
+		showTitleCaption: 0,
+		captionHeight: 45,
+		width: 915, 
+		height: 130, 
+		pan: 50,
+		zoom: 50,
+		loadingDiv: 0,
+		resize: false,
+		duration: [2000, 9000],
+		transition: Fx.Transitions.Expo.easeOut,
+		images: imgs, 
+		path: 'http://www.espr2010.org/images/stories/town_images/'
+	});
+
+	myshow.caps.h2.setStyles({color: '#fff', fontSize: '13px'});
+	myshow.caps.p.setStyles({color: '#ccc', fontSize: '11px'});
+});
+  </script>
+
+
+<link rel="shortcut icon"
+	href="http://www.espr2010.org/images/favicon.ico" />
+<link
+	href="http://www.espr2010.org/templates/rt_replicant2_j15/css/template_css.css"
+	rel="stylesheet" type="text/css" />
+<link
+	href="http://www.espr2010.org/templates/rt_replicant2_j15/css/bodystyle2.css"
+	rel="stylesheet" type="text/css" />
+<link
+	href="http://www.espr2010.org/templates/rt_replicant2_j15/css/colorstyle2.css"
+	rel="stylesheet" type="text/css" />
+<link
+	href="http://www.espr2010.org/templates/rt_replicant2_j15/css/typography.css"
+	rel="stylesheet" type="text/css" />
+<link href="http://www.espr2010.org/templates/system/css/system.css"
+	rel="stylesheet" type="text/css" />
+<link href="http://www.espr2010.org/templates/system/css/general.css"
+	rel="stylesheet" type="text/css" />
+<link
+	href="http://www.espr2010.org/templates/rt_replicant2_j15/css/rokslidestrip.css"
+	rel="stylesheet" type="text/css" />
+<link
+	href="http://www.espr2010.org/templates/rt_replicant2_j15/css/rokmoomenu.css"
+	rel="stylesheet" type="text/css" />
+<style type="text/css">
+div.wrapper {
+	margin: 0 auto;
+	width: 962px;
+	padding: 0;
+}
+
+#body-bg {
+	background-attachment: fixed;
+}
+
+#leftcol {
+	width: 225px;
+	padding: 0;
+}
+
+#rightcol {
+	width: 0px;
+	padding: 0;
+}
+
+#maincol {
+	margin-left: 225px;
+	margin-right: 0px;
+	padding: 0;
+}
+
+#mainblock {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0;
+}
+
+#banner-left {
+	width: 0px;
+	padding: 0;
+}
+
+#banner-right {
+	width: 0px;
+	padding: 0;
+}
+
+#moduleslider-size {
+	height: 200px;
+}
+
+th.header {background-color:#000099; color:white; text-align:left}
+tr.header {background-color:#000099; color:white; text-align:left}
+tr.odd {background-color:#eeeeee}
+tr.even {background-color:#dddddd}
+</style>
+<script type="text/javascript"
+	src="http://www.espr2010.org/templates/rt_replicant2_j15/js/rokslidestrip.js"></script>
+<script type="text/javascript"
+	src="http://www.espr2010.org/templates/rt_replicant2_j15/js/rokfonts.js"></script>
+<script type="text/javascript">
+	window.addEvent('domready', function() {
+		var modules = ['module','moduletable','submenu-block'];
+		var header = "h3";
+		RokBuildSpans(modules, header);
+	});
+</script>
+
+
+<script type="text/javascript"
+	src="http://www.espr2010.org/templates/rt_replicant2_j15/js/rokmoomenu.js"></script>
+<script type="text/javascript"
+	src="http://www.espr2010.org/templates/rt_replicant2_j15/js/mootools.bgiframe.js"></script>
+	
+	
+<script type="text/javascript">
+window.addEvent('domready', function() {
+	new Rokmoomenu($E('ul.menutop '), {
+		bgiframe: false,
+		delay: 500,
+		animate: {
+			props: ['height', 'opacity'],
+			opts: {
+				duration: 600,
+				fps: 200,
+				transition: Fx.Transitions.Sine.easeOut			}
+		},
+		bg: {
+			enabled: true,
+			overEffect: {
+				duration: 100,
+				transition: Fx.Transitions.Expo.easeOut			},
+			outEffect: {
+				duration: 800,
+				transition: Fx.Transitions.Sine.easeOut			}
+		},
+		submenus: {
+			enabled: true,
+			overEffect: {
+				duration: 50,
+				transition: Fx.Transitions.Expo.easeOut			},
+			outEffect: {
+				duration: 600,
+				transition: Fx.Transitions.Sine.easeIn			},
+			offsets: {
+				top: 5,
+				right: 15,
+				bottom: 5,
+				left: 5			}
+		}
+	});
+});
+
+</script>
+<script type="text/javascript"
+	src="http://www.espr2010.org/templates/rt_replicant2_j15/js/roksplitmenu.js"></script>
+<script type="text/javascript">
+	window.addEvent('domready', function() {
+		var roksplitmenu = new RokSplitMenu();
+	});
+</script>
+</head>
+
+
+<body id="ff-default" class="f-small style2 iehandle">
+<div id="body-bg">
+<div id="bg-panel2">
+
+<!-- Begin Header Bar -->
+<div id="header-bar">
+<div class="wrapper"><a href="index.html" class="nounder"><img
+	src="http://www.espr2010.org/templates/rt_replicant2_j15/images/blank.gif"
+	border="0" alt="" id="logo" /></a></div>
+<div class="clr"></div>
+</div>
+<div id="header-bar-bottom"></div>
+<!-- End Header Bar -->
+
+
+<div class="wrapper">
+<div id="mainblock">
+
+
+<!-- Begin Main Body -->
+<div id="main-top"></div>
+<div id="main-top2"></div>
+<div id="main-top3"></div>
+<div id="main">
+<div id="main2">
+<div id="main3">
+<div class="main-padding">
+<div id="main-bar">
+<div id="newsflash-block">
+<div class="moduletable">
+<script type="text/javascript">
+	window.addEvent('domready', function() {
+		var x = new RokNewsFlash('newsflash', {
+			controls: true,
+			delay: 2500,
+			duration: 600		});
+	});
+</script>
+
+<div class="componentheading">Submission site of the ESPR Congress</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Begin Right Column --> <!-- End Right Column --> <!-- Begin Left Column -->
+<div id="leftcol">
+<div class="padding">
+<div class="inner">
+<div class="padding">
+<div class="moduletable">
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><h3>Welcome</h3>
+
+		<div style="padding-left: 4px">
+		  {def.home_message}
+		  </div>
+		</td>
+	</tr>
+	
+		<tr>
+		<td><h3>Connection</h3>
+
+		<div style="padding-left: 4px">
+		   {user_status}
+			<ul>
+					<li class="first"><a href="{base_url}/index/{account_mngt_link}">{account_mngt}</a></li>
+				<li class="first"><a href="{base_url}/index/{login_logout_link}">{login_logout}</a></li>
+							</ul>
+		  </div>
+		</td>
+	</tr>
+	
+		<tr>
+		<td><h3>Authors</h3>
+	<div style="padding-left: 4px">
+		<ul>
+   <li><a	 href="{base_url}/index/guidelines" class="first">Guidelines</a></li>
+   <li>	<a			href="{base_url}/author/submit" class="first">New submission</a></li>
+   <li>	<a			href="{base_url}/author/console" class="first">Console</a></li>
+</ul>  
+   </div>
+		</td>
+	</tr>
+
+<tr>
+		<td><h3>Reviewers</h3>
+	<div style="padding-left: 4px">
+		<ul>
+   <li><a	 href="{base_url}/reviewer" class="first">Reviewer console</a></li>
+ </ul>  
+   </div>
+		</td>
+	</tr>
+	
+<tr>
+		<td><h3>Administrator</h3>
+	<div style="padding-left: 4px">
+		<ul>
+   <li><a	 href="{base_url}/admin/config" class="first">Configuration</a></li>
+  <li><a	 href="{base_url}/admin/chair" class="first">Manage submissions</a></li>
+			  <li class="first"><a href="{base_url}/admin/program">Prepare your program</a></li>
+ </ul>  
+   </div>
+		</td>
+	</tr>
+</table>
+</div>
+
+</div>
+</div>
+<div class="col-bottom"></div>
+<div class="col-bottom2"></div>
+<div class="col-bottom3"></div>
+
+
+</div>
+</div>
+<!-- End Left Column --> 
+
+<!-- Begin Middle Column -->
+<div id="maincol">
+<div class="inner">
+<div class="padding">
+
+{content}
+
+</div>
+</div>
+
+
+<div class="col-bottom"></div>
+<div class="col-bottom2"></div>
+<div class="col-bottom3"></div>
+
+
+</div>
+<div class="clr"></div>
+<!-- End Middle Column --> 
+
+
+
+
+
+
+<div class="pathway-block"><span class="breadcrumbs pathway">
+Home</span></div>
+</div>
+</div>
+</div>
+</div>
+<div id="main-bottom"></div>
+<div id="main-bottom2"></div>
+<div id="main-bottom3"></div>
+<div id="bottom-shadow"></div>
+<!-- End Main Body --></div>
+</div>
+</div>
+</div>
+<!-- Begin Footer Block -->
+<div id="footer">
+<div class="wrapper">
+<div class="footer-mod">Hosted and powered by <a
+	href="http://www.galilee.fr/" title="Joomla hosting company"
+	target="_blank">Galil&eacute;e</a>
+	--
+	Submission system powered by <a href="http://myreview.sourceforge.net">MyReview</a>.
+	</div>
+</div>
+</div>
+<!-- End Footer Block -->
+</body>
+
+</html>

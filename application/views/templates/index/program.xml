@@ -1,0 +1,27 @@
+
+<!-- Template for the conference program -->
+<!-- BEGIN DATE -->
+<h1>{date}</h1>
+
+<!-- BEGIN SESSION_DETAIL -->
+ <h2> {conf_session_name}, {conf_slot_name}.</h2>
+  <!-- BEGIN ROOM -->
+   <b>Room</b>: {conf_session_room}.<br/>
+  <!-- END ROOM -->
+  <!-- BEGIN CHAIR -->
+   Chaired by {conf_session_chair}
+  <!-- END CHAIR -->
+<p>
+{conf_session_comment}
+</p>
+ <ol>
+<!-- BEGIN PAPER_DETAIL -->
+<li>{paper_title}, <br/><i>{paper_authors}</i></li>
+<!-- END PAPER_DETAIL -->
+<!-- BEGIN PAPER_DOWNLOAD -->
+<li><a href="{file_path}">{paper_title}</a>, <br/><i>{paper_authors}</i>
+</li>
+<!-- END PAPER_DOWNLOAD -->
+</ol>
+<!-- END SESSION_DETAIL -->
+<!-- END DATE -->

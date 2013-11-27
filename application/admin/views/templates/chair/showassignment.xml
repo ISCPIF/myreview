@@ -1,0 +1,81 @@
+<!-- Template for the summary assignment -->
+
+<!-- JavaScript function to display paper infos  -->
+<script language="JavaScript1.2" src="{base_url}/js/ShowWindow.js"></script>
+
+{admin_local_menu}
+
+<h1>Current reviewer assignments</h1>
+
+Here is a summary of the current assignments. If neccessary,
+restrict the papers and/or the reviewers to the topic
+selected with the following lists:
+
+<form action="{base_url}/admin/chair/showassignment" method="post">
+<input type='hidden' name='selectedTopic' value='1'/>
+Choose a paper topic: {paper_topics} 
+Choose a reviewer topic: {reviewer_topics} 
+<input type='submit' value='Go'/>
+</form>
+
+<p>
+  <!-- BEGIN NAVIGATION_TABLE -->
+    We do not display the entire ouput of the HTML table, 
+    because of its size ({nb_paper} papers *
+        {nb_reviewers} reviewers) .<br/>
+        The table has been therefore divided in sub-tables,
+          limited to {max_items_in_assignment} lines/columns<br/>.
+        Use the following navigation table to 
+       switch from one sub-group to another. The <font color="lightblue">blue
+        cell</font>
+        indicates the currently displayed sub-group.
+</p>
+          <table border='1' cellspacing='2' cellpadding='2'>
+            {NAV_TABLE}
+         </table>
+  <!-- END NAVIGATION_TABLE -->
+
+<hr/>
+
+ You can add or remove a link 	    
+(paper, reviewer) with the button of each cell.
+Use the following button to validate your modifications.
+
+<form action="{base_url}/admin/chair/showassignment" method="POST">
+<input type='hidden' name='changeAssignment' value='1'/>
+<input type='hidden' name='i_paper_min' value='{I_PAPER_MIN}'/>
+<input type='hidden' name='i_paper_max' value='{I_PAPER_MAX}'/>
+<input type='hidden' name='i_member_min' value='{I_MEMBER_MIN}'/>
+<input type='hidden' name='i_member_max' value='{I_MEMBER_MAX}'/>
+
+<input type='submit' value='Commit'/>
+
+<table border="2">
+<tr class='header'><th>&nbsp;</th>
+  <!-- BEGIN MEMBER_DETAIL -->
+   <th>{User->first_name} {User->last_name}<br/>{member_nb_papers} papers</th>
+  <!-- END MEMBER_DETAIL -->
+</tr>
+
+
+<!-- BEGIN PAPER_DETAIL -->
+<tr class='{css_class}'>
+  <td><a name="{PAPER_ID}"></a>
+    Paper {Paper->id}, {paper_nb_reviewers} reviewers
+     <a href="#{Paper->id}"
+onClick="ShowWindow('{base_url}/author/showinfo?id_paper={Paper->id}&idSession={Session->id}&noReview=1&noForum=1');">
+                 (infos)</a>             
+</td>
+
+	<!-- BEGIN ASSIGNMENT_DETAIL -->
+         <td bgcolor='{bg_color}' nowrap='1'>
+           Y <input type='radio' 	name='assignments[{Paper->id}][{User->id}]'	 value='1' {CHECKED_YES}/>
+            N <input type='radio' name='assignments[{Paper->id}][{User->id}]'	 value='0' {CHECKED_NO}/>
+               <br/>Rating={paper_rating}
+         </td>
+	<!-- END ASSIGNMENT_DETAIL -->
+</tr>
+<!-- END PAPER_DETAIL -->
+
+</table>
+</form>

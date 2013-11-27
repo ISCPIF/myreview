@@ -1,0 +1,8 @@
+
+<p>
+[{def.local_menu}: <a href="{base_url}/author/">{author.my_papers_header} |
+        <a href="{base_url}/index/editaccount">{author.my_profile_header}</a> |
+				<a href="{base_url}/author/participation">{author.my_participation_header}</a>
+			</a> 
+]
+</p>

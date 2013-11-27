@@ -1,0 +1,27 @@
+
+
+<!-- BEGIN day -->
+<h1>{slot_date}</h1>
+
+<!-- BEGIN session -->
+<h2>{conf_session_name}</h2>
+
+<ul>
+<!-- BEGIN paper -->
+<li>
+ {paper_position} --  <b>{paper_title}</b><br/>
+   <i>{paper_authors}</i><br/>
+   {authors_affiliations}
+    <ul>
+<!-- BEGIN abstract -->
+   <li>
+   <b>{section_name}.</b> {abstract_content}
+  </li>
+<!-- END abstract -->
+  </ul>
+</li>
+<!-- END paper -->
+</ul>
+<!-- END session -->
+
+<!-- END day -->

@@ -1,0 +1,101 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>The MyReview submission system</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link href="{base_url}/css/{Config->style_name}" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		</div>
+	<div id="pages">
+		<h2>{conf_name}</h2>
+   		<ul>
+  		 <li>{lang_choices}</li>
+			</ul>
+	</div>
+	<div id="content">
+		<div id="posts">
+			<div class="post">
+				<div class="story">
+					{content}
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="boxed">
+		<h3 class="heading">{def.home}</h3>
+		  <div class="content">
+			  {def.home_message}
+			  </div>
+			</div>
+			
+			<div class="boxed">
+		<h3 class="heading">{def.connection_status}</h3>
+		  <div class="content">
+			  {user_status}
+			<ul>
+					<li class="first"><a href="{base_url}/index/{account_mngt_link}">{account_mngt}</a></li>
+				<li class="first"><a href="{base_url}/index/{login_logout_link}">{login_logout}</a></li>
+							</ul>
+			  </div>
+			</div>
+			
+			<div id="archives" class="boxed">
+			<h3 class="heading">{def.authors_menu}</h3>
+			<div class="content">
+				<ul>
+					<li class="first"><a href="{base_url}/index/guidelines">{def.author_instructions}</a></li>
+				<li class="first"><a href="{base_url}/author/console">{def.author_console}</a></li>
+						<li class="first"><a href="{base_url}/author/submit">{def.new_submission}</a></li>
+						</ul>
+			</div>
+		</div>
+		<div class="boxed">
+			<h3 class="heading">{def.reviewers_menu}</h3>
+			<div class="content">
+ 				<ul>
+					<li class="first"><a href="{base_url}/reviewer/">Reviewer console</a></li>
+					</ul>
+			</div>
+		</div>
+		
+		<div  class="boxed">
+			<h3 class="heading">{def.admin_menu}</h3>
+			<div class="content">
+				<ul>
+					<li class="first"><a href="{base_url}/admin/config">{def.configuration_tasks}</a></li>
+					<li class="first"><a href="{base_url}/admin/chair">{def.manage_submissions}</a></li>
+			  <li class="first"><a href="{base_url}/admin/program">{def.program_registrations}</a></li>
+				</ul>
+			</div>
+		</div>
+	<div class="boxed">
+			<h2 class="heading">{def.myreview_about}</h2>
+			<div class="content">
+			 {def.myreview_info}
+			</div>
+		</div>
+
+	<div id="footer">
+		<p>Copyright &copy; 2006 Las Vegas Too. Designed by <a href="http://www.freecsstemplates.org/"><strong>Free CSS Templates</strong></a></p>
+	</div>
+</div>
+</body>
+
+<!-- BEGIN MENU -->
+
+<!-- END MENU -->
+</html>

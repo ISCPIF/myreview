@@ -1,0 +1,91 @@
+<!-- A button to commit changes  -->
+<form name="PaperList" action='{base_url}/admin/chair/paperstatus' method='post'>
+Commit status changes: <input TYPE='submit' VALUE='commit'/>
+
+<!-- A table that shows the selected papers   -->
+
+<a name="#"></a>
+
+<table border="1" cellspacing="0" cellpadding="2">
+
+<tr class='header' cellspacing='2' cellpading='2'>
+    <th colspan='2'>Paper info.</th>
+    <th>Reviewers</th>
+    <th>AVG mark</th>
+    <th>Expertise</th>
+    <!-- BEGIN REVIEW_CRITERIA -->
+         <th align="right">{Criteria->label}</th>
+    <!-- END REVIEW_CRITERIA -->
+</tr>
+
+<!-- BEGIN PAPER_DETAIL -->
+  
+<tr class='{css_class}'>
+  <a name="{paper_id}"/>
+
+  <!-- The following is used to provides infos on a paper,
+     with misc. actions                             -->
+
+ <!-- BEGIN PAPER_INFO -->
+<input type='hidden' name='idPaper[]' value='{paper_id}'/>
+  <td rowspan='{paper_nb_reviewers}'>{paper_rank}<br/></td>
+  <td rowspan='{paper_nb_reviewers}'>
+  <table border='1' cellpadding="0" cellspacing="0">
+    <tr><td colspan='3'>
+            <a href="#{paper_id}" onClick="ShowWindow('{base_url}/author/showinfo?id_paper={paper_id}&noForum=1');">
+           {paper_title} (#{paper_id})</a><br/>
+                   
+       {paper_authors}</td></tr>
+      <tr>
+       <td>
+      <a href="{base_url}/reviewer/message?id_paper={paper_id}">
+          Mail reviewers</a>              
+       </td>
+      <td>
+       <a href="{base_url}/admin/mail/freemail?to={paper_email_contact}&amp;mailType={someUser}">
+          Mail author</a>
+       </td>
+       <td> 
+       <a   href="{base_url}/admin/mail/notify?id_paper={paper_id}&amp;to={paper_email_contact}&amp;mailType={someUser}">
+         Notify authors</a>
+       </td>
+      </tr>
+      <tr>
+      <!-- Radio buttons to mark the paper as accepted or rejected -->
+       <td colspan='3'><center>
+          {form_status}
+      </center>
+    </td>
+   </tr>
+   </table>
+  </td>
+ <!-- END PAPER_INFO -->
+
+    <td>
+     <!-- BEGIN REVIEWER -->
+      <a href="{base_url}/admin/mail/freemail?to={reviewer_email}&amp;mailType={someUser}">
+         {reviewer_fname} {reviewer_lname}
+       </a>
+    <a href='#{Paper->id}' 
+ onClick="ConfirmAction('Remove assignment of reviewer {reviewer_fname} {reviewer_lname}\n from paper {paper_id}?', 
+           '{base_url}/admin/chair/paperstatus?remove={reviewer_id}&idPaper={paper_id}')">
+      (Remove)
+    </a>
+
+     <!-- END REVIEWER -->
+    </td>
+
+    <td align="right"><b><font color='#000099'>{review_overall}</font></b></td>
+     <td>{reviewer_expertise}</td>
+
+    <!-- BEGIN REVIEW_MARK -->
+       <td align="right">{ReviewMark->mark}</td>
+    <!-- END REVIEW_MARK -->
+  
+</tr>
+
+<!-- END PAPER_DETAIL -->
+
+</table>
+</form>
+
